@@ -1,4 +1,4 @@
-# Título do Projeto
+TRABALHO SEM FRONTEIRAS
 
 `CURSO: Sistemas de Informação`
 
@@ -10,16 +10,17 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
+Cristhian Daniel Lima Rocha
+Eric Couto Waisberg
+Felipe Augusto Silva
+Felipe Guimarães Moraes
+Luan Ricardo de Oliveira Santos
+Stanley Wallace Rodrigues Belo
 
 
-## Orientador
 
-* Nome completo do professor 1
+
+Hayala Couto
 
 # Planejamento
 

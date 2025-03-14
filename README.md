@@ -10,12 +10,12 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-Cristhian Daniel Lima Rocha
-Eric Couto Waisberg
-Felipe Augusto Silva
-Felipe Guimarães Moraes
-Luan Ricardo de Oliveira Santos
-Stanley Wallace Rodrigues Belo
+Cristhian Daniel Lima Rocha<br>
+Eric Couto Waisberg<br>
+Felipe Augusto Silva<br>
+Felipe Guimarães Moraes<br>
+Luan Ricardo de Oliveira Santos<br>
+Stanley Wallace Rodrigues Belo<br>
 
 ## Orientador
 

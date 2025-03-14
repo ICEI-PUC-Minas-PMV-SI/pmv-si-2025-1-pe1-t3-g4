@@ -1,27 +1,27 @@
 # Introdução
 
-Imagine que você deseja apresentar este projeto para investidores que deverão decidir se investem ou não no desenvolvimento da sua ferramenta.
+Os fluxos migratórios internacionais se intensificaram na última década e o estudo da chegada de imigrantes têm, cada vez mais, ocupado um espaço de destaque nas discussões e pesquisas acadêmicas. De acordo com o DATAMIGRA (2023), plataforma concebida para proporcionar acesso ágil e simples aos registros administrativos sobre migrações internacionais e
+solicitações de refúgio, a partir da conjunção de variadas bases de dados, como Coordenação Geral de Imigração Laboral (CGIL), do Ministério da Justiça e Segurança Pública; Carteira de Trabalho e Previdência Social (CTPS), Relação Anual de Informações Sociais (RAIS), Cadastro Geral de Empregados e Desempregados (CAGED), do Ministério do Trabalho e Previdência;
+Sistema de Registro Nacional Migratório (SisMigra), Sistema de Tráfego Internacional (STI), da Polícia Federal e Solicitações de Reconhecimento da Condição de Refugiado, no ano de 2022, foram realizados 186.311 registros de imigrantes junto à Polícia Federal. Inserir números atualizados
 
-A **Introdução** consiste das etapas: *Contextualização -- Definição do problema -- Definição dos Objetivos -- Justificativa*, e tem como função situar o seu trabalho dentro de um contexto de mercado e mostrar a importância da sua proposta para resolver a dor de um usuário.
+Em relação aos solicitantes da condição de refugiado e refugiados reconhecidos, segundo o DATAMIGRA, no ano de 2022, 50.355 pessoas solicitaram o reconhecimento da condição de refugiado. Cabe evidenciar que se contabilizam os registros na Polícia Federal, apenas os migrantes com visto de entrada no país, com exceção daqueles que vieram na condição
+de turismo. Por outro lado, solicitantes do reconhecimento da condição de refugiado e refugiados reconhecidos, conforme define a Convenção Relativa ao Estatuto dos Refugiados de 1951, atribui-se às pessoas em situação de deslocamento forçado, que devido ao temor de perseguição ou diante à iminência de violação de direitos humanos, se encontra fora do país de sua
+nacionalidade e que não pode, dado esse temor, ter sua proteção garantida. 
 
-A Contextualização deve situar sem projeto em um determinado contexto de mercado, a fim de fornecer informações adicionais que possam ajudar a entender melhor o assunto que você irá abordar. Serve também para definir a relevância do seu assunto, uma vez que mostra o tamanho do mercado em que se está inserido. Ela pode envolver a análise de vários aspectos, como o ambiente histórico, cultural, político e social em que o problema a ser atacado surgiu.
-
-Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
+Segundo o Alto Comissariado das Nações Unidas para Refugiados, neste ano havia89,3 milhões de pessoas estavam em situação de deslocamento forçado, dentre as quais se incluem aproximadamente 27,1 milhões de refugiados, em que cerca de metade dos quais possuem menos de 18 anos. De acordo com a Organização Internacional para as Migrações, xxx
 
 ## Problema
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, **não** é a hora de comentar sobre a solução/aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Dentre os desafios enfrentados por pessoas em deslocamento, a busca por emprego e inserção no mercado de trabalho formal, em um novo país, com diferenças linguisticas e culturais, pode ser de difícil acesso, pela inexistência de uma plataforma que reúna de maneira centralizada informações sobre perfis e experiências profissionais, bem como para empresas poderem ofertar postos para inserção laboral. Diante da quantidade de vagas existentes para diversos setores da economia e com o crescente aumento do número de pessoas em mobilidade, que veem no Brasil oportunidades para alcançar qualidade de vida ou recomeço, o desenvolvimento de uma plataforma em que pessoas migrantes e refugiadas, com acesso próprio ou por intermédio de organizações não governamentais ou da sociedade civil, possam se candidatar para oportunidades de trabalho, poderá contribuir para o acesso ao mercado de trabalho e para reduzir os impactos observados por determinados setores da economia em razão de déficit de mão de obra. 
 
 ## Objetivos
+
+Objetivo geral: desenvolver uma plataforma denominada Trabalho Sem Fronteiras, em que pessoas migrantes e refugiadas poderão se cadastrar para busca de emprego e empresas poderão ofertar vagas, em processos que poderão ser mediadas por organizações sem fins lucrativos ou organizações da sociedade civil, por meio de um software. 
+
+Objetivos específicos:  
+a - 
+b - 
+c - 
 
 Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
 

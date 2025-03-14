@@ -19,18 +19,15 @@ Dentre os desafios enfrentados por pessoas em deslocamento, a busca por emprego 
 Objetivo geral: desenvolver uma plataforma denominada Trabalho Sem Fronteiras, em que pessoas migrantes e refugiadas poderão se cadastrar para busca de emprego e empresas poderão ofertar vagas, em processos que poderão ser mediadas por organizações sem fins lucrativos ou organizações da sociedade civil, por meio de um software. 
 
 Objetivos específicos:  
-a - 
-b - 
-c - 
-
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
-
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+a - Elaborar um software para cadastro e atualização de currículos para candidatura a vagas de emprego por pessoas migrantes e refugiadas; 
+b - Elaborar um software para empresas cadastrarem vagas de emprego; 
+c - Elaborar um software para que organizações sem fins lucrativos ou organizações da sociedade civil possam auxiliar/apoiar pessoas migrantes e refugiadas em situação de vulnerabilidade. 
 
 ## Justificativa
+
+Incluir parágrafo 
+
+Por meio do software Trabalho Sem Fronteiras, espera-se contribuir para o desenvolvimento social de pessoas migrantes e refugiadas em países de destino, pela facilitação da elaboração e atualização de currículos, 
 
 Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
 
@@ -43,12 +40,6 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 
 ## Público-Alvo
 
+Pessoas migrantes, refugiadas, empresas e organizações não governamentais e/ou da sociedade civil. 
+
 Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)

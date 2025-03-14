@@ -16,9 +16,9 @@ Dentre os desafios enfrentados por pessoas em deslocamento, a busca por emprego 
 Objetivo geral: desenvolver uma plataforma denominada Trabalho Sem Fronteiras, em que pessoas migrantes e refugiadas poderão se cadastrar para busca de emprego e empresas poderão ofertar vagas, em processos que poderão ser mediadas por organizações sem fins lucrativos ou organizações da sociedade civil, por meio de um software. 
 
 Objetivos específicos:  
-a - Elaborar um software para cadastro e atualização de currículos para candidatura a vagas de emprego por pessoas migrantes e refugiadas; 
-b - Elaborar um software para empresas cadastrarem vagas de emprego; 
-c - Elaborar um software para que organizações sem fins lucrativos ou organizações da sociedade civil possam auxiliar/apoiar pessoas migrantes e refugiadas em situação de vulnerabilidade. 
+a - Elaborar um software para cadastro e atualização de currículos para candidatura a vagas de emprego por pessoas migrantes e refugiadas;<br>
+b - Elaborar um software para empresas cadastrarem vagas de emprego;<br> 
+c - Elaborar um software para que organizações sem fins lucrativos ou organizações da sociedade civil possam auxiliar/apoiar pessoas migrantes e refugiadas em situação de vulnerabilidade.<br> 
 
 ## Justificativa
 

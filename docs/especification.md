@@ -48,8 +48,14 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | 
 |------|-----------------------------------------|----| 
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | ALTA |  
-|RF-002| A aplicação deve permitir a emissão de um relatório de tarefas realizadas no mês   | MÉDIA | 
+|RF-001| Edição de Perfil – Usuários podem atualizar dados como habilidades, experiências e contatos. |PRIORIDADE?|
+|RF-002| Publicação de Oportunidades – Recrutadores podem cadastrar vagas com descrição detalhada. |PRIORIDADE?|
+|RF-003| Busca de vagas - Migrantes podem pesquisar oportunidades de acordo com suas qualificações. |PRIORIDADE?|
+|RF-004| Favoritos – Usuários podem salvar vagas de interesse para acessar posteriormente. |PRIORIDADE?|
+|RF-005| Sugestões personalizadas - O sistema pode recomendar vagas com base no perfil do usuário. |PRIORIDADE?|
+|RF-006| Sistema de Feedback – Empresas podem fornecer retornos sobre candidaturas realizadas. |PRIORIDADE?|
+|RF-007| Guia de Documentação – Seção com informações sobre regularização de documentos. |PRIORIDADE?|
+|RF-008| Recursos educacionais - Área com conteudos sobre cultra e legislação trabalhista. |PRIORIDADE?|
 
 
 ### Requisitos não Funcionais

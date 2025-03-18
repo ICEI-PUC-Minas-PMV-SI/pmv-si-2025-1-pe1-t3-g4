@@ -42,19 +42,25 @@ A plataforma Trabalho Sem Fronteiras tem como publico-alvo pessoas migrantes e r
 ## Pessoas Migrantes e Refugiadas
 
 **Características:** Este público é composto por indivíduos que se encontram em situação de deslocamento forçado, que buscam reconstruir suas vidas em um novo país. Muitos deles podem ter experiência em diversas áreas profissionais, mas enfrentam desafios significativos para acessar o mercado de trabalho devido à barreira linguística, diferenças culturais e falta de reconhecimento de qualificações.<br>
+
 **Conhecimento prévio e relação com a tecnologia:** O nível de familiaridade com tecnologia varia. Alguns podem ter acesso e experiência com plataformas de emprego e ferramentas digitais, enquanto outros podem ter pouco ou nenhum contato com tecnologia. Para isso, a plataforma precisa ser intuitiva e acessível, com suporte em diversos idiomas.<br>
+
 **Necessidades:** Este público necessita de uma plataforma segura e confiável onde possam criar e atualizar seus currículos, procurar vagas de emprego e obter informações úteis sobre o processo de integração no novo país.<br>
 
 ## Empresas
 
 **Características:** As empresas que se cadastrarem na plataforma terão a oportunidade de acessar um pool de candidatos qualificados, potencialmente preenchendo vagas que hoje não são ocupadas devido à escassez de mão de obra local.<br>
+
 **Conhecimento prévio e relação com a tecnologia:** Empresas de diversos portes e setores utilizarão a plataforma, portanto, o sistema deve ser simples, com recursos que permitam fácil interação, desde o cadastro rápido e eficiente de vagas de emprego, e que promova uma interação intuitiva com os candidatos.<br>
+
 **Necessidades:** A plataforma precisa ser eficaz na busca e seleção de candidatos qualificados, oferecendo filtros eficientes e uma interface amigável.<br>
 
 ## Organizações Não Governamentais e Organizações da Sociedade Civil
 
 **Características:** ONGs e outras organizações da sociedade civil terão um papel fundamental de intermediação entre migrantes, refugiados e o mercado de trabalho. Elas podem atuar no apoio ao registro e à inclusão digital dessas pessoas, especialmente aquelas em situação de vulnerabilidade.<br>
+
 **Conhecimento prévio e relação com a tecnologia:** As organizações da sociedade civil e ONGs geralmente têm experiência no apoio a populações em risco, mas o conhecimento sobre o uso de plataformas digitais pode variar. Embora algumas já utilizem tecnologias para gerenciar projetos sociais, a plataforma será desenvolvida de forma acessível e intuitiva, garantindo que mesmo aqueles com pouca qualificação digital possam interagir facilmente com migrantes e refugiados.<br>
+
 **Necessidades:** As organizações precisam de um meio eficiente para ajudar migrantes e refugiados a se registrar na plataforma, fornecer apoio durante o processo de candidatura e garantir que as oportunidades de emprego estejam sendo aproveitadas de maneira justa e eficaz.<br>
 
 ## Conclusão

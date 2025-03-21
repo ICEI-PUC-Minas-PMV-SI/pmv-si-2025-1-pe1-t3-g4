@@ -1,5 +1,6 @@
 # Introdução
 
+Teste
 Os fluxos migratórios internacionais se intensificaram na última década, e o estudo da chegada de imigrantes tem, cada vez mais, ocupado um espaço de destaque nas discussões e pesquisas acadêmicas. De acordo com o DATAMIGRA (2024), plataforma concebida para proporcionar acesso ágil e simples aos registros administrativos sobre migrações internacionais e solicitações de refúgio, a partir da conjunção de variadas bases de dados, como Coordenação Geral de Imigração Laboral (CGIL), do Ministério da Justiça e Segurança Pública; Carteira de Trabalho e Previdência Social (CTPS), Relação Anual de Informações Sociais (RAIS), Cadastro Geral de Empregados e Desempregados (CAGED), do Ministério do Trabalho e Previdência; 
 
 Sistema de Registro Nacional Migratório (SisMigra), Sistema de Tráfego Internacional (STI), da Polícia Federal e Solicitações de Reconhecimento da Condição de Refugiado, no ano de 2024, foram realizados 194.331 registros de imigrantes junto à Polícia Federal.

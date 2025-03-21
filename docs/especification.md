@@ -58,6 +58,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-008| Recursos educacionais - Área com conteudos sobre cultra e legislação trabalhista. |PRIORIDADE?|
 
 
+
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |

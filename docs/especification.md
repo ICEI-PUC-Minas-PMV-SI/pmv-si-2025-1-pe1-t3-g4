@@ -8,8 +8,8 @@ Caso deseje atribuir uma imagem a sua persona, utilize o site https://thisperson
 
 ## Personas
 
-| Maria tem 33 anos, não possui ensino superior e está em situação de rua. Está no Brasil há 7 anos. Tem o desejo de retornar ao mercado de trabalho formal. 
-Gosta de ler, dançar, é solteiro. Está em busca de uma vaga para trabalhar de segunda à sexta-feira e sábado, sem prejudicar seu desejo de estudar.|
+Maria tem 33 anos, não possui ensino superior e está em situação de rua. Está no Brasil há 7 anos. Tem o desejo de retornar ao mercado de trabalho formal. 
+Gosta de ler, dançar, é solteiro. Está em busca de uma vaga para trabalhar de segunda à sexta-feira e sábado, sem prejudicar seu desejo de estudar.
 
 Júlia tem 37 anos, não possui ensino superior e tem experiência com serviços gerais. Está no Brasil há 12 anos. Deseja trabalhar como cozinheira. Gosta de passar um tempo com os filhos, ir à Igreja. Ela gostaria de trabalhar em localidades próximas de sua residência. Atualmente labora em condições degradentes, mas precisa reunir recursos para trazer sua filha do seu país.  
 

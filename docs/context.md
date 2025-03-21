@@ -63,6 +63,4 @@ A plataforma Trabalho Sem Fronteiras tem como publico-alvo pessoas migrantes e r
 
 **Necessidades:** As organizações precisam de um meio eficiente para ajudar migrantes e refugiados a se registrar na plataforma, fornecer apoio durante o processo de candidatura e garantir que as oportunidades de emprego estejam sendo aproveitadas de maneira justa e eficaz.<br>
 
-## Conclusão
-
 Esses diferentes perfis de usuários - migrantes, refugiados, empresas e organizações - têm necessidades e características distintas, mas a interação entre eles dentro da plataforma permitirá um processo de integração mais fluido e inclusivo. É essencial que a plataforma seja adaptável, com funcionalidades que atendam a uma diversidade de níveis de familiaridade com tecnologia e garantam uma experiência acessível para todos os grupos.

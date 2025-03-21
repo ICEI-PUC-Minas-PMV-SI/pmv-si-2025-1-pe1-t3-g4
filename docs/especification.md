@@ -45,7 +45,27 @@ Lembre-se que você deve ser enumerar e descrever precisamente e personalizada t
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|EU COMO `MIGRANTE`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|--------------------|------------------------------------|----------------------------------------|
+|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
+|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+
+|EU COMO `REFUGIADO`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|--------------------|------------------------------------|----------------------------------------|
+|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
+|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+
+|EU COMO... `EMPRESA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|--------------------|------------------------------------|----------------------------------------|
+|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
+|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+
+|EU COMO... `ONG`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|--------------------|------------------------------------|----------------------------------------|
+|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
+|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+
+|EU COMO... `OSC`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
 |Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |

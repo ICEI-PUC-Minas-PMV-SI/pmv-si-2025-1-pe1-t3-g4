@@ -57,7 +57,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `EMPRESA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Criar uma conta para divulgar vagas| Atrair candidatos qualificados para minha empresa |
+|Usuário do sistema  | Criar uma conta para divulgar oportunidades | Atrair candidatos qualificados para minha empresa |
 |Administrador       | Filtrar candidatos por habilidades | Encontrar profissionais com o perfil desejado |
 
 |EU COMO... `ONG`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |

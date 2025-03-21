@@ -8,22 +8,26 @@ Caso deseje atribuir uma imagem a sua persona, utilize o site https://thisperson
 
 ## Personas
 
-Maria tem 33 anos, não possui ensino superior e está em situação de rua. Está no Brasil há 7 anos. Tem o desejo de retornar ao mercado de trabalho formal. 
+1. Maria tem 33 anos, não possui ensino superior e está em situação de rua. Está no Brasil há 7 anos. Tem o desejo de retornar ao mercado de trabalho formal. 
 Gosta de ler, dançar, é solteiro. Está em busca de uma vaga para trabalhar de segunda à sexta-feira e sábado, sem prejudicar seu desejo de estudar.
 
-Júlia tem 37 anos, não possui ensino superior e tem experiência com serviços gerais. Está no Brasil há 12 anos. Deseja trabalhar como cozinheira. Gosta de passar um tempo com os filhos, ir à Igreja. Ela gostaria de trabalhar em localidades próximas de sua residência. Atualmente labora em condições degradentes, mas precisa reunir recursos para trazer sua filha do seu país.  
+2. Júlia tem 37 anos, não possui ensino superior e tem experiência com serviços gerais. Está no Brasil há 12 anos. Deseja trabalhar como cozinheira. Gosta de passar um tempo com os filhos, ir à Igreja. Ela gostaria de trabalhar em localidades próximas de sua residência. Atualmente labora em condições degradentes, mas precisa reunir recursos para trazer sua filha do seu país.  
 
-Paulo recém completou 18 anos e deseja uma vaga como menor aprendiz. Fala bem português e está no Brasil há 03 anos. Vive com seus pais e seus irmãos. Mora em uma cidade da região metropolitana de Belo Horizonte. 
+3. Paulo recém completou 18 anos e deseja uma vaga como menor aprendiz. Fala bem português e está no Brasil há 03 anos. Vive com seus pais e seus irmãos. Mora em uma cidade da região metropolitana de Belo Horizonte. 
 
-Ricardo migrou parao Brasil há 03 meses. Já está documentado e em busca de seu primeiro emprego, nunca trabalhou com nenhum contrato formalizado. Gostaria de trabalhar como pintor. 
+4. Ricardo migrou parao Brasil há 03 meses. Já está documentado e em busca de seu primeiro emprego, nunca trabalhou com nenhum contrato formalizado. Gostaria de trabalhar como pintor. 
 
-Helena tem 16 anos, chegou no Brasil há 01 ano. Atualmente trabalha em tempo integral, com jornada de 44h semanais, o que a impede de estudar. Ela gostaria de trabalhar como menor aprendiz e deseja realizar um curso técnico. 
+5. Helena tem 16 anos, chegou no Brasil há 01 ano. Atualmente trabalha em tempo integral, com jornada de 44h semanais, o que a impede de estudar. Ela gostaria de trabalhar como menor aprendiz e deseja realizar um curso técnico. 
 
-Construtora Civil A, sediada em Minas Gerais, mas com filiais em todo o Brasil. Possui muitas vagas disponíveis e pelo seu programa de diversidade, gostaria de empregar pessoas migrantes e refugiadas, mas não sbae como pode contatá-las. 
+6. Construtora Civil A, sediada em Minas Gerais, mas com filiais em todo o Brasil. Possui muitas vagas disponíveis e pelo seu programa de diversidade, gostaria de empregar pessoas migrantes e refugiadas, mas não sbae como pode contatá-las. Processo seletivo será realizado pela área de Recursos Humanos da empresa. 
 
-Rede de Supermercado X, com atuação na região metropolitana, deseja empregar um número elevado de pessoas e gostaria de contratar pessoas migrantes e refugiadas para vários tipos de trabalho. 
+7. Rede de Supermercado X, com atuação na região metropolitana, deseja empregar um número elevado de pessoas e gostaria de contratar pessoas migrantes e refugiadas para vários tipos de trabalho. Processo seletivo será realizado pela área de Recursos Humanos da empresa.
 
+8. Adriana possui uma empresa de pequeno porte denominada Mais Salgados e deseja contratar uma cozinheira com experiência. Não possui departamento de Recursos Humanos e ela mesmo fará o processo seletivo. 
 
+9. Uma organização sem fins lucrativos que recebe pessoas migrantes e refugiadas para orientações sobre inserção no mercado de trabalho, auxilia nos processos seletivos. Apoia para realização do cadastro e preenchimento das informações, como o campo de experiências. 
+
+10. Organização da sociedade civil de defesa de direitos que orienta pessoas migrantes e refugiadas para inserção no mercado de trabalho formal. Fornece apoio para dúvidas sobre o mercado de trabalho, questões contratuais e trabalhistas, além de intermediar processos seletivos por setor específico.
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 

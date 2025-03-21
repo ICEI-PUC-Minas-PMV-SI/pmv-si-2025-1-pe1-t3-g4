@@ -8,7 +8,6 @@ Caso deseje atribuir uma imagem a sua persona, utilize o site https://thisperson
 
 ## Personas
 
-|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Maria tem 33 anos, não possui ensino superior e está em situação de rua. Está no Brasil há 7 anos. Tem o desejo de retornar ao mercado de trabalho formal. 
 Gosta de ler, dançar, é solteiro. Está em busca de uma vaga para trabalhar de segunda à sexta-feira e sábado, sem prejudicar seu desejo de estudar.|
 

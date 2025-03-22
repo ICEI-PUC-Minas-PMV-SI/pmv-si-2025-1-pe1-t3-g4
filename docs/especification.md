@@ -95,6 +95,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-006| Sistema de Feedback – Empresas podem fornecer retornos sobre candidaturas realizadas. |PRIORIDADE?|
 |RF-007| Guia de Documentação – Seção com informações sobre regularização de documentos. |PRIORIDADE?|
 |RF-008| Recursos educacionais - Área com conteudos sobre cultra e legislação trabalhista. |PRIORIDADE?|
+|RF-009| Filtros Avançados de Vagas – Além de filtros básicos como localização e salário, permitir que os usuários filtrem oportunidades por requisitos como "sem necessidade de experiência", "flexível", "trabalho remoto" etc.  |Média|
+|RF-010| Busca e Sistema de Match de Vagas - Migrantes podem pesquisar oportunidades de acordo com suas qualificações e o sistema sugere vagas com base nas habilidades, experiência e preferências do usuário. |Média|
+|RF-011|Favoritos - Usuários podem salvar vagas de interesse para acessar posteriormente  |Média|
+|RF-012|  |PRIORIDADE?|
 
 
 

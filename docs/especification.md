@@ -62,7 +62,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `ONG`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Assistir refugiados a encontrar empregradores| Não esquecer de fazê-las               |
+|Usuário do sistema  | Assistir refugiados a encontrar empregadores| Não esquecer de fazê-las               |
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 
 |EU COMO... `OSC`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |

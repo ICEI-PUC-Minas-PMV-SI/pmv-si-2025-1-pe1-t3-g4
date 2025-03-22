@@ -113,10 +113,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-005| Tempo de Resposta - Sistema deve carregar páginas e buscar dados rapidamente |  ALTA | 
 |RNF-006| Armazenamento Local Fácil - Os dados do usuário são salvos automaticamente no navegador, sem que ele precise fazer algo extra |  ALTA | 
 |RNF-007| Botão de ajuda - Em cada guia um botão de ajuda para auxiliar o usuário na navegação dentro do site |  MÉDIA | 
-|RNF-008|  |   | 
-|RNF-009|  |   | 
-|RNF-010|  |   | 
-|RNF-011|  |   | 
+|RNF-008| Privacidade e Segurança - O acesso aos dados armazenados no Local Storage deve ser protegido por senha local, garantindo privacidade, já que refugiados e imigrantes podem estar em situações vulneráveis.  |  ALTA | 
+|RNF-009| Design Acessível - Seguir padrões de acessibilidade para garantir uma interface inclusiva para usuários com deficiência.  | MEDIA  | 
+|RNF-010| Uso Inteligente do Espaço - O sistema deve armazenar apenas as informações essenciais no Local Storage para evitar atingir o limite de 5MB. | MEDIA  | 
+|RNF-011| Legalidade - o sistema deve garantir... | MEDIA  | 
 |RNF-012|  |   | 
 
 

@@ -116,7 +116,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-008| Privacidade e Segurança - O acesso aos dados armazenados no Local Storage deve ser protegido por senha local, garantindo privacidade, já que refugiados e imigrantes podem estar em situações vulneráveis.  |  ALTA | 
 |RNF-009| Design Acessível - Seguir padrões de acessibilidade para garantir uma interface inclusiva para usuários com deficiência.  | MEDIA  | 
 |RNF-010| Uso Inteligente do Espaço - O sistema deve armazenar apenas as informações essenciais no Local Storage para evitar atingir o limite de 5MB. | MEDIA  | 
-|RNF-011| Legalidade - o sistema deve garantir... | MEDIA  | 
+|RNF-011| Legalidade - o sistema deve garantir a conformidade com as leis de proteção de dados| MEDIA  | 
 |RNF-012|  |   | 
 
 

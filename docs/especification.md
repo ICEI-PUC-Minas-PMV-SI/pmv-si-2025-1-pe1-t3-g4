@@ -95,9 +95,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-006| Sistema de Feedback – Empresas podem fornecer retornos sobre candidaturas realizadas. |PRIORIDADE?|
 |RF-007| Guia de Documentação – Seção com informações sobre regularização de documentos. |PRIORIDADE?|
 |RF-008| Recursos educacionais - Área com conteudos sobre cultra e legislação trabalhista. |PRIORIDADE?|
-|RF-009| Filtros Avançados de Vagas – Além de filtros básicos como localização e salário, permitir que os usuários filtrem oportunidades por requisitos como "sem necessidade de experiência", "flexível", "trabalho remoto" etc.  |Média|
-|RF-010| Busca e Sistema de Match de Vagas - Migrantes podem pesquisar oportunidades de acordo com suas qualificações e o sistema sugere vagas com base nas habilidades, experiência e preferências do usuário. |Média|
-|RF-011|Favoritos - Usuários podem salvar vagas de interesse para acessar posteriormente  |Média|
+|RF-009| Filtros Avançados de Vagas – Além de filtros básicos como localização e salário, permitir que os usuários filtrem oportunidades por requisitos como "sem necessidade de experiência", "flexível", "trabalho remoto" etc.  |MÉDIA|
+|RF-010| Busca e Sistema de Match de Vagas - Migrantes podem pesquisar oportunidades de acordo com suas qualificações e o sistema sugere vagas com base nas habilidades, experiência e preferências do usuário. |MÉDIA|
+|RF-011|Favoritos - Usuários podem salvar vagas de interesse para acessar posteriormente  |MÉDIA|
 |RF-012|  |PRIORIDADE?|
 
 
@@ -108,6 +108,18 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |-------|-------------------------|----|
 |RNF-001| A aplicação deve ser responsiva | MÉDIA | 
 |RNF-002| A aplicação deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-003| Responsividade - Plataforma adaptável para dispositivos móveis e desktops, com interface responsiva e compatível com leitores de tela |  ALTA | 
+|RNF-004| Usabilidade - Interface intuitiva e fácil de navegar |  ALTA | 
+|RNF-005| Tempo de Resposta - Sistema deve carregar páginas e buscar dados rapidamente |  ALTA | 
+|RNF-006| Armazenamento Local Fácil - Os dados do usuário são salvos automaticamente no navegador, sem que ele precise fazer algo extra |  ALTA | 
+|RNF-007| Botão de ajuda - Em cada guia um botão de ajuda para auxiliar o usuário na navegação dentro do site |  MÉDIA | 
+|RNF-008|  |   | 
+|RNF-009|  |   | 
+|RNF-010|  |   | 
+|RNF-011|  |   | 
+|RNF-012|  |   | 
+
+
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 

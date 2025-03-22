@@ -48,12 +48,12 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |EU COMO `MIGRANTE`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
 |Usuário do sistema  | Encontrar uma oportunidade de emprego | Estabilidade e segurança |
-|Administrador       | Criar um curriculo e meio de contato | Encontrar o emprego buscado|
+|Administrador       | Criar um curriculo e meio de contato | Encontrar um emprego compativel|
 
 |EU COMO `REFUGIADO`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
 |Usuário do sistema  | Encontrar uma oportunidade de emprego |Estabilidade e segurança |
-|Administrador       | Criar um curriculo e meio de contato| Encontrar o emprego buscado |
+|Administrador       | Criar um curriculo e meio de contato| Encontrar um emprego compativel |
 
 |EU COMO... `EMPRESA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|

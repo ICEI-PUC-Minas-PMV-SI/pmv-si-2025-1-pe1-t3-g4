@@ -25,10 +25,18 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito | Responsável | Artefato Criado |
-|------|------------------------|------------|-----------------|
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | João | index.html |
-|RF-002| A aplicação deve permitir a emissão de um relatório de tarefas realizadas no mês | Ana Paula | cadastro-noticia.html |
+|ID    | Descrição do Requisito | Prioridade |
+|------|------------------------|------------|
+|RF-001|Cadastro e Edição de Perfil - Usuários podem criar perfis com informações específicas (migrantes, refugiados, recrutadores, ONGs) e atualizar dados como habilidades, experiências e contatos. |ALTA|
+|RF-002|Publicação e Banco de Vagas - Recrutadores podem cadastrar vagas com descrição detalhada, e o sistema exibe e permite a busca dessas oportunidades com base no perfil do candidato.|ALTA|
+|RF-003|Autenticação e login: Usuários devem conseguir acessar a plataforma por e-mail e senha.|ALTA|
+
+### Requisitos Nao Funcionais
+
+|ID    | Descrição do Requisito | Prioridade |
+|------|------------------------|------------|
+|RNF-001|Compatibilidade com Navegadores – O sistema deve funcionar corretamente nos principais navegadores (Chrome, Firefox, Edge, Safari). | ALTA |
+|RNF-002|Suporte Multilíngue: Interface e comunicação em diversos idiomas (Português, Espanhol, Inglês, Francês, Árabe, etc.). | ALTA |
 
 ## Descrição das estruturas:
 

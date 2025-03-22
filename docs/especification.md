@@ -87,14 +87,14 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | 
 |------|-----------------------------------------|----| 
-|RF-001| Edição de Perfil – Usuários podem atualizar dados como habilidades, experiências e contatos. |PRIORIDADE?|
-|RF-002| Publicação de Oportunidades – Recrutadores podem cadastrar vagas com descrição detalhada. |PRIORIDADE?|
-|RF-003| Busca de vagas - Migrantes podem pesquisar oportunidades de acordo com suas qualificações. |PRIORIDADE?|
-|RF-004| Favoritos – Usuários podem salvar vagas de interesse para acessar posteriormente. |PRIORIDADE?|
-|RF-005| Sugestões personalizadas - O sistema pode recomendar vagas com base no perfil do usuário. |PRIORIDADE?|
-|RF-006| Sistema de Feedback – Empresas podem fornecer retornos sobre candidaturas realizadas. |PRIORIDADE?|
-|RF-007| Guia de Documentação – Seção com informações sobre regularização de documentos. |PRIORIDADE?|
-|RF-008| Recursos educacionais - Área com conteudos sobre cultra e legislação trabalhista. |PRIORIDADE?|
+|RF-001| Edição de Perfil – Usuários podem atualizar dados como habilidades, experiências e contatos. |ALTA|
+|RF-002| Publicação de Oportunidades – Recrutadores podem cadastrar vagas com descrição detalhada. |ALTA|
+|RF-003| Busca de vagas - Migrantes podem pesquisar oportunidades de acordo com suas qualificações. |ALTA|
+|RF-004| Favoritos – Usuários podem salvar vagas de interesse para acessar posteriormente. |MEDIA|
+|RF-005| Sugestões personalizadas - O sistema pode recomendar vagas com base no perfil do usuário. |BAIXA|
+|RF-006| Sistema de Feedback – Empresas podem fornecer retornos sobre candidaturas realizadas. |MEDIA|
+|RF-007| Guia de Documentação – Seção com informações sobre regularização de documentos. |BAIXA|
+|RF-008| Recursos educacionais - Área com conteudos sobre cultra e legislação trabalhista. |BAIXA|
 |RF-009| Filtros Avançados de Vagas – Além de filtros básicos como localização e salário, permitir que os usuários filtrem oportunidades por requisitos como "sem necessidade de experiência", "flexível", "trabalho remoto" etc.  |MÉDIA|
 |RF-010| Busca e Sistema de Match de Vagas - Migrantes podem pesquisar oportunidades de acordo com suas qualificações e o sistema sugere vagas com base nas habilidades, experiência e preferências do usuário. |MÉDIA|
 |RF-011|Favoritos - Usuários podem salvar vagas de interesse para acessar posteriormente  |MÉDIA|

@@ -19,7 +19,7 @@ Stanley Wallace Rodrigues Belo<br>
 
 ## Orientador
 
-Hayala Couto
+Hayala Nepomuceno Curto
 
 # Planejamento
 

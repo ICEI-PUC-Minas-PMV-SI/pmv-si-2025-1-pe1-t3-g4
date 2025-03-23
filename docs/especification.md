@@ -43,8 +43,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO `MIGRANTE`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Usuário do sistema  | Preciso cadastrar e atualizar meu currículo.|Ser selecionado para oportunidades de emprego.|
+|Administrador (perfil).| Alterar preferências da conta.| Garantir usabilidade da plataforma às minhas necessidades.|
 
 |EU COMO `REFUGIADO`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|

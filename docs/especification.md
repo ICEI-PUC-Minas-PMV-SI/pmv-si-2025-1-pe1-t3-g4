@@ -21,17 +21,21 @@ Gosta de ler, dançar, é solteiro. Está em busca de uma vaga para trabalhar de
 
 4. Ricardo migrou parao Brasil há 03 meses. Já está documentado e em busca de seu primeiro emprego, nunca trabalhou com nenhum contrato formalizado. Gostaria de trabalhar como pintor. 
 
-5. Helena tem 16 anos, chegou no Brasil há 01 ano. Atualmente trabalha em tempo integral, com jornada de 44h semanais, o que a impede de estudar. Ela gostaria de trabalhar como menor aprendiz e deseja realizar um curso técnico. 
+5. Helena tem 16 anos, chegou no Brasil há 01 ano. Atualmente trabalha em tempo integral, com jornada de 44h semanais, o que a impede de estudar. Ela gostaria de trabalhar como menor aprendiz e deseja realizar um curso técnico.
+   
+6. Pierre tem 19 anos, chegou ao Brasil há 01 ano pela sua aprovação no Programa de Educação Conveniada - PECG, é de um país da comunidade de línguas portuguesas. Estuda matemática computacional e nunca trabalhou de carteira assinada. Sua família não consegue mantê-lo mais no Brasil, razão pela qual está em busca de emprego. 
 
-6. Construtora Civil A, sediada em Minas Gerais, mas com filiais em todo o Brasil. Possui muitas vagas disponíveis e pelo seu programa de diversidade, gostaria de empregar pessoas migrantes e refugiadas, mas não sbae como pode contatá-las. Processo seletivo será realizado pela área de Recursos Humanos da empresa. 
+7. Construtora Civil A, sediada em Minas Gerais, mas com filiais em todo o Brasil. Possui muitas vagas disponíveis e pelo seu programa de diversidade, gostaria de empregar pessoas migrantes e refugiadas, mas não sbae como pode contatá-las. Processo seletivo será realizado pela área de Recursos Humanos da empresa. 
 
-7. Rede de Supermercado X, com atuação na região metropolitana, deseja empregar um número elevado de pessoas e gostaria de contratar pessoas migrantes e refugiadas para vários tipos de trabalho. Processo seletivo será realizado pela área de Recursos Humanos da empresa.
+8. Rede de Supermercado X, com atuação na região metropolitana, deseja empregar um número elevado de pessoas e gostaria de contratar pessoas migrantes e refugiadas para vários tipos de trabalho. Processo seletivo será realizado pela área de Recursos Humanos da empresa.
 
-8. Adriana possui uma empresa de pequeno porte denominada Mais Salgados e deseja contratar uma cozinheira com experiência. Não possui departamento de Recursos Humanos e ela mesmo fará o processo seletivo. 
+9. Adriana possui uma empresa de pequeno porte denominada Mais Salgados e deseja contratar uma cozinheira com experiência. Não possui departamento de Recursos Humanos e ela mesmo fará o processo seletivo. 
+    
+10. Empresa
 
-9. Uma organização sem fins lucrativos que recebe pessoas migrantes e refugiadas para orientações sobre inserção no mercado de trabalho, auxilia nos processos seletivos. Apoia para realização do cadastro e preenchimento das informações, como o campo de experiências. 
+11. Uma organização sem fins lucrativos que recebe pessoas migrantes e refugiadas para orientações sobre inserção no mercado de trabalho, auxilia nos processos seletivos. Apoia para realização do cadastro e preenchimento das informações, como o campo de experiências. 
 
-10. Organização da sociedade civil de defesa de direitos que orienta pessoas migrantes e refugiadas para inserção no mercado de trabalho formal. Fornece apoio para dúvidas sobre o mercado de trabalho, questões contratuais e trabalhistas, além de intermediar processos seletivos por setor específico.
+12. Organização da sociedade civil de defesa de direitos que orienta pessoas migrantes e refugiadas para inserção no mercado de trabalho formal. Fornece apoio para dúvidas sobre o mercado de trabalho, questões contratuais e trabalhistas, além de intermediar processos seletivos por setor específico.
 
 ## Histórias de Usuários
 

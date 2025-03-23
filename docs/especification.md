@@ -43,28 +43,28 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO `MIGRANTE`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Preciso cadastrar e atualizar meu currículo.|Ser selecionado para oportunidades de emprego.|
+|Usuário do sistema  | Preciso cadastrar e atualizar meu currículo sem dificuldades.|Ser selecionado para oportunidades de emprego.|
 |Administrador (perfil).| Alterar preferências da conta.| Garantir usabilidade da plataforma às minhas necessidades.|
 
 |EU COMO `REFUGIADO`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Usuário do sistema  | Preciso cadastrar e atualizar meu currículo sem dificuldades.|Ser selecionado para oportunidades de emprego.| Ser selecionado para oportunidades de emprego.|
+|Administrador (perfil).| Alterar preferências da conta.| Garantir usabilidade da plataforma às minhas necessidades.|
 
 |EU COMO... `EMPRESA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Criar uma conta para divulgar oportunidades | Atrair candidatos qualificados para minha empresa |
-|Administrador       | Filtrar candidatos por habilidades | Encontrar profissionais com o perfil desejado |
+|Usuário do sistema  | Criar uma conta para cadastrar e divulgar oportunidades.| Atrair candidatos para inserção laboral.|
+|Administrador (de publicações, gestão de vagas, filtros).| Filtrar candidatos por habilidades, experiências e formação.| Encontrar profissionais com o perfil desejado para realização das tarefas esperadas.|
 
 |EU COMO... `ONG`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Usuário do sistema  | Perfil para receber indicações de oportunidades e requisitos das vagas.| Para acompanhar processos seletivos e registrar candidaturas.|
+|Administrador (vagas a serem exibidas).| Alterar permissões, preferências e gerir publicações.| Permitir que possam acompanhar processos seletivos.|
 
 |EU COMO... `OSC`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Usuário do sistema  | Perfil para receber indicações de oportunidades e requisitos das vagas.| Para acompanhar processos seletivos e registrar candidaturas.| Para acompanhar processos seletivos e registrar candidaturas.|
+|Administrador (vagas a serem exibidas.)| Alterar permissões, preferências e gerir publicações. | Permitir que possam acompanhar processos seletivos.|
 
 ## Requisitos
 

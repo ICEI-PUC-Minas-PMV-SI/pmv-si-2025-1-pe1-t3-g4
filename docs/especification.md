@@ -31,7 +31,7 @@ Gosta de ler, dançar, é solteiro. Está em busca de uma vaga para trabalhar de
 
 9. Adriana possui uma empresa de pequeno porte denominada Mais Salgados e deseja contratar uma cozinheira com experiência. Não possui departamento de Recursos Humanos e ela mesmo fará o processo seletivo. 
     
-10. Empresa
+10. Empresa 123, do ramo de frigoríficos, deseja contratar um número elevado de pessoas para uma de suas novas fábricas. Processo seletivo será realizado pela área de Recursos Humanos e pela direção da empresa. 
 
 11. Uma organização sem fins lucrativos que recebe pessoas migrantes e refugiadas para orientações sobre inserção no mercado de trabalho, auxilia nos processos seletivos. Apoia para realização do cadastro e preenchimento das informações, como o campo de experiências. 
 

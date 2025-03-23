@@ -6,6 +6,8 @@ A metodologia utilizada para a redação das especificações do projeto foi des
 
 Para identificação das personas, foi realizada uma pesquisa com uma pessoa migrante, responsável em uma OSC por intermediar processos seletivos e acompanhar processos de cadastro, preparo do currículo e acompanhamento de vagas para garantir maior precisão às personas elencadas. 
 
+Para a definição das restrições, foi realizado um estudo a partir das limitações de formato e execução do projeto, como prazo e forma de entrega, além da indicação do HTML, CSS e JavaScript para desenvolvimento do software, além da proibição para terceirização das entregas previstas para prestadores de serviços em geral. 
+
 Caso deseje atribuir uma imagem a sua persona, utilize o site https://thispersondoesnotexist.com/
 
 ## Personas

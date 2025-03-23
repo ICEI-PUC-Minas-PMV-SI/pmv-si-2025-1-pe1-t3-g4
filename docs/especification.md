@@ -1,8 +1,10 @@
 # Especificações do Projeto
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+O projeto Trabalho Sem Fronteira possui como objetivo geral desenvolver uma plataforma em que pessoas migrantes e refugiadas poderão se cadastrar para a busca por empregos e empresas poderão ofertar vagas, cujos processos seletivos poderão ser acompanhados por ONG's ou OSC's, por meio de um software. 
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto.
+A metodologia utilizada para a redação das especificações do projeto foi descritiva, a partir da identificação de 12 personas, suas histórias de usuário e da enumeração dos requisitos funcionais e não funcionais. 
+
+Para identificação das personas, foi realizada uma pesquisa com uma pessoa migrante, responsável em uma OSC por intermediar processos seletivos e acompanhar processos de cadastro, preparo do currículo e acompanhamento de vagas para garantir maior precisão às personas elencadas. 
 
 Caso deseje atribuir uma imagem a sua persona, utilize o site https://thispersondoesnotexist.com/
 

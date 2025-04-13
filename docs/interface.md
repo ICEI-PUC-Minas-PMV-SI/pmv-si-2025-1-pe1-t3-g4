@@ -18,7 +18,7 @@ Os requisitos funcionais RF-009, RF-010 e RF-011, sobre o guia de documentaçõe
 O requisito funcional RF-008, sistema de feedback, estará presentes nas páginas de autenticação e login, caso o usuário não preencha todos os campos obrigatórios, bem como na página de "vagas", "empresas" e "OSC-ONG", caso tentem prosseguir com os processos de candidatura ou oferta sem as informações obrigatórias.
 
 
-
+## Userflow
 
 
 Para o desenvolvimento do UserFlow, a plataforma Miro foi utilizada, por permitir a criação de formas que evidenciassem os caminhos pelos quais os usuários acessariam a plataforma. O fluxo se iniciou pela página inicial, com exibição no menu de navegação superior, com os  botões "home", "vagas", "empresas", "OSC-ONG", "recursos" e "sobre". Caso o usuário clique em uma das primeiras opções de "vagas", "empresas", "OSC-ONG", será redirecionado para a página de Cadastro ou Login, para realizar novo registro ou acesso de usuário já registrado. A depender do perfil selecionado, o candidato, empresa ou OSC, terá após a página de login, uma página específica com os conteúdos relacionados ao seu registro.

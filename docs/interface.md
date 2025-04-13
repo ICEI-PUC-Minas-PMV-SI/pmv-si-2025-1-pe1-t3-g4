@@ -31,7 +31,7 @@ As OSC's poderão em sua aba visualizar e publicar programas de apoio, visualiza
 
 Ao final dos caminhos possíveis a serem percorridos pelos usuários, em caso de envio da candidatura ou da conciliação de vagas entre pessoas e empresas, será exibida a mensagem "Processo concluído!".
 
-![Exemplo de UserFlow](img/userflow.jpg)
+![Exemplo de UserFlow](img/userflow.png)
 
 ## Wireframes
 
@@ -49,15 +49,4 @@ Por fim, será exibido o rodapé, com a logo, menu centralizado das opções do 
 
 A tela inicial apresenta um menu lateral com as principais seções do portal, enquanto a navigation bar, ao topo, apresenta informações de envio de imagens ou navegação pela galeria de fotos. A área central apresenta a galeria de fotos na forma de uma grade. Nesta tela, são apresentados os seguintes requisitos
 
-![Exemplo de Wireframe](img/wireframe-example.png)
-
-
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+![Exemplo de Wireframe](img/wireframe.png)

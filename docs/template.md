@@ -18,7 +18,7 @@ Por fim, será exibido o footer (2), com as opções de 2.1 logo, 2.2 home, 2.3 
 
 A paleta de cores escolhida foi pensada para refletir sobriedade, considerando-se que a plataforma será para busca de oportunidades e divulgação de empresas e recursos de apoio às pessoas em deslocamento. 
 
-1. como cor primária, utilizaremos a #006A71, para os botões e notificações. 
+1. Como cor primária, utilizaremos a #006A71, para os botões e notificações. 
 2. A cor secundária, para a header, será #9ACBD0. 
 3. Para o footer, foi escolhida a cor #48A6A7. 
 4. Para o corpo, foram escolhidas as cores #F2EFE7 e #FDFFFC. 

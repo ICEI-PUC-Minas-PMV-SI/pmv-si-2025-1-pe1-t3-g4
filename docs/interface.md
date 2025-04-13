@@ -2,13 +2,13 @@
 
 O projeto de interface da plataforma Trabalho Sem Fronteiras foi elaborado a partir de diretrizes visuais e de acessibilidade:<br>
 1. Se discutiu a importância de uma plataforma com elementos que não desviassem a atenção ou prejudicassem a experiência do usuário;<br> 
-2. as cores escolhidas devem expressar um ambiente neutro, para que os conteúdos registrados pelos usuários, como perfis, vagas e conexões sejam os destaques da página;<br> 
-3. a disposição adequadas dos menus, como cabeçalho e rodapé com botões de fácil visualização pelos usuários;<br> 
-4. os principais botões e recursos foram pensados para atender pessoas com distintos níveis de conhecimento sobre páginas web.<br>
+2. As cores escolhidas devem expressar um ambiente neutro, para que os conteúdos registrados pelos usuários, como perfis, vagas e conexões sejam os destaques da página;<br> 
+3. A disposição adequadas dos menus, como cabeçalho e rodapé com botões de fácil visualização pelos usuários;<br> 
+4. Os principais botões e recursos foram pensados para atender pessoas com distintos níveis de conhecimento sobre páginas web.<br>
 
 Os requisitos funcionais RF-001, RF-002, RF-003, relacionados ao cadastro e edição de perfil (RF-001), publicação e banco de vagas (RF-002), e autenticação e login (RF-003), foi discutido que a melhor localização seria após a página inicial, após o clique do usuário em uma das três opções disponíveis:<br> 
-1. vagas, para procura de oportunidades por pessoas migrantes e refugiadas;<br>
-2. empresas, para que organizações conheçam outras que já aderiram à plataforma e possam ofertar vagas;<br>
+1. Vagas, para procura de oportunidades por pessoas migrantes e refugiadas;<br>
+2. Empresas, para que organizações conheçam outras que já aderiram à plataforma e possam ofertar vagas;<br>
 3. OSC-ONG, perfil para que organizações da sociedade civil possam realizar o match entre vagas e candidatos.<br>
 
 O requisito funcional RF-004, sobre os filtros avançados de vagas, será exibido após o cadastro ou login, com a autenticação do usuário, quando a pessoa migrante ou refugiada clicar no botão "candidato". Os requisitos RF-006 e RF-007, sobre as opções de favoritar vagas e ver sugestões personalizadas, a partir de vagas aplicadas, também estarão na página do "candidato".

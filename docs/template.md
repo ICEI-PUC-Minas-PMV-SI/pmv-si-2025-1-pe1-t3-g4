@@ -39,10 +39,9 @@ A tipografia será composta por:
 
 ## Iconografia
 
-Defina os ícones que serão utilizados e suas respectivas funções.
+A iconografia considerou os requisitos funcionais, como botões para favoritar (coração), editar (lápis), checklist de documentos (check), entre outros. 
 
 Apresente os estilos CSS criados para cada um dos elementos apresentados.
-Outras seções podem ser adicionadas neste documento para apresentar padrões de componentes, de menus, etc.
 
 ![Exemplo de iconografia](img/iconografia.png)
 

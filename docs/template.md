@@ -1,23 +1,39 @@
 # Template padrão do site
 
-Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
-
-Explique as guias de estilo utilizadas no seu projeto.
+O template padrão da plataforma Trabalho Sem Fronteiras seguirá suas diretrizes visuais e de acessibilidade, com o mínimo de elementos possíveis que permitem a exibição de todas as funcionalidades da página. 
 
 ## Design
 
-Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
+O layout padrão da página será composta por: 1. header, no limite do canto superior, que conterá a 1.1 logo, 1.2, home, 1.3 vagas, 1.4, empresas, 1.5 OSC's, 1.6, recursos, 1.7, sobre, 1.8idiomas, 1.9 barra de busca. 
 
+Abaixo da header, estará as opções de cadastro ou login e uma caixa para o carrossel de imagens. 
+
+Abaixo dessa seção intermediária, será exibido o conteúdo composto pelas seções de Sobre o projeto, Oportunidades em aberto, Empresas parceiras, Recursos adicionais e a repetição do cadastro ou login. 
+
+Por fim, será exibido o footer (2), com as opções de 2.1 logo, 2.2, home, 2.3 vagas, 2.4, empresas, 2.5 OSC's, 2.6, recursos e 2.7, sobre. 
+
+[Como criar um guia de estilo de design da Web](https://edrodrigues.com.br/blog/como-criar-um-guia-de-estilo-de-design-da-web/#)
 
 ## Cores
 
-Apresente a paleta de cores que será utilizada. Uma ferramenta interessante para a criação de palestas de cores é o *Adobe Color* ([https://color.adobe.com/pt/create/color-wheel](https://color.adobe.com/pt/create/color-wheel)).
+A paleta de cores escolhida foi pensada para refletir sobriedade, considerando-se que a plataforma será para busca de oportunidades e divulgação de empresas e recursos de apoio às pessoas em deslocamento. 
 
+1. como cor primária, utilizaremos a #006A71, para os botões e notificações. 
+2. A cor secundária, para a header, será #9ACBD0. 
+3. Para o footer, foi escolhida a cor #48A6A7. 
+4. Para o corpo, foram escolhidas as cores #F2EFE7 e #FDFFFC. 
+5. Para as cores de alerta, foram escolhidas as cores #D4EDDA, #F8D7DA e #FFF3CD. 
+
+[Como criar um guia de estilo de design da Web](https://edrodrigues.com.br/blog/como-criar-um-guia-de-estilo-de-design-da-web/#)
 
 ## Tipografia
 
-Apresente as fontes que serão utilizadas e sua função no site. As principais funções são: Título de página, Título de Seção, Rótulos de componentes e Corpo de Texto.
+A tipografia será composta por: 
 
+1. Para o Título de página, será a utilizada a fonte Lato Bold. 
+2. Para o Título de Seção, será utilizada a fonte Lato Bold. 
+3. Para os Rótulos de componentes, será utilizada a fonte Lato Regular.
+4. Para o Corpo de Texto, será utilizada a fonte Lato Light.
 
 ## Iconografia
 
@@ -26,11 +42,3 @@ Defina os ícones que serão utilizados e suas respectivas funções.
 Apresente os estilos CSS criados para cada um dos elementos apresentados.
 Outras seções podem ser adicionadas neste documento para apresentar padrões de componentes, de menus, etc.
 
-
-> **Links Úteis**:
->
-> -  [Como criar um guia de estilo de design da Web](https://edrodrigues.com.br/blog/como-criar-um-guia-de-estilo-de-design-da-web/#)
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)

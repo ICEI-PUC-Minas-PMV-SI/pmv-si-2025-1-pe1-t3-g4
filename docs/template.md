@@ -4,15 +4,15 @@ O template padrão da plataforma Trabalho Sem Fronteiras seguirá suas diretrize
 
 ## Design
 
-O layout padrão da página será composta por: 1. header, no limite do canto superior, que conterá a 1.1 logo, 1.2, home, 1.3 vagas, 1.4, empresas, 1.5 OSC's, 1.6, recursos, 1.7, sobre, 1.8idiomas, 1.9 barra de busca. 
+O layout padrão da página será composta por: 1. header, no limite do canto superior, que conterá a 1.1 logo, 1.2, home, 1.3 vagas, 1.4, empresas, 1.5 OSC's, 1.6, recursos, 1.7 sobre, 1.8 idiomas, 1.9 barra de busca. 
 
 Abaixo da header, estará as opções de cadastro ou login e uma caixa para o carrossel de imagens. 
 
 Abaixo dessa seção intermediária, será exibido o conteúdo composto pelas seções de Sobre o projeto, Oportunidades em aberto, Empresas parceiras, Recursos adicionais e a repetição do cadastro ou login. 
 
-Por fim, será exibido o footer (2), com as opções de 2.1 logo, 2.2, home, 2.3 vagas, 2.4, empresas, 2.5 OSC's, 2.6, recursos e 2.7, sobre. 
+Por fim, será exibido o footer (2), com as opções de 2.1 logo, 2.2 home, 2.3 vagas, 2.4 empresas, 2.5 OSC's, 2.6 recursos e 2.7 sobre. 
 
-[Como criar um guia de estilo de design da Web](https://edrodrigues.com.br/blog/como-criar-um-guia-de-estilo-de-design-da-web/#)
+![Exemplo design](img/design.png)
 
 ## Cores
 
@@ -24,7 +24,7 @@ A paleta de cores escolhida foi pensada para refletir sobriedade, considerando-s
 4. Para o corpo, foram escolhidas as cores #F2EFE7 e #FDFFFC. 
 5. Para as cores de alerta, foram escolhidas as cores #D4EDDA, #F8D7DA e #FFF3CD. 
 
-[Como criar um guia de estilo de design da Web](https://edrodrigues.com.br/blog/como-criar-um-guia-de-estilo-de-design-da-web/#)
+![Exemplo de cores](img/cores.png)
 
 ## Tipografia
 
@@ -34,6 +34,8 @@ A tipografia será composta por:
 2. Para o Título de Seção, será utilizada a fonte Lato Bold. 
 3. Para os Rótulos de componentes, será utilizada a fonte Lato Regular.
 4. Para o Corpo de Texto, será utilizada a fonte Lato Light.
+
+![Exemplo de tipografia](img/tipografia.png)
 
 ## Iconografia
 

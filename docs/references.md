@@ -1,6 +1,6 @@
 # Referências
 
-Inclua todas as referências (livros, artigos, sites, etc) utilizadas no desenvolvimento do trabalho.
+Inclua todas as referências (livros, artigos, sites, etc) utilizadas nos desenvolvimentos do trabalho.
 
 > **Links Úteis**:
 > - [Formato ABNT](https://www.normastecnicas.com/referencias/)
@@ -9,7 +9,7 @@ Exemplos de referências bibliográficas:
 
 **[1]** - _ELMASRI, Ramez; NAVATHE, Sham. **Sistemas de banco de dados**. 7. ed. São Paulo: Pearson, c2019. E-book. ISBN 9788543025001._
 
-**[2]** - _COPPIN, Ben. **Inteligência artificial**. Rio de Janeiro, RJ: LTC, c2010. E-book. ISBN 978-85-216-2936-8._
+**[2]** - _COPPIN, Ben **Inteligência artificial**. Rio de Janeiro, RJ: LTC, c2010. E-book. ISBN 978-85-216-2936-8._
 
 **[3]** - _CORMEN, Thomas H. et al. **Algoritmos: teoria e prática**. Rio de Janeiro, RJ: Elsevier, Campus, c2012. xvi, 926 p. ISBN 9788535236996._
 

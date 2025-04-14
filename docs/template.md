@@ -39,7 +39,7 @@ A tipografia será composta por:
 
 ## Iconografia
 
-A iconografia considerou os requisitos funcionais, como botões para favoritar (coração), editar (lápis), checklist de documentos (check), entre outros. 
+A iconografia considerou os requisitos funcionais, como botões para favoritar (coração) editar (lápis), checklist de documentos (check), entre outros. 
 
 Apresente os estilos CSS criados para cada um dos elementos apresentados.
 

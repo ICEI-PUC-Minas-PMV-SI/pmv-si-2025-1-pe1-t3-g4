@@ -74,7 +74,7 @@ Foram convidadas quatro pessoas que os perfis se encaixassem nas definições da
 
 Taxa de sucesso: responde se o usuário conseguiu ou não executar a tarefa proposta;
 
-Satisfação subjetiva: responde como o usuário avalia o sistema com relação à execução da tarefa proposta, conforme a seguinte escala:
+Satisfação subjetiva: responde como o usuário avalia o sistema com relação à execução da tarefa proposta; conforme a seguinte escala:
 
 1. Péssimo; 
 2. Ruim; 

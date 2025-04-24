@@ -19,7 +19,7 @@ Stanley Wallace Rodrigues Belo<br>
 
 ## Orientador
 
-Hayala Couto
+Hayala Nepomuceno Curto
 
 # Planejamento
 
@@ -38,3 +38,4 @@ Hayala Couto
 # Apresentação
 
 <li><a href="presentation/README.md"> Apresentação da solução</a></li>
+ref

@@ -81,7 +81,8 @@ body {
 
 .carousel-container {
     display: flex;
-    justify-content: space-around;
+    gap: 16px;
+    padding: 20px;
     flex-wrap: wrap;
 }
 
@@ -224,4 +225,44 @@ footer {
     width: 100%;
     border-top: 1px solid #ccc;
     margin-top: auto;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card h4 {
+    margin-top: 0;
+}
+
+.card-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.card-actions button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-ver-mais {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn-aplicar {
+    background-color: #28a745;
+    color: #fff;
 }

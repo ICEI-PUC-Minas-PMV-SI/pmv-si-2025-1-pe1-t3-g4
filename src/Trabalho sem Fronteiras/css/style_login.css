@@ -1,79 +1,102 @@
-/* Estilo geral do corpo */
+/* Estilo geral */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Lato', sans-serif;
+    background: linear-gradient(to right, #e0f7fa, #ffffff);
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0;
+    min-height: 100vh;
 }
 
-/* Container do formulário de login */
+/* Container principal */
 .login-container {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-    width: 300px;
-}
-
-/* Título do formulário */
-h1 {
+    background-color: #ffffff;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    max-width: 380px;
+    width: 100%;
     text-align: center;
-    color: #006A71;
 }
 
-/* Estilo dos campos de entrada */
+h1 {
+    color: #006a71;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+/* Estilo dos grupos de input */
 .input-group {
-    margin-bottom: 15px;
+    text-align: left;
+    margin-bottom: 20px;
 }
 
-label {
-    display: block;
-    margin-bottom: 5px;
+.input-group label {
     font-weight: bold;
     color: #333;
+    margin-bottom: 5px;
+    display: block;
 }
 
-input[type="email"],
-input[type="password"] {
+.input-group input {
     width: 100%;
-    padding: 10px;
-    font-size: 14px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    box-sizing: border-box;
+    padding: 12px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: border 0.3s ease;
 }
 
-/* Estilo do botão de login */
+.input-group input:focus {
+    outline: none;
+    border-color: #006a71;
+    box-shadow: 0 0 0 3px rgba(0, 106, 113, 0.1);
+}
+
+/* Botão de login */
 .btn-login {
     width: 100%;
-    padding: 10px;
-    background-color: #006A71;
+    padding: 12px;
+    background-color: #006a71;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     font-size: 16px;
+    font-weight: bold;
     cursor: pointer;
+    transition: background 0.3s ease;
 }
 
 .btn-login:hover {
     background-color: #004e51;
 }
 
-/* Links de opções de senha e cadastro */
+/* Links abaixo do botão */
 .forgot-options {
-    text-align: center;
-    margin-top: 10px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #444;
 }
 
 .forgot-options a {
-    color: #006A71;
+    color: #006a71;
     text-decoration: none;
-    margin: 0 10px;
+    font-weight: 500;
+    transition: color 0.3s ease;
 }
 
 .forgot-options a:hover {
     text-decoration: underline;
+    color: #004e51;
+}
+
+.separator {
+    margin: 0 8px;
+    color: #aaa;
 }

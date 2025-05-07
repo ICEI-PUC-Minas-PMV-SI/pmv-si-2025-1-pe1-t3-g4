@@ -7,46 +7,44 @@
     <title>Login - Trabalho Sem Fronteiras</title>
     <link rel="stylesheet" href="../css/style_login.css" />
     <link rel="stylesheet" href="../css/style.css" />
-
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet" />
 </head>
-<!-- Cabeçalho -->
-<div id="header"></div>
 
 <body>
-
-
+    <!-- Cabeçalho dinâmico -->
+    <div id="header"></div>
 
     <main>
-        <div class="login-container">
-            <h1>Login</h1>
+        <section class="login-container">
+            <h1>Bem-vindo de volta</h1>
+            <p class="subtitle">Acesse sua conta para continuar</p>
 
-            <!-- Formulário de login -->
             <form action="#" method="POST" class="login-form">
                 <div class="input-group">
                     <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required placeholder="Digite seu email" />
+                    <input type="email" id="email" name="email" required placeholder="exemplo@dominio.com" />
                 </div>
 
                 <div class="input-group">
                     <label for="senha">Senha</label>
-                    <input type="password" id="senha" name="senha" required placeholder="Digite sua senha" />
+                    <input type="password" id="senha" name="senha" required placeholder="********" />
                 </div>
 
                 <button type="submit" class="btn-login">Entrar</button>
 
                 <div class="forgot-options">
                     <a href="#" class="forgot-password">Esqueceu a senha?</a>
-                    <a href="tela_cadastro.html" class="register">Cadastrar-se</a>
+                    <span class="separator">|</span>
+                    <a href="tela_cadastro.html" class="register">Criar conta</a>
                 </div>
             </form>
-        </div>
+        </section>
     </main>
 
-
+    <!-- Rodapé dinâmico -->
+    <div id="footer"></div>
 
     <script src="../java_script/script.js"></script>
 </body>
-<!-- Rodapé -->
-<div id="footer"></div>
 
 </html>

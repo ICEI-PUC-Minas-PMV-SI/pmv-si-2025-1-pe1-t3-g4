@@ -1,0 +1,172 @@
+.hero {
+    background-size: cover;
+    background-position: center;
+    color: #006A71;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.details,
+.resume,
+.about-me {
+    background: #48A6A7;
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.social-icons {
+    text-align: center;
+    /* Centraliza os ícones dentro do contêiner */
+}
+
+.social-icons a {
+    font-size: 1.5rem;
+    margin-right: 10px;
+    color: white;
+}
+
+.about-me img {
+    border-radius: 50%;
+    max-width: 180px;
+    margin: 0 auto 10px;
+    display: block;
+    /* Adiciona isso para centralizar a imagem */
+}
+
+
+.about-me {
+    text-align: center;
+    color: white;
+}
+
+.row-custom {
+    display: flex;
+    align-items: stretch;
+}
+
+.col-custom {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilo do carrossel */
+#jobCarousel {
+    position: relative;
+    margin-top: 40px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+/* Estilo dos itens do carrossel */
+.carousel-item {
+    transition: transform 0.5s ease;
+}
+
+/* Estilo das colunas dentro dos itens (vagas) */
+.carousel-item .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.carousel-item .col-4 {
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para o título das vagas */
+.card h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Estilo para o conteúdo da vaga (empresa, local, descrição) */
+.card p {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Estilo dos indicadores */
+.carousel-indicators button {
+    background-color: #007bff;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    transition: background-color 0.3s ease;
+}
+
+.carousel-indicators button.active {
+    background-color: #ffc107;
+}
+
+/* Estilo dos controles de navegação (setas) */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #007bff;
+    border-radius: 50%;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    background-color: #0056b3;
+}
+
+/* Ajustando as setas para que fiquem mais visíveis e acessíveis */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+    font-size: 2rem;
+    color: #007bff;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Ajustando os controles para telas menores */
+@media (max-width: 768px) {
+    .carousel-item .col-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .carousel-indicators button {
+        width: 8px;
+        height: 8px;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        font-size: 1.5rem;
+    }
+}
+
+/* Cor de fundo do carrossel */
+#jobCarouselContainer {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+}

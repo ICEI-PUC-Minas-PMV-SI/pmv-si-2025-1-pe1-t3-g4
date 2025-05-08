@@ -6,7 +6,6 @@
         footer {
             width: 100%;
             background-color: #9ACBD0;
-            /* Cor de fundo do rodapé */
             color: #fff;
             text-align: center;
             padding: 10px 0;
@@ -14,13 +13,23 @@
             bottom: 0;
             left: 0;
             z-index: 1000;
-            /* Garante que o rodapé fique por cima de outros elementos */
         }
 
-        /* Ajuste para o conteúdo, evitando sobreposição com rodapé */
+        /* Ajuste para o conteúdo, garantindo que o rodapé não sobreponha */
         body {
-            margin-bottom: 40px;
-            /* Espaço para o rodapé */
+            margin: 0;
+            padding-bottom: 50px;
+            /* Espaço suficiente para o rodapé */
+            min-height: 100vh;
+            /* Garantir que o conteúdo ocupe toda a altura da tela */
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Conteúdo principal da página */
+        .content {
+            flex: 1;
+            /* Faz o conteúdo ocupar o espaço restante */
         }
     </style>
 </footer>

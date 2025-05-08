@@ -12,7 +12,7 @@ document.getElementById("btn-login").addEventListener("click", () => {
     if (username === user.username && password === user.password) {
         localStorage.setItem("loggedInUser", JSON.stringify(user));
         Swal.fire("Login bem-sucedido!", "Redirecionando...", "success").then(() => {
-            window.location.href = "pagina_inicial.html";
+            window.location.href = "Pagina inicial.html";
         });
     } else {
         Swal.fire("Erro", "Usuário ou senha inválidos.", "error");

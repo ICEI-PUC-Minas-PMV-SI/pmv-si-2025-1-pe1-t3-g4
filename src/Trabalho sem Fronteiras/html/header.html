@@ -1,31 +1,155 @@
-<header>
-    <div class="logo">
-        <img src="../img/logo.png" alt="Logo Trabalho Sem Fronteiras" />
-    </div>
+<!DOCTYPE html>
+<html lang="pt-BR">
 
-    <nav class="navbar">
-        <ul>
-            <li><a href="Pagina inicial.html">Home</a></li>
-            <li><a href="tela_vagas.html">Vagas</a></li>
-            <li><a href="tela_empresas.html">Empresas</a></li>
-            <li><a href="tela_OSC.html">OSC's</a></li>
-            <li><a href="tela_recursos.html">Recursos</a></li>
-            <li><a href="tela_sobre.html">Sobre</a></li>
-            <li><a href="tela_login.html">login</a></li>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Responsivo</title>
+    <!-- Link para o CSS do Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Estilos adicionais */
+        header {
+            background-color: #9ACBD0;
+            color: white;
+            padding: 2px 20px;
+            position: fixed;
+            /* Fixando o cabeçalho no topo */
+            top: 0;
+            left: 0;
+            width: 100%;
+            /* Garantindo que ocupe a largura total */
+            z-index: 9999;
+            /* Garantindo que fique acima de outros elementos */
+        }
 
-        </ul>
-    </nav>
+        .logo img {
+            width: 100px;
+        }
 
-    <div class="header-right">
-        <select id="language-select">
-            <option value="pt">Português</option>
-            <option value="en">English</option>
-            <option value="es">Español</option>
-        </select>
+        .navbar-nav .nav-link {
+            color: white !important;
+            font-weight: bold;
+        }
 
-        <div class="search-container">
-            <input type="text" id="search" placeholder="Procurar..." />
-            <button class="search-button">🔍</button>
-        </div>
-    </div>
-</header>
+        .navbar-nav .nav-link:hover {
+            background-color: #006A71;
+            border-radius: 5px;
+        }
+
+        .header-right select,
+        .search-container input,
+        .search-button {
+            margin-right: 15px;
+        }
+
+        .user-menu-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .user-button {
+            background-color: #006A71;
+            color: white;
+            padding: 8px 12px;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        .user-dropdown {
+            display: none;
+            position: absolute;
+            top: 100%;
+            /* posiciona abaixo do botão */
+            left: 0;
+            /* alinha com a esquerda do botão */
+            background-color: white;
+            border: 1px solid #ccc;
+            min-width: 150px;
+            z-index: 1000;
+            border-radius: 4px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+        }
+
+
+        .user-dropdown a {
+            color: #333;
+            padding: 10px 15px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .user-dropdown a:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <!-- Logo -->
+                <div class="logo">
+                    <img src="../img/logo.png" alt="Logo Trabalho Sem Fronteiras" />
+                </div>
+                <!-- Ícone de menu sanduíche para telas pequenas -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Itens de navegação -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="Pagina_inicial.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tela_vagas.html">Vagas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tela_empresas.html">Empresas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tela_OSC.html">OSC's</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tela_recursos.html">Recursos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tela_sobre.html">Sobre</a>
+                        </li>
+                        <li class="nav-item" id="user-menu">
+                            <!-- Aqui será inserido o botão ou nome do usuário -->
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- Seletor de idiomas e busca -->
+                <div class="header-right d-flex align-items-center">
+                    <select id="language-select" class="form-control">
+                        <option value="pt">Português</option>
+                        <option value="en">English</option>
+                        <option value="es">Español</option>
+                    </select>
+                    <div class="search-container d-flex">
+                        <input type="text" id="search" class="form-control" placeholder="Procurar...">
+                        <button class="btn btn-light">🔍</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Scripts do Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="../java_script/script_menu.js"></script>
+
+</body>
+
+
+</html>

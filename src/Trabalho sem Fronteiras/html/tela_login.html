@@ -11,40 +11,56 @@
 </head>
 
 <body>
-    <!-- Cabeçalho dinâmico -->
+    <!-- Cabeçalho externo -->
     <div id="header"></div>
 
-    <main>
-        <section class="login-container">
-            <h1>Bem-vindo de volta</h1>
-            <p class="subtitle">Acesse sua conta para continuar</p>
+    <!-- Conteúdo principal   -->
+    <main class="main-login">
+        <div id="container">
+            <div class="banner">
+                <img src="../img/img1.jpg" alt="imagem-login">
+                <p style="color: #fff; font-weight: 400;">
+                    Seja bem vindo, acesse e aproveite todo o conteúdo,
+                    <br>somos uma equipe de profissionais empenhados em
+                    <br>trazer o melhor conteúdo direcionado a você, usuário.
+                </p>
+            </div>
 
-            <form action="#" method="POST" class="login-form">
-                <div class="input-group">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required placeholder="exemplo@dominio.com" />
+            <div class="box-login">
+                <h1>
+                    Olá!<br>
+                    Seja bem vindo de volta.
+                </h1>
+
+                <div class="box">
+                    <h2>Faça o seu login agora</h2>
+                    <input type="text" name="username" id="username" placeholder="username">
+                    <input type="password" name="password" id="password" placeholder="password">
+
+                    <a href="password.html">
+                        <p>Esqueceu a sua senha?</p>
+                    </a>
+
+                    <button id="btn-login">Login</button>
+
+                    <a href="tela_cadastro.html">
+                        <p>Criar uma conta</p>
+                    </a>
                 </div>
-
-                <div class="input-group">
-                    <label for="senha">Senha</label>
-                    <input type="password" id="senha" name="senha" required placeholder="********" />
-                </div>
-
-                <button type="submit" class="btn-login">Entrar</button>
-
-                <div class="forgot-options">
-                    <a href="#" class="forgot-password">Esqueceu a senha?</a>
-                    <span class="separator">|</span>
-                    <a href="tela_cadastro.html" class="register">Criar conta</a>
-                </div>
-            </form>
-        </section>
+            </div>
+        </div>
     </main>
 
-    <!-- Rodapé dinâmico -->
+    <!-- Rodapé externo -->
     <div id="footer"></div>
 
     <script src="../java_script/script.js"></script>
+    <script src="../java_script/script_login.js"></script>
+
+
+    <!-- SweetAlert2 CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 </body>
 
 </html>

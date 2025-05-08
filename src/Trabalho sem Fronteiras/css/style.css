@@ -23,6 +23,8 @@
 /* Estrutura básica da página */
 html,
 body {
+    padding-top: 60px;
+    /* Ajuste para compensar a nova altura do cabeçalho */
     height: 100%;
     font-family: var(--fonte-principal);
     background-color: var(--cor-fundo-claro);

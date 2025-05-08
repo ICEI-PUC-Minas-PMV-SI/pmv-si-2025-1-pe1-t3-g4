@@ -1,102 +1,159 @@
-/* Estilo geral */
-body {
-    font-family: 'Lato', sans-serif;
-    background: linear-gradient(to right, #e0f7fa, #ffffff);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
     margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+    padding: 0;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #fff;
 }
 
-/* Container principal */
-.login-container {
-    background-color: #ffffff;
-    padding: 40px 30px;
-    border-radius: 12px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-    max-width: 380px;
-    width: 100%;
-    text-align: center;
+p {
+    cursor: pointer;
+    font-weight: 600;
+    color: #006A71;
 }
 
 h1 {
-    color: #006a71;
-    margin-bottom: 8px;
+    font-size: 1.8em;
+    color: #006A71;
+    padding: 0px 0px 35px 15px;
 }
 
-.subtitle {
-    color: #666;
-    font-size: 14px;
-    margin-bottom: 30px;
+h2 {
+    font-size: 1.4em;
+    color: #006A71;
 }
 
-/* Estilo dos grupos de input */
-.input-group {
-    text-align: left;
-    margin-bottom: 20px;
-}
-
-.input-group label {
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 5px;
-    display: block;
-}
-
-.input-group input {
-    width: 100%;
-    padding: 12px;
-    font-size: 15px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    transition: border 0.3s ease;
-}
-
-.input-group input:focus {
-    outline: none;
-    border-color: #006a71;
-    box-shadow: 0 0 0 3px rgba(0, 106, 113, 0.1);
-}
-
-/* Botão de login */
-.btn-login {
-    width: 100%;
-    padding: 12px;
-    background-color: #006a71;
-    color: white;
+input {
+    width: 80%;
+    height: 30px;
     border: none;
-    border-radius: 8px;
-    font-size: 16px;
-    font-weight: bold;
+    border-bottom: 1px solid silver;
+    outline: none;
+    font-weight: 600;
+    color: #1c1c1c;
+    padding-left: 3px;
+}
+
+button {
     cursor: pointer;
-    transition: background 0.3s ease;
+    width: 120px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    background: #006A71;
 }
 
-.btn-login:hover {
-    background-color: #004e51;
+body {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-/* Links abaixo do botão */
-.forgot-options {
-    margin-top: 20px;
-    font-size: 14px;
-    color: #444;
+#container {
+    width: 320px;
+    height: 520px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 6px -1px #000000;
+    box-shadow: 0px 0px 6px -1px #000000;
+    background: #006A71;
+
+    display: flex;
+    align-items: center;
 }
 
-.forgot-options a {
-    color: #006a71;
-    text-decoration: none;
-    font-weight: 500;
-    transition: color 0.3s ease;
+#container .banner {
+    width: 520px;
+    height: 520px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: #006A71;
+
+    display: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-.forgot-options a:hover {
-    text-decoration: underline;
-    color: #004e51;
+#container .box-login {
+    width: 320px;
+    height: 520px;
+    border-radius: 10px;
+    background: #fff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.separator {
-    margin: 0 8px;
-    color: #aaa;
+.box-login .box {
+    width: 80%;
+    height: 320px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.box-login .box-account {
+    width: 80%;
+    height: 360px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#bubble {
+    cursor: pointer;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 50%;
+    border: 1px solid #483D8B;
+    background: slateblue;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 1024px) {
+    #container {
+        width: 902px;
+        justify-content: space-between;
+    }
+
+    #container .banner {
+        display: flex;
+    }
+
+    #container .box-login {
+        width: 385px;
+        border-radius: 10px 10px 10px 0px;
+    }
+}
+
+#container .banner img {
+    width: 110%;
+    /* ou um valor fixo como 200px */
+    height: auto;
+    max-width: 500px;
+    /* opcional, para limitar o tamanho máximo */
+    border-radius: 10px;
+    /* opcional, se quiser cantos arredondados */
 }

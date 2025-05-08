@@ -236,6 +236,8 @@ footer {
     padding: 20px;
     width: 300px;
     transition: transform 0.2s ease;
+    display: flex;
+    flex-direction: column;
 }
 
 .card:hover {
@@ -249,7 +251,7 @@ footer {
 .card-actions {
     display: flex;
     justify-content: space-between;
-    margin-top: 15px;
+    margin-top: auto;
 }
 
 .card-actions button {
@@ -267,4 +269,23 @@ footer {
 .btn-aplicar {
     background-color: #28a745;
     color: #fff;
+}
+
+
+.partner-companies-section {
+    text-align: center;
+    padding: 50px 20px;
+    width: 100%;
+}
+
+.partner-link.btn-aplicar {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+.partner-link.btn-aplicar:hover {
+    background-color: #1e7e34;
 }

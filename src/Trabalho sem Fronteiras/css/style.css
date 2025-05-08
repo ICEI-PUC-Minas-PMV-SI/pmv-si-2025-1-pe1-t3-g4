@@ -39,7 +39,9 @@ body {
 /* Seção Principal */
 .main-section {
     text-align: center;
-    padding: 50px 20px;
+    align-items: center;
+    padding: 100px 0;
+    width: 80vw;
 }
 
 .main-title {
@@ -285,7 +287,7 @@ footer {
     gap: 5px;
   }
 
-  .introducao {
+  /* .introducao {
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 10px;
@@ -297,15 +299,50 @@ footer {
     padding: 10px;
     font-size: 30px;
     text-align: center;
+  } */
+
+  /* style introdução */
+
+  .introducao{
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    padding: 100px 0;
+    justify-content: space-evenly;
   }
    
   .acesso {
-    grid-column: 1 / span 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 400px;
+  }
+
+  .btnAcesso, .btnLogin{
+    width: 190px;
+    height: 45px;
+    border-radius: 10px;
+    border: 0px solid transparent;
+    background-color: #f7a838;
+    cursor: pointer;
+  }
+  .btnAcesso:hover, .btnLogin:hover{
+    background-color: #f79a19;
+    transition: 0.3s;
+  }
+
+  .linkBtnIntroducao{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
   }
    
   .noticias {
     grid-column: 3;
     grid-row: 1 / span 2;
+  }
+  .imgIntroducao{
+    width: 280px;
   }
    
  

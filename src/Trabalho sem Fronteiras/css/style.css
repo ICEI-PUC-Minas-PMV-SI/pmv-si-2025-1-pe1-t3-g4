@@ -24,7 +24,7 @@
 html,
 body {
     padding-top: 60px;
-    /* Ajuste para compensar a nova altura do cabeçalho */
+    /* Ajuste para compensar a altura do cabeçalho fixo */
     height: 100%;
     font-family: var(--fonte-principal);
     background-color: var(--cor-fundo-claro-2);
@@ -36,12 +36,16 @@ body {
     flex-direction: column;
     min-height: 100vh;
     align-items: center;
+    font-size: 16px; /* Define o tamanho de fonte base para o corpo do texto */
 }
 
 /* Seção Principal */
 .main-section {
     text-align: center;
     padding: 50px 20px;
+    width: 100%; /* Garante que a seção ocupe a largura total */
+    max-width: 1200px; /* Limita a largura máxima em telas grandes (opcional) */
+    margin: 0 auto; /* Centraliza a seção se tiver max-width */
 }
 
 .main-title {
@@ -59,6 +63,7 @@ body {
 .main-text {
     font-size: 18px;
     color: #555;
+    line-height: 1.6; /* Melhora a legibilidade do texto longo */
 }
 
 /* Seção de Carrossel de Vagas */
@@ -86,62 +91,28 @@ body {
     gap: 16px;
     padding: 20px;
     flex-wrap: wrap;
+    justify-content: center; /* Centraliza os itens do carrossel */
 }
 
 .carousel-item {
-    margin: 10px;
+    margin: 10px; /* Mantém uma margem entre os itens ao quebrar linha */
     text-align: center;
 }
 
 .modal-btn {
+    /* Esta classe pode não ser mais usada sem o modal, mas a mantive */
     background-color: var(--cor-primaria);
     color: white;
     padding: 15px;
     border: none;
     cursor: pointer;
     font-size: 16px;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s ease; /* Adiciona transição suave */
+    border-radius: 6px; /* Arredonda os cantos */
 }
 
 .modal-btn:hover {
     background-color: #005056;
-}
-
-/* Estilos para o Modal */
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0, 0, 0, 0.4);
-}
-
-.modal-content {
-    background-color: #fff;
-    margin: 15% auto;
-    padding: 20px;
-    width: 60%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.close-btn {
-    color: #aaa;
-    font-size: 28px;
-    font-weight: bold;
-    position: absolute;
-    top: 10px;
-    right: 25px;
-}
-
-.close-btn:hover,
-.close-btn:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
 }
 
 /* Cabeçalho */
@@ -153,10 +124,17 @@ header {
     align-items: center;
     padding: 10px 30px;
     flex-wrap: wrap;
+    width: 100%; /* Garante largura total */
+    position: fixed; /* Mantém o cabeçalho fixo no topo */
+    top: 0;
+    left: 0;
+    z-index: 500; /* Garante que fique acima do conteúdo */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Adiciona uma leve sombra */
 }
 
 .logo img {
     width: 120px;
+    height: auto; /* Garante que a altura seja ajustada automaticamente */
 }
 
 /* Navegação */
@@ -164,16 +142,20 @@ header {
     display: flex;
     list-style: none;
     gap: 20px;
+    margin: 0; /* Remove margin padrão */
+    padding: 0; /* Remove padding padrão */
 }
 
 .navbar li {
-    display: inline;
+    display: inline-block; /* Usa inline-block para melhor controle */
 }
 
 .navbar a {
     color: #fff;
     text-decoration: none;
     font-size: 16px;
+    padding: 5px 0; /* Adiciona um pequeno padding vertical para a área de clique */
+    transition: text-decoration 0.3s ease; /* Adiciona transição suave */
 }
 
 .navbar a:hover {
@@ -188,8 +170,10 @@ header {
 }
 
 #language-select {
-    padding: 5px;
+    padding: 5px 10px; /* Ajusta padding */
     font-size: 14px;
+    border-radius: 4px; /* Arredonda as bordas */
+    border: 1px solid #ccc; /* Adiciona uma borda */
 }
 
 /* Busca */
@@ -200,9 +184,11 @@ header {
 }
 
 #search {
-    padding: 5px;
+    padding: 5px 10px; /* Ajusta padding */
     font-size: 14px;
     width: 150px;
+    border-radius: 4px; /* Arredonda as bordas */
+    border: 1px solid #ccc; /* Adiciona uma borda */
 }
 
 .search-button {
@@ -212,274 +198,8 @@ header {
     color: #fff;
     cursor: pointer;
     font-size: 16px;
-}
-
-.search-button:hover {
-    background-color: #005056;
-}
-
-/* Rodapé fixo sempre no fim da tela */
-footer {
-    background-color: var(--cor-footer); 
-    color: #fff; 
-    text-align: center; 
-    padding: 15px 20px; 
-    width: 100%;
-    border-top: 1px solid #ccc;
-    margin-top: auto;
-}
-
-/* Estilos para os cards (usados nas seções de vagas, empresas e recursos) */
-.card {
-    background-color: #ffffff; 
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    padding: 20px; 
-    width: 300px;
-    transition: transform 0.2s ease;
-    display: flex;
-    flex-direction: column;
-}
-
-/* Estilo para o efeito de hover nos cards */
-.card:hover {
-    transform: scale(1.02);
-}
-
-/* Estilo para o título (h4) dentro dos cards */
-.card h4 {
-    margin-top: 0;
-}
-
-/* Estilos para a área de ações dentro dos cards (onde ficam os botões) */
-.card-actions {
-    display: flex; 
-    justify-content: space-between;
-    margin-top: auto;
-}
-
-/* Estilos para os botões genéricos dentro da área de ações */
-.card-actions button {
-    padding: 8px 12px;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-}
-
-/* Estilos específicos para o botão "Ver mais" *//* Reset básico */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Variáveis de tema */
-:root {
-    --cor-primaria: #006A71;
-    --cor-secundaria: #9ACBD0;
-    --cor-footer: #48A6A7;
-    --cor-fundo-claro: #F2EFE7;
-    --cor-fundo-claro-2: #FDFFFC;
-
-    --alerta-sucesso: #D4EDDA;
-    --alerta-erro: #F8D7DA;
-    --alerta-aviso: #FFF3CD;
-
-    --fonte-principal: 'Lato', sans-serif;
-}
-
-/* Estrutura básica da página */
-html,
-body {
-    padding-top: 60px;
-    /* Ajuste para compensar a nova altura do cabeçalho */
-    height: 100%;
-    font-family: var(--fonte-principal);
-    background-color: var(--cor-fundo-claro-2);
-    color: #333;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    align-items: center;
-}
-
-/* Seção Principal */
-.main-section {
-    text-align: center;
-    padding: 50px 20px;
-}
-
-.main-title {
-    font-size: 36px;
-    color: var(--cor-primaria);
-    margin-bottom: 10px;
-}
-
-.main-subtitle {
-    font-size: 24px;
-    color: var(--cor-secundaria);
-    margin-bottom: 20px;
-}
-
-.main-text {
-    font-size: 18px;
-    color: #555;
-}
-
-/* Seção de Carrossel de Vagas */
-.job-carousel-section {
-    text-align: center;
-    padding: 50px 20px;
-    background-color: var(--cor-fundo-claro-2);
-    width: 100%;
-}
-
-.carousel-title {
-    font-size: 28px;
-    color: var(--cor-primaria);
-    margin-bottom: 10px;
-}
-
-.carousel-subtitle {
-    font-size: 18px;
-    color: var(--cor-secundaria);
-    margin-bottom: 30px;
-}
-
-.carousel-container {
-    display: flex;
-    gap: 16px;
-    padding: 20px;
-    flex-wrap: wrap;
-}
-
-.carousel-item {
-    margin: 10px;
-    text-align: center;
-}
-
-.modal-btn {
-    background-color: var(--cor-primaria);
-    color: white;
-    padding: 15px;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s;
-}
-
-.modal-btn:hover {
-    background-color: #005056;
-}
-
-/* Estilos para o Modal */
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0, 0, 0, 0.4);
-}
-
-.modal-content {
-    background-color: #fff;
-    margin: 15% auto;
-    padding: 20px;
-    width: 60%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.close-btn {
-    color: #aaa;
-    font-size: 28px;
-    font-weight: bold;
-    position: absolute;
-    top: 10px;
-    right: 25px;
-}
-
-.close-btn:hover,
-.close-btn:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-/* Cabeçalho */
-header {
-    background-color: var(--cor-secundaria);
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 30px;
-    flex-wrap: wrap;
-}
-
-.logo img {
-    width: 120px;
-}
-
-/* Navegação */
-.navbar ul {
-    display: flex;
-    list-style: none;
-    gap: 20px;
-}
-
-.navbar li {
-    display: inline;
-}
-
-.navbar a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 16px;
-}
-
-.navbar a:hover {
-    text-decoration: underline;
-}
-
-/* Área direita do header */
-.header-right {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
-
-#language-select {
-    padding: 5px;
-    font-size: 14px;
-}
-
-/* Busca */
-.search-container {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-}
-
-#search {
-    padding: 5px;
-    font-size: 14px;
-    width: 150px;
-}
-
-.search-button {
-    padding: 5px 10px;
-    background-color: var(--cor-primaria);
-    border: none;
-    color: #fff;
-    cursor: pointer;
-    font-size: 16px;
+    border-radius: 4px; /* Arredonda as bordas */
+    transition: background-color 0.3s ease; /* Adiciona transição suave */
 }
 
 .search-button:hover {
@@ -504,58 +224,77 @@ footer {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
     width: 300px;
-    transition: transform 0.2s ease;
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Adiciona transição para sombra também */
     display: flex;
     flex-direction: column;
+    flex: 1 1 300px; /* Flexbox: permite que o card cresça/diminua */
+    max-width: 350px; /* Limita a largura máxima */
+    margin: 10px; /* Adiciona margem para espaçamento */
 }
 
 /* Estilo para o efeito de hover nos cards */
 .card:hover {
-    transform: scale(1.02);
+    transform: translateY(-5px); /* Efeito de leve levantamento */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Sombra um pouco maior no hover */
 }
 
 /* Estilo para o título (h4) dentro dos cards */
 .card h4 {
     margin-top: 0;
+    margin-bottom: 10px; /* Adiciona espaço abaixo do título */
+    color: var(--cor-primaria); /* Usa cor do tema */
+    font-size: 1.2em; /* Tamanho de fonte relativo ao card */
 }
+
+.card p {
+    margin-bottom: 10px; /* Espaço abaixo dos parágrafos no card */
+    font-size: 0.95em; /* Tamanho de fonte ligeiramente menor */
+    color: #555;
+}
+
 
 /* Estilos para a área de ações dentro dos cards (onde ficam os botões) */
 .card-actions {
     display: flex;
     justify-content: space-between;
     margin-top: auto;
+    padding-top: 15px; /* Adiciona espaço acima dos botões */
+    /* border-top: 1px solid #eee; */ /* Linha removida conforme solicitado */
 }
 
-/* Estilos para os botões genéricos dentro da área de ações */
+/* Estilos base para botões e links dentro da área de ações do card */
 .card-actions button,
 .card-actions a.btn-ver-mais,
 .card-actions a.btn-aplicar,
-.card-actions a.partner-link.btn-aplicar { /* Inclui o link de parceiro com a classe btn-aplicar */
-    padding: 8px 12px;
+.card-actions a.partner-link.btn-aplicar {
+    padding: 10px 15px; /* Ajusta padding dos botões */
     border: none;
     border-radius: 6px;
     cursor: pointer;
     text-decoration: none; /* Remove sublinhado dos links */
     color: #fff; /* Cor do texto do botão */
     display: inline-block; /* Para aplicar padding e border-radius em links */
-    font-size: 14px; /* Adiciona um tamanho de fonte para consistência */
+    font-size: 14px;
+    transition: background-color 0.3s ease; /* Adiciona transição suave */
 }
 
 /* Estilos específicos para o botão "Ver mais" */
 .btn-ver-mais {
-    background-color: #007bff;
+    background-color: #007bff; /* Cor azul */
 }
 
+/* Estilo para o efeito de hover no botão "Ver mais" */
 .btn-ver-mais:hover {
     background-color: #0056b3; /* Cor azul mais escura no hover */
 }
 
-/* Estilos específicos para o botão "Aplicar" */
+/* Estilos específicos para o botão "Aplicar" e link de parceiro */
 .btn-aplicar,
-.partner-link.btn-aplicar { /* Aplica os mesmos estilos ao botão aplicar e ao link de vagas */
-    background-color: #28a745;
+.partner-link.btn-aplicar {
+    background-color: #28a745; /* Cor verde */
 }
 
+/* Estilo para o efeito de hover no botão "Aplicar" e link de parceiro */
 .btn-aplicar:hover,
 .partner-link.btn-aplicar:hover {
     background-color: #1e7e34; /* Cor verde mais escura no hover */
@@ -566,6 +305,7 @@ footer {
     text-align: center;
     padding: 50px 20px;
     width: 100%;
+    background-color: var(--cor-fundo-claro-2); /* Usa outra cor de fundo claro */
 }
 
 /* Estilos para a seção de Recursos */
@@ -580,71 +320,145 @@ footer {
 .btn-recursos {
     background-color: #007bff; /* Cor azul */
     color: #fff; /* Texto branco */
-    padding: 8px 12px;
+    padding: 10px 20px; /* Aumenta um pouco o padding */
     border: none;
     border-radius: 6px;
     cursor: pointer;
-    font-size: 14px; /* Ajusta o tamanho da fonte para consistência */
+    font-size: 16px; /* Tamanho de fonte ligeiramente maior */
     text-decoration: none; /* Remove sublinhado do link */
     display: inline-block; /* Para aplicar padding e border-radius */
+    margin-top: 20px; /* Adiciona espaço acima do botão */
+    transition: background-color 0.3s ease, outline 0.3s ease; /* Adiciona transição suave */
 }
 
-/* Estilo para o efeito de hover nos botões de recursos */
+/* Estilo para o efeito de hover no botão de recursos */
 .btn-recursos:hover {
     background-color: #0056b3; /* Cor azul mais escura no hover */
-}
-.btn-ver-mais {
-    background-color: #007bff;
-    color: #fff;
+    outline: 2px solid rgba(255, 255, 255, 0.5); /* Adiciona um contorno branco semi-transparente */
+    outline-offset: 2px; /* Adiciona espaço entre o contorno e o botão */
 }
 
-/* Estilos específicos para o botão "Aplicar" */
-.btn-aplicar {
-    background-color: #28a745;
-    color: #fff;
-}
-/* Estilos para a seção de Empresas Parceiras */
-.partner-companies-section {
-    text-align: center;
-    padding: 50px 20px;
-    width: 100%;
+/* --- Responsividade --- */
+
+/* Ajustes para telas menores que 768px */
+@media (max-width: 768px) {
+    /* Cabeçalho */
+    header {
+        flex-direction: column; /* Empilha itens verticalmente */
+        padding: 15px 20px; /* Ajusta padding */
+    }
+
+    .header-right {
+         margin-top: 15px; /* Adiciona espaço acima */
+         justify-content: center; /* Centraliza itens */
+         width: 100%; /* Ocupa largura total */
+    }
+
+    .navbar ul {
+        flex-direction: column; /* Empilha itens do menu */
+        gap: 10px; /* Reduz o espaço entre os itens */
+        margin-top: 15px; /* Adiciona espaço acima do menu */
+        text-align: center; /* Centraliza texto */
+        width: 100%; /* Ocupa largura total */
+    }
+
+    .navbar li {
+        display: block; /* Faz cada item do menu ser um bloco */
+    }
+
+    .search-container {
+        justify-content: center; /* Centraliza a busca */
+        width: 100%; /* Ocupa largura total */
+    }
+
+    #search {
+        width: 80%; /* Torna o campo de busca mais largo */
+        max-width: 250px; /* Limita a largura */
+    }
+
+    .search-button {
+         width: 100%;
+         max-width: 250px; /* Limita a largura */
+    }
+
+    /* Seções Principais e de Carrossel/Recursos/Empresas */
+    .main-section,
+    .job-carousel-section,
+    .partner-companies-section,
+    .resources-section {
+        padding: 30px 15px; /* Reduz o padding em telas menores */
+    }
+
+    .main-title {
+        font-size: 28px; /* Reduz o tamanho do título */
+    }
+
+    .main-subtitle {
+        font-size: 20px; /* Reduz o tamanho do subtítulo */
+    }
+
+    .carousel-title {
+         font-size: 24px; /* Reduz o tamanho do título do carrossel */
+    }
+
+    .carousel-container {
+         padding: 10px; /* Reduz o padding do contêiner do carrossel */
+         gap: 10px; /* Reduz o gap */
+    }
+
+    /* Cards */
+    .card {
+        width: 100%; /* Faz os cards ocuparem a largura total */
+        max-width: none; /* Remove o max-width */
+        margin: 10px 0; /* Ajusta a margem */
+    }
 }
 
-/* Estilos específicos para o link "Ver Vagas" dentro da seção de empresas parceiras */
-.partner-link.btn-aplicar {
-    text-decoration: none;
-    color: #fff;
-    display: inline-block;
-    padding: 8px 12px;
-    border-radius: 6px;
-}
+/* Ajustes adicionais para telas muito pequenas (smartphones) */
+@media (max-width: 480px) {
+    .main-title {
+        font-size: 24px;
+    }
 
-/* Estilo para o efeito de hover no link "Ver Vagas" */
-.partner-link.btn-aplicar:hover {
-    background-color: #1e7e34; 
-}
-/* Estilos para a seção de Recursos */
-.resources-section {
-    text-align: center;
-    padding: 50px 20px;
-    background-color: var(--cor-fundo-claro-2);
-    width: 100%;
-}
-/* Estilos para botões específicos da seção de recursos (classe 'btn-recursos') */
-.btn-recursos {
-    background-color: #007bff; /* Cor azul */
-    color: #fff; /* Texto branco */
-    padding: 8px 12px;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 16px;
-    text-decoration: none; /* Remove sublinhado do link */
-    display: inline-block; /* Para aplicar padding e border-radius */
-}
+    .main-subtitle {
+        font-size: 18px;
+    }
 
+    .carousel-title {
+        font-size: 20px;
+    }
 
-/* Estilo para o efeito de hover*/
-.btn-recursos:hover {
-    background-color: #0056b3; /* Cor azul mais escura no hover (opcional) */
+    .header-right {
+        flex-direction: column; /* Empilha linguagem e busca */
+        gap: 10px;
+    }
+
+    .search-container {
+        flex-direction: column; /* Empilha campo e botão de busca */
+        gap: 10px;
+    }
+
+    #search {
+         width: 100%;
+         max-width: none; /* Permite ocupar a largura disponível no contêiner */
+    }
+
+    .search-button {
+         width: 100%;
+         max-width: none; /* Permite ocupar a largura disponível no contêiner */
+    }
+
+    .card-actions {
+        flex-direction: column; /* Empilha botões de ação do card */
+        gap: 10px;
+    }
+
+    .card-actions button,
+    .card-actions a.btn-ver-mais,
+    .card-actions a.btn-aplicar,
+    .card-actions a.partner-link.btn-aplicar {
+         width: 100%; /* Botões de ação ocupam a largura total */
+         text-align: center; /* Centraliza o texto */
+    }
+
 }

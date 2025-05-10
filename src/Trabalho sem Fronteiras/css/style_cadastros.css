@@ -1,0 +1,21 @@
+/* cadastro de empresas */
+.titleCadastroEmpresas{
+  font-size: 22px;
+}
+.spanH1CadastroEmpresas{
+  font-size: 16px;
+  color: #006A71;
+}
+.titleForm{
+  font-size: 19px;
+  margin-bottom: 10px
+}
+.check{
+  margin-top: 10px;
+}
+#create-account-btn:hover{
+  background-color: #005359;
+  transition: 0.2s;
+}
+
+/* cadastro de ONG'S */

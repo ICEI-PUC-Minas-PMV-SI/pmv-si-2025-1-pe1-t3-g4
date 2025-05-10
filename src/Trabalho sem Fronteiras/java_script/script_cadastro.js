@@ -50,3 +50,12 @@ document.getElementById("create-account-btn").addEventListener("click", () => {
 
     }
 });
+
+// Função para abrir o dropdown
+  function redirecionar() {
+    const select = document.getElementById('tipoConta');
+    const url = select.value;
+
+    // Redireciona diretamente para a nova página
+    window.location.href = url;
+  }

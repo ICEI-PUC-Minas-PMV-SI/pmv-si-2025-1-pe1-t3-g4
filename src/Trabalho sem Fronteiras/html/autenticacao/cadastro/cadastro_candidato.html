@@ -11,6 +11,14 @@
 <body>
   
   <body>
+    <div class="dropdown">
+        <select id="tipoConta" onchange="redirecionar()">
+          <option value="cadastro_candidato.html" selected>Sou Candidato</option>
+          <option value="cadastro_empresa.html">Sou Empresa</option>
+          <option value="cadastro_ong.html">Sou ONG</option>
+        </select>
+    </div>
+    
         <div id="container">
             <div class="banner">
                 <img src="../../../img/img2.jpg" alt="imagem-login">
@@ -44,8 +52,8 @@
         </div>
 
 
-    <script src="../java_script/script.js"></script>
-    <script src="../java_script/script_cadastro.js">    </script>
+    <script src="../../../java_script/script.js"></script>
+    <script src="../../../java_script/script_cadastro.js">    </script>
     <!-- SweetAlert2 CDN -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>

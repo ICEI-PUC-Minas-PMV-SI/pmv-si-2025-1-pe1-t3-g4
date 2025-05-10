@@ -1,3 +1,27 @@
+/* Dropdown */
+  #tipoConta {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    background-color: #ffffff; /* fundo branco */
+    color: #333333;            /* cor do texto */
+    font-weight: 500;
+  }
+
+  /* (opcional) cor ao abrir o dropdown */
+  #tipoConta option {
+    color: #333;
+    background-color: #fff;
+  }
+
+  .dropdown{
+    width: 59vw;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+  }
+
 /* cadastro de empresas */
 .titleCadastroEmpresas{
   font-size: 22px;
@@ -18,4 +42,6 @@
   transition: 0.2s;
 }
 
-/* cadastro de ONG'S */
+
+
+

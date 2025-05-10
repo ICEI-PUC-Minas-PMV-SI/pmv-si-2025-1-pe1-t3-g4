@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Perfil do Usuário</title>
   <style>
     body {
@@ -13,53 +13,31 @@
     }
 
     header {
-      background-color: #0f3447;
+      background-color: #023e8a;
       color: white;
-      padding: 15px 30px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
+      padding: 10px 0;
+      text-align: center;
     }
 
-    .logo img {
-      height: 50px;
+    header .logo img {
+      width: 120px;
+      height: auto;
     }
 
-    .navbar ul {
-      list-style: none;
-      display: flex;
-      gap: 20px;
+    nav ul {
+      list-style-type: none;
       padding: 0;
-      margin: 0;
     }
 
-    .navbar a {
+    nav ul li {
+      display: inline;
+      margin-right: 15px;
+    }
+
+    nav ul li a {
       color: white;
       text-decoration: none;
       font-weight: bold;
-    }
-
-    .header-right {
-      display: flex;
-      align-items: center;
-      gap: 15px;
-      margin-top: 10px;
-    }
-
-    .search-container input {
-      padding: 5px;
-      border-radius: 5px;
-      border: none;
-    }
-
-    .search-button {
-      padding: 5px 10px;
-      border: none;
-      border-radius: 5px;
-      background-color: #023e8a;
-      color: white;
-      cursor: pointer;
     }
 
     .profile-container {
@@ -100,8 +78,50 @@
     }
 
     footer {
-      background-color: #0077b6;
-      color: white;
       text-align: center;
-      padding: 1;
+      padding: 10px 0;
+      background-color: #023e8a;
+      color: white;
+      margin-top: 50px;
     }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="https://via.placeholder.com/120x60" alt="Logo Trabalho Sem Fronteiras" />
+    </div>
+    <nav class="navbar">
+      <ul>
+        <li><a href="Pagina inicial.html">Home</a></li>
+        <li><a href="tela_vagas.html">Vagas</a></li>
+        <li><a href="tela_empresas.html">Empresas</a></li>
+        <li><a href="tela_OSC.html">OSC's</a></li>
+        <li><a href="tela_recursos.html">Recursos</a></li>
+        <li><a href="tela_sobre.html">Sobre</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="profile-container">
+    <div class="profile-photo">
+      <img src="https://via.placeholder.com/150" alt="Foto do Usuário">
+    </div>
+
+    <div class="profile-info">
+      <h2>Fatima El Amin</h2>
+      <p><span class="label">Nacionalidade:</span> Síria</p>
+      <p><span class="label">Idade:</span> 32 anos</p>
+      <p><span class="label">Idiomas:</span> Árabe, Português, Inglês</p>
+      <p><span class="label">Habilidades:</span> Costura, Atendimento ao Cliente, Tradução</p>
+      <p><span class="label">Objetivo Profissional:</span> Atuar como assistente administrativa ou tradutora em projetos sociais ou empresas multiculturais.</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 - Desenvolvido por Cristhian Daniel</p>
+  </footer>
+
+</body>
+</html>

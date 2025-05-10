@@ -45,17 +45,17 @@ document.getElementById("create-account-btn").addEventListener("click", () => {
         localStorage.setItem("userData", JSON.stringify(userData));
 
         Swal.fire("Cadastro realizado!", "Conta criada com sucesso!", "success").then(() => {
-            window.location.href = "../html/tela_login.html "; // Troque pelo caminho correto da sua página
+            window.location.href = "../tela_login.html";
         });
 
     }
 });
 
 // Função para abrir o dropdown
-  function redirecionar() {
+function redirecionar() {
     const select = document.getElementById('tipoConta');
     const url = select.value;
 
     // Redireciona diretamente para a nova página
     window.location.href = url;
-  }
+}

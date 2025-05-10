@@ -9,7 +9,7 @@ if (loggedInUser) {
         <div class="user-menu-container">
             <button class="user-button" id="user-button">${loggedInUser.username} ▾</button>
             <div class="user-dropdown" id="dropdown-menu">
-                <a href="tela_usuario.html">Perfil</a>
+                <a href="/src/Trabalho%20sem%20Fronteiras/html/usuario/tela_usuario.html">Perfil</a>
                 <a href="#" id="logout">Sair</a>
             </div>
         </div>
@@ -30,11 +30,11 @@ if (loggedInUser) {
 
     document.getElementById("logout").addEventListener("click", function () {
         localStorage.removeItem("loggedInUser");
-        window.location.href = "../html/tela_login.html";
+        window.location.href = "/src/Trabalho%20sem%20Fronteiras/html/autenticacao/tela_login.html";
     });
 
 } else {
     userMenu.innerHTML = `
-        <a class="nav-link" href="tela_login.html">Login</a>
+        <a class="nav-link" href="/src/Trabalho%20sem%20Fronteiras/html/autenticacao/tela_login.html">Login</a>
     `;
 }

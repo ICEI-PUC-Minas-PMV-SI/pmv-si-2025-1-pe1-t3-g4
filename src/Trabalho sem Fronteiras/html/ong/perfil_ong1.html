@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perfil da OSC</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../../css/style.css" />
+    <link rel="stylesheet" href="../../css/style_perfil_empresas.css" />
+</head>
+
+<body>
+
+    <div id="header"></div>
+
+    <!-- Perfil da OSC-->
+    <main class="container my-5">
+        <div class="row align-items-center">
+            <div class="col-md-4 text-center mb-4">
+                <img id="logo_ong1" src="../../img/logo_ong1.png" alt="Logo da OSC" class="img-fluid rounded shadow-sm"
+                    style="max-height: 180px;" />
+                    
+            </div>
+            <div class="col-md-8">
+                <h2 id="oscNome" class="osc-nome"> </h2>
+                <p id="oscDescricao" class="empresa-descricao"><strong>Descrição da OSC</strong></p>
+                <p><strong>Nome:</strong> <span id="empresaLocalizacao">Horizonte Verde</span></p>
+                <p><strong>Localização:</strong> <span id="empresaLocalizacao">Belo Horizonte - Minas Gerais</span></p>
+                <p><strong>CEP:</strong> <span id="empresaLocalizacao">81050-120</span></p>
+                <p><strong>Endereço:</strong> <span id="empresaEndereco">Rua das Flores, 123</span></p>
+                <p><strong>Segmento:</strong> <span id="empresaSegmento">Meio Ambiente</span></p>
+                <p><strong>Descrição:</strong> <span id="empresaLocalizacao">Desenvolve projetos de educação ambiental em escolas, promove mutirões de limpeza em áreas verdes, distribui mudas e oferece oficinas sobre práticas sustentáveis.</span></p>
+                <p><strong>Site:</strong> <a id="empresaSite" href="#" target="_blank">horizonteverde.com</a></p>
+            </div>
+        </div>
+
+        <!-- Programa OSC -->
+        <section class="mt-5">
+            <h3 class="mb-4">Programas disponíveis</h3>
+            <div class="row" id="vagaCards">
+                <!-- Vagas Estáticas -->
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Horta Comunitária "Cultivando Pontes"</h5>
+                            <p class="card-text">
+                            <strong>O que é?:</strong> Projeto de horta urbana onde refugiados, imigrantes e moradores locais cultivam alimentos juntos.<br>
+                            <strong>Foco na Integração:</strong> Promove interação social, prática informal de português e troca cultural através do trabalho na horta e oficinas de jardinagem/compostagem.<br>
+                            <strong>Para quem:</strong> Refugiados, imigrantes e comunidade local interessados em jardinagem e convívio. Plantio, colheita, oficinas de jardinagem e compostagem.<br>
+                            <strong>Onde/Como:</strong> Presencial, em espaço de horta comunitária.<br>
+                            </p>
+                            <a href="#" class="btn btn-primary">Ver detalhes</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Voluntariado Ambiental "Raízes na Cidade"</h5>
+                            <p class="card-text">
+                            <strong>O que é?:</strong> Eventos de voluntariado ambiental (limpeza, plantio) abertos a todos.<br>
+                            <strong>Foco na Integração:</strong> Incentiva refugiados e imigrantes a participar ativamente da vida da cidade, conhecer voluntários locais e praticar português em um ambiente colaborativo. Inclui momentos de convivência.<br>
+                            <strong>Para quem:</strong> Voluntários (locais e recém-chegados) dispostos a atividades ambientais e interação.<br>
+                            <strong>Onde/Como:</strong> Presencial, em áreas verdes de Belo Horizonte/MG em datas específicas.<br>
+                            </p>
+                            <a href="#" class="btn btn-primary">Ver detalhes</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="footer"></div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../../java_script/script.js"></script>
+    <script src="../../java_script/script_perfil_empresas.js"></script>
+
+
+
+</body>
+
+</html>

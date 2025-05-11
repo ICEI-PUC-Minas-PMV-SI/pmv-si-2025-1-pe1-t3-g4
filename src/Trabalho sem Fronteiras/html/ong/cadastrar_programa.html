@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastrar Programa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/style.css" />
+    <link rel="stylesheet" href="../../css/style_cadastrar_vagas.css" />
+
+</head>
+
+<body>
+
+    <div id="header"></div>
+
+    <main class="container my-5">
+        <h2 class="text-center mb-4">Cadastrar Novo Programa</h2>
+
+        <!-- Formulário de Cadastro de Programa -->
+        <form action="#" method="POST" enctype="multipart/form-data">
+            <!-- Título -->
+            <div class="mb-3">
+                <label for="titulo" class="form-label">Título do Programa</label>
+                <input type="text" class="form-control" id="titulo" name="titulo" required
+                    placeholder="Ex: Oficina de Jardinagem Urbana">
+            </div>
+
+            <!-- Localização / Modalidade -->
+            <div class="mb-3">
+                <label for="localizacao" class="form-label">Localização / Modalidade</label>
+                <input type="text" class="form-control" id="localizacao" name="localizacao" required
+                    placeholder="Ex: Online, Sede da OSC, Parque Central, etc.">
+            </div>
+
+            <!-- Descrição Detalhada do Programa -->
+            <div class="mb-3">
+                <label for="descricao" class="form-label">Descrição Detalhada do Programa</label>
+                <textarea class="form-control" id="descricao" name="descricao" rows="4" required
+                    placeholder="Ex: Este programa ensina técnicas básicas de plantio e cuidado com hortas em pequenos espaços."></textarea>
+            </div>
+
+            <!-- Tipo de Atividade-->
+            <div class="mb-3">
+                <label for="tipo_atividade" class="form-label">Tipo de Atividade</label>
+                <select class="form-select" id="tipo_atividade" name="tipo_atividade" required>
+                <option value="">--- Selecione o Tipo ---</option>
+                <option value="curso">Curso</option>
+                <option value="oficina">Oficina / Workshop</option>
+                <option value="atendimento">Atendimento</option>
+                <option value="evento">Evento</option>
+                <option value="mutirao">Mutirão</option>
+                <option value="outros">Outros</option>
+                </select>
+            </div>
+
+            <!-- Número de Vagas / Limite de Participantes -->
+            <div class="mb-3">
+                <label for="vagas_disponiveis" class="form-label">Número de Vagas / Limite de Participantes (opcional)</label>
+                <input type="number" class="form-control" id="vagas_disponiveis" name="vagas_disponiveis" placeholder="Ex: 20" min="1" />
+                <small class="form-text text-muted">Deixe em branco se não houver limite ou for um programa contínuo.</small>
+            </div>
+
+            <!-- Requisitos para Participação  -->
+            <div class="mb-3">
+                <label for="requisitos" class="form-label">Requisitos para Participação</label>
+                <textarea class="form-control" id="requisitos" name="requisitos" rows="4"
+                    placeholder="Ex: Interesse em jardinagem, Disponibilidade aos sábados pela manhã.">
+                </textarea>
+            </div>
+
+            <!-- Benefícios / Resultados Esperados -->
+            <div class="mb-3">
+                <label for="beneficios" class="form-label">O Que o Programa Oferece / Resultados Esperados</label>
+                <textarea class="form-control" id="beneficios" name="beneficios" rows="4"
+                    placeholder="Ex: Conhecimento prático em jardinagem, Possível acesso a vegetais cultivados na horta comunitária.">
+                </textarea>
+            </div>
+  
+
+</form>
+    </main>
+
+    <div id="footer"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../../java_script/script.js"></script>
+    <script src="../../java_script/script_cadastro_vaga.js"></script>
+
+</body>
+
+</html>

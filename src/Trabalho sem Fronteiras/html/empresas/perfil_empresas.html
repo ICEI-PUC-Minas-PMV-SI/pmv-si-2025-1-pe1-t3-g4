@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perfil da Empresa</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../../css/style.css" />
+    <link rel="stylesheet" href="../../css/style_perfil_empresas.css" />
+</head>
+
+<body>
+
+    <div id="header"></div>
+
+    <!-- Perfil da Empresa -->
+    <main class="container my-5">
+        <div class="row align-items-center">
+            <div class="col-md-4 text-center mb-4">
+                <img id="empresaLogo" src="" alt="Logo da Empresa" class="img-fluid rounded shadow-sm"
+                    style="max-height: 180px;" />
+            </div>
+            <div class="col-md-8">
+                <h2 id="empresaNome" class="empresa-nome">Nome da Empresa</h2>
+                <p id="empresaDescricao" class="empresa-descricao">Descrição da empresa...</p>
+                <p><strong>Localização:</strong> <span id="empresaLocalizacao">Localização</span></p>
+                <p><strong>Segmento:</strong> <span id="empresaSegmento">Segmento</span></p>
+                <p><strong>Site:</strong> <a id="empresaSite" href="#" target="_blank">empresaexemplo.com</a></p>
+            </div>
+        </div>
+
+        <!-- Vagas da Empresa -->
+        <section class="mt-5">
+            <h3 class="mb-4">Vagas disponíveis</h3>
+            <div class="row" id="vagaCards">
+                <!-- Vagas Estáticas -->
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Desenvolvedor(a) Front-End</h5>
+                            <h6 class="card-subtitle mb-2">Remoto · CLT</h6>
+                            <p class="card-text">Buscamos pessoas apaixonadas por acessibilidade, responsividade e boas
+                                práticas de código.</p>
+                            <a href="#" class="btn btn-primary">Ver detalhes</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Analista de Dados</h5>
+                            <h6 class="card-subtitle mb-2">Presencial · São Paulo/SP</h6>
+                            <p class="card-text">Responsável pela análise de KPIs e apoio à tomada de decisão
+                                estratégica.</p>
+                            <a href="#" class="btn btn-primary">Ver detalhes</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="footer"></div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../../java_script/script.js"></script>
+    <script src="../../java_script/script_perfil_empresas.js"></script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,115 @@
+/* Geral */
+body {
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header e Footer dinâmico */
+#header,
+#footer {
+    width: 100%;
+}
+
+/* Nome e descrição da empresa */
+.empresa-nome {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.empresa-descricao {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Informações adicionais */
+main p {
+    margin-bottom: 8px;
+}
+
+/* Card de vagas */
+.card {
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #fff;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+}
+
+.card-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.card-subtitle {
+    font-size: 0.95rem;
+    color: #666;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #444;
+    margin-top: 10px;
+}
+
+/* Botão */
+.card .btn {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 10px 16px;
+    transition: background-color 0.3s ease;
+}
+
+.card .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Logo */
+img[alt="Logo da Empresa"] {
+    border-radius: 12px;
+    border: 2px solid #dee2e6;
+    background-color: #fff;
+    padding: 10px;
+}
+
+/* Título da seção */
+section h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Responsivo extra */
+@media (max-width: 768px) {
+    .empresa-nome {
+        font-size: 1.5rem;
+    }
+
+    section h3 {
+        font-size: 1.5rem;
+    }
+
+    .card-title {
+        font-size: 1.2rem;
+    }
+}

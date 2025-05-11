@@ -1,0 +1,17 @@
+/* Adicionando ao seu arquivo CSS (style.css ou style_cadastrar_vagas.css) */
+main {
+    padding-bottom: 80px;
+    /* Ajuste conforme necessário */
+}
+
+#footer {
+    position: relative;
+    /* Ou 'static', dependendo do seu layout */
+    height: 80px;
+    /* Tamanho do footer */
+    margin-top: 20px;
+    /* Ajusta a distância do conteúdo para o footer */
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px 0;
+}

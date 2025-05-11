@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+
 /* Variáveis de tema */
 :root {
     --cor-primaria: #006A71;
@@ -36,16 +37,20 @@ body {
     flex-direction: column;
     min-height: 100vh;
     align-items: center;
-    font-size: 16px; /* Define o tamanho de fonte base para o corpo do texto */
+    font-size: 16px;
+    /* Define o tamanho de fonte base para o corpo do texto */
 }
 
 /* Seção Principal */
 .main-section {
     text-align: center;
     padding: 50px 20px;
-    width: 100%; /* Garante que a seção ocupe a largura total */
-    max-width: 1200px; /* Limita a largura máxima em telas grandes (opcional) */
-    margin: 0 auto; /* Centraliza a seção se tiver max-width */
+    width: 100%;
+    /* Garante que a seção ocupe a largura total */
+    max-width: 1200px;
+    /* Limita a largura máxima em telas grandes (opcional) */
+    margin: 0 auto;
+    /* Centraliza a seção se tiver max-width */
 }
 
 .main-title {
@@ -63,7 +68,8 @@ body {
 .main-text {
     font-size: 18px;
     color: #555;
-    line-height: 1.6; /* Melhora a legibilidade do texto longo */
+    line-height: 1.6;
+    /* Melhora a legibilidade do texto longo */
 }
 
 /* Seção de Carrossel de Vagas */
@@ -91,11 +97,13 @@ body {
     gap: 16px;
     padding: 20px;
     flex-wrap: wrap;
-    justify-content: center; /* Centraliza os itens do carrossel */
+    justify-content: center;
+    /* Centraliza os itens do carrossel */
 }
 
 .carousel-item {
-    margin: 10px; /* Mantém uma margem entre os itens ao quebrar linha */
+    margin: 10px;
+    /* Mantém uma margem entre os itens ao quebrar linha */
     text-align: center;
 }
 
@@ -107,8 +115,10 @@ body {
     border: none;
     cursor: pointer;
     font-size: 16px;
-    transition: background-color 0.3s ease; /* Adiciona transição suave */
-    border-radius: 6px; /* Arredonda os cantos */
+    transition: background-color 0.3s ease;
+    /* Adiciona transição suave */
+    border-radius: 6px;
+    /* Arredonda os cantos */
 }
 
 .modal-btn:hover {
@@ -124,17 +134,22 @@ header {
     align-items: center;
     padding: 10px 30px;
     flex-wrap: wrap;
-    width: 100%; /* Garante largura total */
-    position: fixed; /* Mantém o cabeçalho fixo no topo */
+    width: 100%;
+    /* Garante largura total */
+    position: fixed;
+    /* Mantém o cabeçalho fixo no topo */
     top: 0;
     left: 0;
-    z-index: 500; /* Garante que fique acima do conteúdo */
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Adiciona uma leve sombra */
+    z-index: 500;
+    /* Garante que fique acima do conteúdo */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Adiciona uma leve sombra */
 }
 
 .logo img {
     width: 120px;
-    height: auto; /* Garante que a altura seja ajustada automaticamente */
+    height: auto;
+    /* Garante que a altura seja ajustada automaticamente */
 }
 
 /* Navegação */
@@ -142,20 +157,25 @@ header {
     display: flex;
     list-style: none;
     gap: 20px;
-    margin: 0; /* Remove margin padrão */
-    padding: 0; /* Remove padding padrão */
+    margin: 0;
+    /* Remove margin padrão */
+    padding: 0;
+    /* Remove padding padrão */
 }
 
 .navbar li {
-    display: inline-block; /* Usa inline-block para melhor controle */
+    display: inline-block;
+    /* Usa inline-block para melhor controle */
 }
 
 .navbar a {
     color: #fff;
     text-decoration: none;
     font-size: 16px;
-    padding: 5px 0; /* Adiciona um pequeno padding vertical para a área de clique */
-    transition: text-decoration 0.3s ease; /* Adiciona transição suave */
+    padding: 5px 0;
+    /* Adiciona um pequeno padding vertical para a área de clique */
+    transition: text-decoration 0.3s ease;
+    /* Adiciona transição suave */
 }
 
 .navbar a:hover {
@@ -170,10 +190,13 @@ header {
 }
 
 #language-select {
-    padding: 5px 10px; /* Ajusta padding */
+    padding: 5px 10px;
+    /* Ajusta padding */
     font-size: 14px;
-    border-radius: 4px; /* Arredonda as bordas */
-    border: 1px solid #ccc; /* Adiciona uma borda */
+    border-radius: 4px;
+    /* Arredonda as bordas */
+    border: 1px solid #ccc;
+    /* Adiciona uma borda */
 }
 
 /* Busca */
@@ -184,11 +207,14 @@ header {
 }
 
 #search {
-    padding: 5px 10px; /* Ajusta padding */
+    padding: 5px 10px;
+    /* Ajusta padding */
     font-size: 14px;
     width: 150px;
-    border-radius: 4px; /* Arredonda as bordas */
-    border: 1px solid #ccc; /* Adiciona uma borda */
+    border-radius: 4px;
+    /* Arredonda as bordas */
+    border: 1px solid #ccc;
+    /* Adiciona uma borda */
 }
 
 .search-button {
@@ -198,8 +224,10 @@ header {
     color: #fff;
     cursor: pointer;
     font-size: 16px;
-    border-radius: 4px; /* Arredonda as bordas */
-    transition: background-color 0.3s ease; /* Adiciona transição suave */
+    border-radius: 4px;
+    /* Arredonda as bordas */
+    transition: background-color 0.3s ease;
+    /* Adiciona transição suave */
 }
 
 .search-button:hover {
@@ -224,31 +252,42 @@ footer {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
     width: 300px;
-    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Adiciona transição para sombra também */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    /* Adiciona transição para sombra também */
     display: flex;
     flex-direction: column;
-    flex: 1 1 300px; /* Flexbox: permite que o card cresça/diminua */
-    max-width: 350px; /* Limita a largura máxima */
-    margin: 10px; /* Adiciona margem para espaçamento */
+    flex: 1 1 300px;
+    /* Flexbox: permite que o card cresça/diminua */
+    max-width: 350px;
+    /* Limita a largura máxima */
+    margin: 10px;
+    /* Adiciona margem para espaçamento */
 }
 
 /* Estilo para o efeito de hover nos cards */
 .card:hover {
-    transform: translateY(-5px); /* Efeito de leve levantamento */
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Sombra um pouco maior no hover */
+    transform: translateY(-5px);
+    /* Efeito de leve levantamento */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    /* Sombra um pouco maior no hover */
 }
 
 /* Estilo para o título (h4) dentro dos cards */
 .card h4 {
     margin-top: 0;
-    margin-bottom: 10px; /* Adiciona espaço abaixo do título */
-    color: var(--cor-primaria); /* Usa cor do tema */
-    font-size: 1.2em; /* Tamanho de fonte relativo ao card */
+    margin-bottom: 10px;
+    /* Adiciona espaço abaixo do título */
+    color: var(--cor-primaria);
+    /* Usa cor do tema */
+    font-size: 1.2em;
+    /* Tamanho de fonte relativo ao card */
 }
 
 .card p {
-    margin-bottom: 10px; /* Espaço abaixo dos parágrafos no card */
-    font-size: 0.95em; /* Tamanho de fonte ligeiramente menor */
+    margin-bottom: 10px;
+    /* Espaço abaixo dos parágrafos no card */
+    font-size: 0.95em;
+    /* Tamanho de fonte ligeiramente menor */
     color: #555;
 }
 
@@ -258,8 +297,10 @@ footer {
     display: flex;
     justify-content: space-between;
     margin-top: auto;
-    padding-top: 15px; /* Adiciona espaço acima dos botões */
-    /* border-top: 1px solid #eee; */ /* Linha removida conforme solicitado */
+    padding-top: 15px;
+    /* Adiciona espaço acima dos botões */
+    /* border-top: 1px solid #eee; */
+    /* Linha removida conforme solicitado */
 }
 
 /* Estilos base para botões e links dentro da área de ações do card */
@@ -267,37 +308,46 @@ footer {
 .card-actions a.btn-ver-mais,
 .card-actions a.btn-aplicar,
 .card-actions a.partner-link.btn-aplicar {
-    padding: 10px 15px; /* Ajusta padding dos botões */
+    padding: 10px 15px;
+    /* Ajusta padding dos botões */
     border: none;
     border-radius: 6px;
     cursor: pointer;
-    text-decoration: none; /* Remove sublinhado dos links */
-    color: #fff; /* Cor do texto do botão */
-    display: inline-block; /* Para aplicar padding e border-radius em links */
+    text-decoration: none;
+    /* Remove sublinhado dos links */
+    color: #fff;
+    /* Cor do texto do botão */
+    display: inline-block;
+    /* Para aplicar padding e border-radius em links */
     font-size: 14px;
-    transition: background-color 0.3s ease; /* Adiciona transição suave */
+    transition: background-color 0.3s ease;
+    /* Adiciona transição suave */
 }
 
 /* Estilos específicos para o botão "Ver mais" */
 .btn-ver-mais {
-    background-color: #007bff; /* Cor azul */
+    background-color: #007bff;
+    /* Cor azul */
 }
 
 /* Estilo para o efeito de hover no botão "Ver mais" */
 .btn-ver-mais:hover {
-    background-color: #0056b3; /* Cor azul mais escura no hover */
+    background-color: #0056b3;
+    /* Cor azul mais escura no hover */
 }
 
 /* Estilos específicos para o botão "Aplicar" e link de parceiro */
 .btn-aplicar,
 .partner-link.btn-aplicar {
-    background-color: #28a745; /* Cor verde */
+    background-color: #28a745;
+    /* Cor verde */
 }
 
 /* Estilo para o efeito de hover no botão "Aplicar" e link de parceiro */
 .btn-aplicar:hover,
 .partner-link.btn-aplicar:hover {
-    background-color: #1e7e34; /* Cor verde mais escura no hover */
+    background-color: #1e7e34;
+    /* Cor verde mais escura no hover */
 }
 
 /* Estilos para a seção de Empresas Parceiras */
@@ -305,7 +355,8 @@ footer {
     text-align: center;
     padding: 50px 20px;
     width: 100%;
-    background-color: var(--cor-fundo-claro-2); /* Usa outra cor de fundo claro */
+    background-color: var(--cor-fundo-claro-2);
+    /* Usa outra cor de fundo claro */
 }
 
 /* Estilos para a seção de Recursos */
@@ -318,67 +369,95 @@ footer {
 
 /* Estilos para botões específicos da seção de recursos (classe 'btn-recursos') */
 .btn-recursos {
-    background-color: #007bff; /* Cor azul */
-    color: #fff; /* Texto branco */
-    padding: 10px 20px; /* Aumenta um pouco o padding */
+    background-color: #007bff;
+    /* Cor azul */
+    color: #fff;
+    /* Texto branco */
+    padding: 10px 20px;
+    /* Aumenta um pouco o padding */
     border: none;
     border-radius: 6px;
     cursor: pointer;
-    font-size: 16px; /* Tamanho de fonte ligeiramente maior */
-    text-decoration: none; /* Remove sublinhado do link */
-    display: inline-block; /* Para aplicar padding e border-radius */
-    margin-top: 20px; /* Adiciona espaço acima do botão */
-    transition: background-color 0.3s ease, outline 0.3s ease; /* Adiciona transição suave */
+    font-size: 16px;
+    /* Tamanho de fonte ligeiramente maior */
+    text-decoration: none;
+    /* Remove sublinhado do link */
+    display: inline-block;
+    /* Para aplicar padding e border-radius */
+    margin-top: 20px;
+    /* Adiciona espaço acima do botão */
+    transition: background-color 0.3s ease, outline 0.3s ease;
+    /* Adiciona transição suave */
 }
 
 /* Estilo para o efeito de hover no botão de recursos */
 .btn-recursos:hover {
-    background-color: #0056b3; /* Cor azul mais escura no hover */
-    outline: 2px solid rgba(255, 255, 255, 0.5); /* Adiciona um contorno branco semi-transparente */
-    outline-offset: 2px; /* Adiciona espaço entre o contorno e o botão */
+    background-color: #0056b3;
+    /* Cor azul mais escura no hover */
+    outline: 2px solid rgba(255, 255, 255, 0.5);
+    /* Adiciona um contorno branco semi-transparente */
+    outline-offset: 2px;
+    /* Adiciona espaço entre o contorno e o botão */
 }
 
 /* --- Responsividade --- */
 
 /* Ajustes para telas menores que 768px */
 @media (max-width: 768px) {
+
     /* Cabeçalho */
     header {
-        flex-direction: column; /* Empilha itens verticalmente */
-        padding: 15px 20px; /* Ajusta padding */
+        flex-direction: column;
+        /* Empilha itens verticalmente */
+        padding: 15px 20px;
+        /* Ajusta padding */
     }
 
     .header-right {
-         margin-top: 15px; /* Adiciona espaço acima */
-         justify-content: center; /* Centraliza itens */
-         width: 100%; /* Ocupa largura total */
+        margin-top: 15px;
+        /* Adiciona espaço acima */
+        justify-content: center;
+        /* Centraliza itens */
+        width: 100%;
+        /* Ocupa largura total */
     }
 
     .navbar ul {
-        flex-direction: column; /* Empilha itens do menu */
-        gap: 10px; /* Reduz o espaço entre os itens */
-        margin-top: 15px; /* Adiciona espaço acima do menu */
-        text-align: center; /* Centraliza texto */
-        width: 100%; /* Ocupa largura total */
+        flex-direction: column;
+        /* Empilha itens do menu */
+        gap: 10px;
+        /* Reduz o espaço entre os itens */
+        margin-top: 15px;
+        /* Adiciona espaço acima do menu */
+        text-align: center;
+        /* Centraliza texto */
+        width: 100%;
+        /* Ocupa largura total */
     }
 
     .navbar li {
-        display: block; /* Faz cada item do menu ser um bloco */
+        display: block;
+        /* Faz cada item do menu ser um bloco */
     }
 
     .search-container {
-        justify-content: center; /* Centraliza a busca */
-        width: 100%; /* Ocupa largura total */
+        justify-content: center;
+        /* Centraliza a busca */
+        width: 100%;
+        /* Ocupa largura total */
     }
 
     #search {
-        width: 80%; /* Torna o campo de busca mais largo */
-        max-width: 250px; /* Limita a largura */
+        width: 80%;
+        /* Torna o campo de busca mais largo */
+        max-width: 250px;
+        /* Limita a largura */
     }
 
     .search-button {
-         width: 100%;
-         max-width: 250px; /* Limita a largura */
+        width: 100%;
+        max-width: 250px;
+        /* Limita a largura */
     }
 
     /* Seções Principais e de Carrossel/Recursos/Empresas */
@@ -386,31 +465,40 @@ footer {
     .job-carousel-section,
     .partner-companies-section,
     .resources-section {
-        padding: 30px 15px; /* Reduz o padding em telas menores */
+        padding: 30px 15px;
+        /* Reduz o padding em telas menores */
     }
 
     .main-title {
-        font-size: 28px; /* Reduz o tamanho do título */
+        font-size: 28px;
+        /* Reduz o tamanho do título */
     }
 
     .main-subtitle {
-        font-size: 20px; /* Reduz o tamanho do subtítulo */
+        font-size: 20px;
+        /* Reduz o tamanho do subtítulo */
     }
 
     .carousel-title {
-         font-size: 24px; /* Reduz o tamanho do título do carrossel */
+        font-size: 24px;
+        /* Reduz o tamanho do título do carrossel */
     }
 
     .carousel-container {
-         padding: 10px; /* Reduz o padding do contêiner do carrossel */
-         gap: 10px; /* Reduz o gap */
+        padding: 10px;
+        /* Reduz o padding do contêiner do carrossel */
+        gap: 10px;
+        /* Reduz o gap */
     }
 
     /* Cards */
     .card {
-        width: 100%; /* Faz os cards ocuparem a largura total */
-        max-width: none; /* Remove o max-width */
-        margin: 10px 0; /* Ajusta a margem */
+        width: 100%;
+        /* Faz os cards ocuparem a largura total */
+        max-width: none;
+        /* Remove o max-width */
+        margin: 10px 0;
+        /* Ajusta a margem */
     }
 }
 
@@ -429,27 +517,32 @@ footer {
     }
 
     .header-right {
-        flex-direction: column; /* Empilha linguagem e busca */
+        flex-direction: column;
+        /* Empilha linguagem e busca */
         gap: 10px;
     }
 
     .search-container {
-        flex-direction: column; /* Empilha campo e botão de busca */
+        flex-direction: column;
+        /* Empilha campo e botão de busca */
         gap: 10px;
     }
 
     #search {
-         width: 100%;
-         max-width: none; /* Permite ocupar a largura disponível no contêiner */
+        width: 100%;
+        max-width: none;
+        /* Permite ocupar a largura disponível no contêiner */
     }
 
     .search-button {
-         width: 100%;
-         max-width: none; /* Permite ocupar a largura disponível no contêiner */
+        width: 100%;
+        max-width: none;
+        /* Permite ocupar a largura disponível no contêiner */
     }
 
     .card-actions {
-        flex-direction: column; /* Empilha botões de ação do card */
+        flex-direction: column;
+        /* Empilha botões de ação do card */
         gap: 10px;
     }
 
@@ -457,8 +550,10 @@ footer {
     .card-actions a.btn-ver-mais,
     .card-actions a.btn-aplicar,
     .card-actions a.partner-link.btn-aplicar {
-         width: 100%; /* Botões de ação ocupam a largura total */
-         text-align: center; /* Centraliza o texto */
+        width: 100%;
+        /* Botões de ação ocupam a largura total */
+        text-align: center;
+        /* Centraliza o texto */
     }
 
 }

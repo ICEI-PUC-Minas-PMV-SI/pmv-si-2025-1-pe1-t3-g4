@@ -1,0 +1,145 @@
+/* ===== Estrutura Geral ===== */
+main {
+    margin-top: 1px;
+    background-color: #fdfdfd;
+}
+
+section {
+    padding: 60px 0;
+}
+
+/* ===== Carrossel de Empresas ===== */
+.carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 360px;
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    transition: transform 0.8s ease-in-out;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 6%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    padding: 20px;
+    background-size: 60% 60%;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* ===== Cards das Empresas ===== */
+.carousel-card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+    padding: 30px 20px;
+    width: 85%;
+    max-width: 600px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.carousel-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+}
+
+.carousel-img {
+    max-height: 140px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.empresa-nome {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #007bff;
+}
+
+.empresa-descricao {
+    font-size: 1rem;
+    color: #444;
+    padding: 0 12px;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+.carousel-card .btn {
+    margin-top: 20px;
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.carousel-card .btn:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+/* ===== Cards das Vagas ===== */
+.card-body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.25s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-subtitle {
+    font-size: 0.95rem;
+    color: #6c757d;
+}
+
+.card .btn {
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    padding: 6px 12px;
+}
+
+.card .btn:hover {
+    background-color: #0056b3;
+}
+
+/* ===== Responsividade ===== */
+@media (max-width: 768px) {
+    .carousel-card {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .carousel-img {
+        max-height: 120px;
+    }
+
+    .empresa-nome {
+        font-size: 1.3rem;
+    }
+
+    .empresa-descricao {
+        font-size: 0.95rem;
+    }
+}

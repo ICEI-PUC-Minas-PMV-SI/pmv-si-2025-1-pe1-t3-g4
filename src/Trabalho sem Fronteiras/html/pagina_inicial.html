@@ -2,181 +2,56 @@
 <html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Trabalho Sem Fronteiras</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style.css" />
 </head>
-<div id="header"></div>
 
 <body>
+    <div id="header"></div>
+
     <!-- Seção Principal -->
     <section class="main-section">
         <h1 class="main-title">Bem-vindo ao Trabalho Sem Fronteiras</h1>
         <h2 class="main-subtitle">Conectando oportunidades a migrantes e refugiados</h2>
-        <p class="main-text">A plataforma "Trabalho Sem Fronteiras" busca criar oportunidades de emprego para pessoas
-            migrantes e refugiadas. Encontre vagas e empresas que apoiam essa causa.</p>
+        <p class="main-text">
+            A plataforma "Trabalho Sem Fronteiras" busca criar oportunidades de emprego para pessoas
+            migrantes e refugiadas. Encontre vagas e empresas que apoiam essa causa.
+        </p>
     </section>
 
     <!-- Carrossel de Vagas -->
     <section class="job-carousel-section">
         <h2 class="carousel-title">Oportunidades de Emprego</h2>
         <h3 class="carousel-subtitle">Confira as vagas disponíveis e aplique-se!</h3>
-
-        <div class="carousel-container">
-            <div class="card">
-                <h4>Vaga: Desenvolvedor Web</h4>
-                <p><strong>Local:</strong> São Paulo</p>
-                <p><strong>Requisitos:</strong> Experiência em JavaScript e React</p>
-                <p><strong>Salário:</strong> R$ 4.000,00</p>
-                <div class="card-actions">
-                    <a href="tela_vagas.html" class="partner-link btn-ver-mais">Ver Mais</a>
-                    <a href="tela_vagas.html" class="partner-link btn-aplicar">Aplicar</a>
-                </div>
-            </div>
-
-            <div class="card">
-                <h4>Vaga: Assistente Administrativo</h4>
-                <p><strong>Local:</strong> Belo Horizonte</p>
-                <p><strong>Requisitos:</strong> Experiência com processos administrativos</p>
-                <p><strong>Salário:</strong> R$ 2.500,00</p>
-                <div class="card-actions">
-                    <a href="tela_vagas.html" class="partner-link btn-ver-mais">Ver Mais</a>
-                    <a href="tela_vagas.html" class="partner-link btn-aplicar">Aplicar</a>
-                </div>
-            </div>
-
-            <div class="card">
-                <h4>Vaga: Auxiliar de Cozinha</h4>
-                <p><strong>Local:</strong> Curitiba</p>
-                <p><strong>Requisitos:</strong> Experiência básica em cozinha</p>
-                <p><strong>Salário:</strong> R$ 1.800,00</p>
-                <div class="card-actions">
-                    <a href="tela_vagas.html" class="partner-link btn-ver-mais">Ver Mais</a>
-                    <a href="tela_vagas.html" class="partner-link btn-aplicar">Aplicar</a>
-                </div>
-            </div>
-
-            <div class="card">
-                <h4>Vaga: Motorista de Aplicativo</h4>
-                <p><strong>Local:</strong> Brasília</p>
-                <p><strong>Requisitos:</strong> CNH categoria B</p>
-                <p><strong>Salário:</strong> Variável</p>
-                <div class="card-actions">
-                    <a href="tela_vagas.html" class="partner-link btn-ver-mais">Ver Mais</a>
-                    <a href="tela_vagas.html" class="partner-link btn-aplicar">Aplicar</a>
-                </div>
-            </div>
+        <div class="carousel-container" id="vagas-container">
+            <!-- Cards de vagas serão inseridos dinamicamente aqui -->
         </div>
     </section>
 
-
-
-
-    <!-- Seção Secundario -->
     <!-- Carrossel de Empresas -->
     <section class="partner-companies-section">
         <h2 class="carousel-title">Empresas Parceiras</h2>
         <h3 class="carousel-subtitle">Conheça as empresas que apoiam nossa causa!</h3>
-        <div class="carousel-container">
-            <div class="card">
-                <h4>TechBrasil Inovação</h4>
-                <p><strong>Setor:</strong> Tecnologia da Informação</p>
-                <p><strong>Localização:</strong> São Paulo, SP</p>
-                <p><strong>Compromisso:</strong> Programa de mentoria e integração para talentos migrantes.</p>
-                <div class="card-actions">
-                    <a href="tela_empresas.html" class="partner-link btn-ver-mais">Ver Mais</a>
-                    <a href="tela_vagas.html" class="partner-link btn-aplicar">Ver Vagas</a>
-                </div>
-            </div>
-
-            <div class="card">
-                <h4>Sabores Brasileiros Ltda.</h4>
-                <p><strong>Setor:</strong> Gastronomia e Alimentação</p>
-                <p><strong>Localização:</strong> Rio de Janeiro, RJ</p>
-                <p><strong>Compromisso:</strong> Priorização da contratação de refugiados com experiência culinária
-                    diversificada.</p>
-                <div class="card-actions">
-                    <a href="tela_empresas.html" class="partner-link btn-ver-mais">Ver Mais</a>
-                    <a href="tela_vagas.html" class="partner-link btn-aplicar">Ver Vagas</a>
-                </div>
-            </div>
-
-            <div class="card">
-                <h4>Aprender Brasil Educação</h4>
-                <p><strong>Setor:</strong> Educação e Idiomas</p>
-                <p><strong>Localização:</strong> Belo Horizonte, MG</p>
-                <p><strong>Compromisso:</strong> Oferecimento de bolsas de estudo e oportunidades de emprego para
-                    imigrantes.</p>
-                <div class="card-actions">
-                    <a href="tela_empresas.html" class="partner-link btn-ver-mais">Ver Mais</a>
-                    <a href="tela_vagas.html" class="partner-link btn-aplicar">Ver Vagas</a>
-                </div>
-            </div>
-
-            <div class="card">
-                <h4>Construir Brasil Sustentável</h4>
-                <p><strong>Setor:</strong> Construção Civil e Sustentabilidade</p>
-                <p><strong>Localização:</strong> Curitiba, PR</p>
-                <p><strong>Compromisso:</strong> Desenvolvimento de programas de treinamento profissional e vagas para
-                    imigrantes na área da construção.</p>
-                <div class="card-actions">
-                    <a href="tela_empresas.html" class="partner-link btn-ver-mais">Ver Mais</a>
-                    <a href="tela_vagas.html" class="partner-link btn-aplicar">Ver Vagas</a>
-                </div>
-            </div>
+        <div class="carousel-container" id="empresas-container">
+            <!-- Cards de empresas serão inseridos dinamicamente aqui -->
         </div>
     </section>
 
-    <!-- Seção Terceira -->
     <!-- Carrossel de Recursos -->
     <section class="partner-companies-section">
         <h2 class="carousel-title">Recursos Adicionais</h2>
-        <h3 class="carousel-subtitle">Está com dúvidas sobres os documentos necessários para contratação ou gostaria de
-            realizar cursos de aperfeiçoamento? Veja algumas opções abaixo:</h3>
-        <div class="carousel-container">
-            <div class="card">
-                <h4>Guia de Elaboração de Currículo</h4>
-                <p>Dicas e modelos para criar um currículo eficaz e destacar suas habilidades.</p>
-                <div class="card-actions">
-                    <div class="card-actions">
-                        <a href="tela_recursos.html" class="btn-recursos">Ler Guia</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <h4>Preparação para Entrevistas de Emprego</h4>
-                <p>Conselhos práticos para se preparar e ter sucesso nas entrevistas.</p>
-                <div class="card-actions">
-                    <div class="card-actions">
-                        <a href="tela_recursos.html" class="btn-recursos">Ver Dicas</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <h4>Informações sobre Legislação Trabalhista</h4>
-                <p>Entenda seus direitos e deveres como trabalhador migrante no Brasil.</p>
-                <div class="card-actions">
-                    <div class="card-actions">
-                        <a href="tela_recursos.html" class="btn-recursos">Saiba Mais</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <h4>Redes de Apoio e Integração</h4>
-                <p>Conecte-se com organizações e grupos que oferecem suporte a migrantes e refugiados.</p>
-                <div class="card-actions">
-                    <a href="tela_recursos.html" class="btn-recursos">Encontrar Apoio</a>
-                </div>
-            </div>
+        <h3 class="carousel-subtitle">
+            Está com dúvidas sobre os documentos necessários para contratação ou gostaria de realizar cursos de
+            aperfeiçoamento? Veja algumas opções abaixo:
+        </h3>
+        <div class="carousel-container" id="recursos-container">
+            <!-- Cards de recursos serão inseridos dinamicamente aqui -->
         </div>
     </section>
 
     <div id="footer"></div>
-
 
     <script src="../java_script/script.js"></script>
 </body>

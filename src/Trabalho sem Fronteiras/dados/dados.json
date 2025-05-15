@@ -1,0 +1,100 @@
+{
+    "vagas": [
+        {
+            "id": 1,
+            "titulo": "Desenvolvedor Web",
+            "local": "São Paulo",
+            "requisitos": "Experiência em JavaScript, React e integração com APIs REST",
+            "salario": "R$ 4.000,00",
+            "descricao": "Buscamos um desenvolvedor web para atuar na manutenção e evolução de nossa plataforma. É necessário ter domínio de JavaScript moderno, frameworks como React, e familiaridade com Git. Diferencial: experiência com acessibilidade e design responsivo."
+        },
+        {
+            "id": 2,
+            "titulo": "Assistente Administrativo",
+            "local": "Belo Horizonte",
+            "requisitos": "Experiência com processos administrativos e pacote Office",
+            "salario": "R$ 2.500,00",
+            "descricao": "Profissional responsável por rotinas administrativas, como controle de documentos, atendimento a fornecedores e organização de agendas. Espera-se proatividade e boa comunicação escrita e verbal."
+        },
+        {
+            "id": 3,
+            "titulo": "Operador de Logística",
+            "local": "Curitiba",
+            "requisitos": "Ensino médio completo e experiência com estoque",
+            "salario": "R$ 2.200,00",
+            "descricao": "Atuar no setor de logística com recebimento, conferência e organização de mercadorias. Necessário conhecimento básico em sistemas de estoque e disponibilidade para trabalho em turnos."
+        },
+        {
+            "id": 4,
+            "titulo": "Auxiliar de Cozinha",
+            "local": "Rio de Janeiro",
+            "requisitos": "Experiência em cozinha profissional e manipulação de alimentos",
+            "salario": "R$ 1.800,00",
+            "descricao": "Auxiliar na preparação de pratos, organização da cozinha e controle de insumos. Desejável conhecimento em boas práticas de higiene e segurança alimentar."
+        }
+    ],
+    "empresas": [
+        {
+            "id": 1,
+            "nome": "TechBrasil Inovação",
+            "setor": "Tecnologia da Informação",
+            "localizacao": "São Paulo, SP",
+            "compromisso": "Programa de mentoria e integração para talentos migrantes",
+            "descricao": "Empresa especializada em soluções digitais, a TechBrasil conta com um programa de capacitação de migrantes em áreas de desenvolvimento e tecnologia, promovendo inclusão e diversidade no ambiente corporativo."
+        },
+        {
+            "id": 2,
+            "nome": "Sabores Brasileiros Ltda.",
+            "setor": "Gastronomia e Alimentação",
+            "localizacao": "Rio de Janeiro, RJ",
+            "compromisso": "Priorização da contratação de refugiados com experiência culinária",
+            "descricao": "Rede de restaurantes que valoriza a diversidade cultural e promove a inclusão por meio da gastronomia. Possui unidades que celebram pratos típicos de diversas regiões do mundo, empregando talentos migrantes em sua cozinha."
+        },
+        {
+            "id": 3,
+            "nome": "Construmundo Engenharia",
+            "setor": "Construção Civil",
+            "localizacao": "Fortaleza, CE",
+            "compromisso": "Programa de capacitação e contratação de refugiados",
+            "descricao": "A Construmundo oferece cursos técnicos gratuitos para refugiados e migrantes, visando capacitá-los para atuar na construção civil com segurança e qualificação, com foco na integração ao mercado formal."
+        },
+        {
+            "id": 4,
+            "nome": "Saúde Viva Cooperativa",
+            "setor": "Saúde e Bem-estar",
+            "localizacao": "Porto Alegre, RS",
+            "compromisso": "Inclusão de profissionais migrantes nas áreas de atendimento e suporte",
+            "descricao": "Cooperativa voltada à saúde preventiva, que integra migrantes com formação na área da saúde, oferecendo revalidação de diplomas e oportunidades em clínicas populares e projetos comunitários."
+        }
+    ],
+    "recursos": [
+        {
+            "id": 1,
+            "titulo": "Guia de Elaboração de Currículo",
+            "descricao": "Dicas e modelos para criar um currículo eficaz e destacar suas habilidades. Inclui exemplos específicos para diferentes áreas e orientações sobre o que evitar.",
+            "link": "tela_recursos.html",
+            "textoBotao": "Ler Guia"
+        },
+        {
+            "id": 2,
+            "titulo": "Preparação para Entrevistas de Emprego",
+            "descricao": "Conselhos práticos para se preparar e ter sucesso nas entrevistas. Aborda tipos de perguntas, postura, como lidar com o nervosismo e como destacar sua história.",
+            "link": "tela_recursos.html",
+            "textoBotao": "Ver Dicas"
+        },
+        {
+            "id": 3,
+            "titulo": "Documentação para Contratação",
+            "descricao": "Lista dos principais documentos exigidos na hora da contratação, com explicações para migrantes e orientações sobre como regularizar sua situação.",
+            "link": "tela_recursos.html",
+            "textoBotao": "Consultar"
+        },
+        {
+            "id": 4,
+            "titulo": "Cursos Gratuitos de Qualificação",
+            "descricao": "Links para plataformas de cursos online gratuitos com foco em empregabilidade, português como segunda língua, tecnologia, serviços e atendimento ao público.",
+            "link": "tela_recursos.html",
+            "textoBotao": "Acessar Cursos"
+        }
+    ]
+}

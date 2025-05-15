@@ -92,15 +92,15 @@ document.addEventListener("DOMContentLoaded", () => {
             const card = document.createElement("div");
             card.className = "card";
             card.innerHTML = `
-        <h4>Vaga: ${vaga.titulo}</h4>
-        <p><strong>Local:</strong> ${vaga.local}</p>
-        <p><strong>Requisitos:</strong> ${vaga.requisitos}</p>
-        <p><strong>Salário:</strong> ${vaga.salario}</p>
-        <div class="card-actions">
-          <a href="tela_vagas.html" class="partner-link btn-ver-mais">Ver Mais</a>
-          <a href="tela_vagas.html" class="partner-link btn-aplicar">Aplicar</a>
-        </div>
-      `;
+            <h4>Vaga: ${vaga.titulo}</h4>
+            <p><strong>Local:</strong> ${vaga.local}</p>
+            <p><strong>Requisitos:</strong> ${vaga.requisitos}</p>
+            <p><strong>Salário:</strong> ${vaga.salario}</p>
+            <div class="card-actions">
+                <a href="/src/Trabalho%20sem%20Fronteiras/html/vagas/detalhes_vagas.html?id=${vaga.id}" class="partner-link btn-ver-mais">Ver Mais</a>
+                <a href="/src/Trabalho%20sem%20Fronteiras/html/vagas/detalhes_vagas?id=${vaga.id}" class="partner-link btn-aplicar">Aplicar</a>
+            </div>
+        `;
             container.appendChild(card);
         });
     }

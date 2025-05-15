@@ -1,0 +1,64 @@
+/* Geral */
+body {
+    padding-top: 60px;
+    /* Ajuste para compensar a altura do cabeçalho fixo */
+    height: 100%;
+    font-family: var(--fonte-principal);
+    background-color: var(--cor-fundo-claro-2);
+    color: #333;
+}
+
+/* Header e Footer placeholders */
+#header,
+#footer {
+    width: 100%;
+}
+
+/* Aumenta a largura e destaca o card da vaga */
+main.container {
+    max-width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/* Card maior e bem destacado */
+.card {
+    padding: 30px;
+    border-radius: 16px;
+    background-color: #ffffff;
+}
+
+/* Texto mais legível e bem distribuído */
+.card-title {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.card-body p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Botão */
+.btn-success {
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+/* Responsivo: tela maior, conteúdo mais espaçado */
+@media (min-width: 1200px) {
+    .col-lg-8 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    main.container {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .card-body {
+        padding: 40px;
+    }
+}

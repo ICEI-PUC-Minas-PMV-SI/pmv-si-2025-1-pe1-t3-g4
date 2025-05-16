@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
             vagas.push(vaga);
 
             // Salvar o array no localStorage
-            localStorage.setItem("vagas", JSON.stringify(vagas));
+            localStorage.setItem("vagasEmpresa", JSON.stringify(vagas));
 
             // Exibir mensagem de sucesso
             alert("Vaga cadastrada com sucesso!");

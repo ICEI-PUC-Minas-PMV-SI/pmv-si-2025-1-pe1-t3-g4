@@ -16,7 +16,6 @@ document.addEventListener('DOMContentLoaded', function () {
             return response.json();
         })
         .then(data => {
-            // --- VAGAS ---
             if (!data.vagas || data.vagas.length === 0) {
                 vagaCards.innerHTML = '<p>Nenhuma vaga encontrada.</p>';
             } else {
@@ -38,7 +37,33 @@ document.addEventListener('DOMContentLoaded', function () {
                     `;
                     vagaCards.insertAdjacentHTML('beforeend', cardHTML);
                 });
+
+                // Agora, pega o usuário logado e, se for empresa, adiciona também
+                const usuarioLogadoArray = JSON.parse(localStorage.getItem("vagasEmpresa"));
+                const usuarioLogado = Array.isArray(usuarioLogadoArray) ? usuarioLogadoArray[0] : usuarioLogadoArray;
+
+
+                if (usuarioLogado) {
+                    const card = document.createElement("div");
+                    card.className = "col-md-6 col-lg-4 mb-4";
+                    card.innerHTML = `
+                        <div class="card h-100 shadow-sm usuario-logado">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">${usuarioLogado.titulo}</h5>
+                                <p><strong>Local:</strong> ${usuarioLogado.localizacao || 'Não informado'}</p>
+                                <p><strong>Salário:</strong> ${usuarioLogado.salario || 'A combinar'}</p>
+                                <p><strong>Requisitos:</strong> ${usuarioLogado.requisitos || 'Não informado'}</p>
+                                <p class="card-text flex-grow-1">${usuarioLogado.descricao}</p>
+                                <a href="/src/Trabalho%20sem%20Fronteiras/html/vagas/detalhes_vagas.html?id=${usuarioLogado.id || usuarioLogado.titulo}" class="btn btn-primary mt-auto">Ver Mais</a>
+                            </div>
+                        </div>
+                    `;
+                    vagaCards.appendChild(card);
+                }
+
             }
+
+
 
             // --- EMPRESAS (Carrossel) ---
             if (!data.empresas || data.empresas.length === 0) {

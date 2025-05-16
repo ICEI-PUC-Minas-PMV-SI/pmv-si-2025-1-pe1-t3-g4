@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(to right, #00b4b1, #009b8a);
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px 60px;
+    /* Espaço para header e footer */
+    box-sizing: border-box;
+    padding-top: 90px;
+    /* altura do header */
+    padding-bottom: 60px;
+    /* altura do footer */
+}
+
+/* Ajustar container para centralizar verticalmente */
+#container {
+    max-width: 1000px;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin: auto;
+    /* Centraliza verticalmente */
+}
+
+
+@media (min-width: 1024px) {
+    #container {
+        flex-direction: row;
+    }
+}
+
+/* ----------- BANNER ------------ */
+#container .banner {
+    background: #006A71;
+    color: white;
+    padding: 40px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    text-align: center;
+}
+
+#container .banner img {
+    width: 80%;
+    max-width: 350px;
+    height: 600px;
+    /* Aumente esse valor conforme necessário */
+    object-fit: cover;
+    /* Mantém o preenchimento proporcional sem deformar */
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+
+#container .banner p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+}
+
+@media (min-width: 1024px) {
+    #container .banner {
+        display: flex;
+    }
+}
+
+/* ----------- FORMULÁRIO ------------ */
+#container .box-login {
+    flex: 1;
+    background: #ffffff;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-login h1 {
+    font-size: 26px;
+    color: #006A71;
+    margin-bottom: 20px;
+}
+
+.box-account {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.box-account h2 {
+    font-size: 18px;
+    color: #006A71;
+    margin-bottom: 10px;
+}
+
+/* Campos de input */
+.box-account input,
+.box-account textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    font-size: 14px;
+    color: #333;
+    transition: border 0.3s;
+}
+
+.box-account input:focus,
+.box-account textarea:focus {
+    border-color: #006A71;
+    box-shadow: 0 0 5px rgba(0, 106, 113, 0.3);
+}
+
+.box-account textarea {
+    resize: vertical;
+}
+
+/* Botão */
+.box-account button {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    background-color: #006A71;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.box-account button:hover {
+    background-color: #00525a;
+}
+
+/* Termo de uso */
+.check {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.check input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.check label {
+    font-size: 14px;
+    color: #333;
+}

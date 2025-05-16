@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro de Empresa</title>
+    <link rel="stylesheet" href="../../../css/style_login_empresas.css" />
+</head>
+
+<body>
+    <div id="header"></div>
+
+    <div id="container">
+        <div class="banner">
+            <img src="../../../img/img2.jpg" alt="imagem-login">
+            <p style="color: #fff;">
+                Cadastre sua empresa e conecte-se com pessoas em busca de oportunidades.
+                <br>Divulgue vagas, projetos e faça parte dessa rede transformadora.
+            </p>
+        </div>
+
+        <div class="box-login">
+            <h1>Cadastro de Empresa</h1>
+
+            <div class="box-account">
+                <h2>Informe os dados da empresa</h2>
+                <input type="text" id="nome" placeholder="Nome da empresa">
+                <input type="text" id="cnpj" placeholder="CNPJ" maxlength="18">
+                <input type="text" id="localizacao" placeholder="Localização (Cidade, UF)">
+                <input type="text" id="servicos" placeholder="Serviços oferecidos">
+                <input type="text" id="contato" placeholder="E-mail de contato">
+                <input type="url" id="site" placeholder="Site institucional">
+                <input type="text" id="setor" placeholder="Setor de atuação">
+                <input type="text" id="compromisso" placeholder="Compromisso institucional">
+                <textarea id="descricao" placeholder="Descrição da empresa" rows="4"></textarea>
+                <input type="password" id="password" placeholder="Senha">
+                <input type="password" id="cpassword" placeholder="Confirmar a senha">
+
+                <div class="check">
+                    <input type="checkbox" id="termo" style="width: 13px; height: 13px;">
+                    <label for="termo" style="color: #3d3d3d;">Li e aceito os termos</label>
+                </div>
+
+                <button id="create-account-btn">Criar conta</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer"></div>
+
+    <script src="../../../java_script/script.js"></script>
+    <script src="../../../java_script/script_cadastro_empresa.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>

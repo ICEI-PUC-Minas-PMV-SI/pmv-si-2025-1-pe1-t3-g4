@@ -134,12 +134,27 @@ document.addEventListener("DOMContentLoaded", () => {
         <p><strong>Localização:</strong> ${empresa.localizacao}</p>
         <p><strong>Compromisso:</strong> ${empresa.compromisso}</p>
         <div class="card-actions">
-          <a href="tela_empresas.html" class="partner-link btn-ver-mais">Ver Mais</a>
-          <a href="tela_vagas.html" class="partner-link btn-aplicar">Ver Vagas</a>
+          <a href="/src/Trabalho%20sem%20Fronteiras/html/empresas/perfil_empresas.html?id=${empresa.id}" class="btn btn-outline-primary align-self-start">${empresa.textoBotao || 'Saiba Mais'}</a>
         </div>
       `;
             container.appendChild(card);
         });
+        // Agora, pega o usuário logado e, se for empresa, adiciona também
+        const usuarioLogado = JSON.parse(localStorage.getItem("loggedInUser"));
+        if (usuarioLogado && usuarioLogado.tipo === "empresa") {
+            const card = document.createElement("div");
+            card.className = "card usuario-logado";
+            card.innerHTML = `
+            <h4>${usuarioLogado.username}</h4>
+            <p><strong>Setor:</strong> ${usuarioLogado.setor}</p>
+            <p><strong>Localização:</strong> ${usuarioLogado.localizacao}</p>
+            <p><strong>Compromisso:</strong> ${usuarioLogado.compromisso}</p>
+            <div class="card-actions">
+              <a href="/src/Trabalho%20sem%20Fronteiras/html/empresas/perfil_empresas.html?id=${usuarioLogado.username}" class="btn btn-outline-primary align-self-start">Saiba Mais</a>
+            </div>
+        `;
+            container.appendChild(card);
+        }
     }
 
     function renderRecursos(recursos) {

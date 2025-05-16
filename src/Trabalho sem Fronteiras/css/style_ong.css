@@ -8,8 +8,16 @@ section {
     padding: 60px 0;
 }
 
-/* ===== Carrossel de ONGs ===== */ /* Comentário atualizado */
-/* Estes estilos aplicam-se aos itens gerais do carrossel do Bootstrap */
+/* ===== Carrossel de ONGs ===== */
+.carousel {
+    overflow: hidden;
+    /* evita sobreposição */
+}
+
+.carousel-inner {
+    width: 100%;
+}
+
 .carousel-item {
     display: flex;
     justify-content: center;
@@ -20,7 +28,7 @@ section {
     transition: transform 0.8s ease-in-out;
 }
 
-/* Estes estilos controlam as setas de navegação do carrossel do Bootstrap */
+/* Controles */
 .carousel-control-prev,
 .carousel-control-next {
     width: 6%;
@@ -39,11 +47,8 @@ section {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* ===== Cards das ONGs (no Carrossel)
-/* Assume que os cards DENTRO do carrossel usarão a classe 'carousel-card' ou o seletor .carousel-item .card */
-/* Se você usar a classe 'carousel-card' no HTML, este seletor funciona. */
-/* Se você usar apenas a classe 'card' dentro do carrossel, pode precisar ajustar o seletor para '.carousel-item .card' */
-.carousel-card { /* Mantido o seletor .carousel-card */
+/* ===== Cards do Carrossel ===== */
+.carousel-card {
     background-color: #ffffff;
     border-radius: 16px;
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
@@ -54,27 +59,24 @@ section {
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
-.carousel-card:hover { /* Mantido o seletor .carousel-card */
+.carousel-card:hover {
     transform: scale(1.03);
     box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
 }
 
-/* Estilos para a imagem dentro do card do carrossel */
-.carousel-img { /* Mantido o seletor .carousel-img */
+.carousel-img {
     max-height: 140px;
     object-fit: contain;
     margin-bottom: 15px;
 }
 
-/* Estilos para o nome da ONG no card do carrossel */
-.ong-nome { /* Selector atualizado de .empresa-nome para .ong-nome */
+.ong-nome {
     font-size: 1.5rem;
     font-weight: 600;
-    color: #007bff; /* Pode querer mudar a cor para refletir o tema ONG */
+    color: #007bff;
 }
 
-/* Estilos para a descrição da ONG no card do carrossel */
-.ong-descricao { /* Selector atualizado de .empresa-descricao para .ong-descricao */
+.ong-descricao {
     font-size: 1rem;
     color: #444;
     padding: 0 12px;
@@ -82,8 +84,7 @@ section {
     line-height: 1.5;
 }
 
-/* Estilos para o botão dentro do card do carrossel */
-.carousel-card .btn { /* Mantido o seletor */
+.carousel-card .btn {
     margin-top: 20px;
     padding: 8px 16px;
     font-size: 0.9rem;
@@ -91,16 +92,14 @@ section {
     transition: all 0.3s ease;
 }
 
-.carousel-card .btn:hover { /* Mantido o seletor */
-    background-color: #0056b3; /* Pode querer mudar a cor */
+.carousel-card .btn:hover {
+    background-color: #0056b3;
     color: #fff;
 }
 
-/* ===== Cards dos Programas (abaixo do Carrossel) ===== */ /* Comentário atualizado */
-/* Estes estilos aplicam-se aos cards de programas gerais, usando a classe Bootstrap 'card' */
-/* O seletor '.card' já funciona para os cards de programas no HTML adaptado (#programaCards .card) */
+/* ===== Cards dos Programas ===== */
 .card-body {
-    background-color: #f8f9fa; /* Pode querer mudar esta cor */
+    background-color: #f8f9fa;
 }
 
 .card {
@@ -125,34 +124,32 @@ section {
 }
 
 .card .btn {
-    background-color: #007bff; /* Pode querer mudar a cor para refletir o tema ONG */
+    background-color: #007bff;
     color: white;
     border-radius: 5px;
     padding: 6px 12px;
 }
 
 .card .btn:hover {
-    background-color: #0056b3; /* Pode querer mudar a cor */
+    background-color: #0056b3;
 }
 
-/* ===== Responsividade ===== */ /* Comentário atualizado */
+/* ===== Responsivo ===== */
 @media (max-width: 768px) {
-    /* Ajustes para cards no carrossel em telas menores */
-    .carousel-card { /* Mantido o seletor */
+    .carousel-card {
         width: 90%;
         padding: 20px;
     }
 
-    .carousel-img { /* Mantido o seletor */
+    .carousel-img {
         max-height: 120px;
     }
 
-    /* Ajustes para o nome e descrição da ONG no carrossel em telas menores */
-    .ong-nome { /* Selector atualizado */
+    .ong-nome {
         font-size: 1.3rem;
     }
 
-    .ong-descricao { /* Selector atualizado */
+    .ong-descricao {
         font-size: 0.95rem;
     }
 }

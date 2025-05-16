@@ -1,11 +1,31 @@
 function getVagaIdFromURL() {
     const params = new URLSearchParams(window.location.search);
-    return parseInt(params.get("id"));
+    return params.get("id"); // retorna como string, sem parseInt
 }
 
 function exibirDetalhesDaVaga(vagas) {
-    const id = getVagaIdFromURL();
-    const vaga = vagas.find(v => v.id === id);
+    const idOuTitulo = getVagaIdFromURL();
+    let vaga;
+
+    if (!idOuTitulo) {
+        document.getElementById("vaga-detalhe").innerHTML = `
+            <div class="alert alert-danger text-center">
+                Vaga não especificada.
+            </div>
+        `;
+        return;
+    }
+
+    if (/^\d+$/.test(idOuTitulo)) {
+        // Se for número, busca no array vagas pelo id numérico
+        const id = parseInt(idOuTitulo);
+        vaga = vagas.find(v => v.id === id);
+    } else {
+        // Se for texto, busca no localStorage vagasEmpresa pelo titulo
+        const vagasEmpresa = JSON.parse(localStorage.getItem("vagasEmpresa")) || [];
+        vaga = vagasEmpresa.find(v => v.titulo === idOuTitulo);
+    }
+
     const container = document.getElementById("vaga-detalhe");
 
     if (!vaga) {
@@ -21,15 +41,16 @@ function exibirDetalhesDaVaga(vagas) {
     const candidaturas = JSON.parse(localStorage.getItem("candidaturas")) || {};
     const usuarioCandidaturas = usuario && candidaturas[usuario.id] ? candidaturas[usuario.id] : [];
 
-    // Verifica se usuário já se candidatou a essa vaga
-    const jaCandidatado = usuarioCandidaturas.includes(id);
+    // Para controle da candidatura, usamos o id numérico se houver, senão a string do título
+    const vagaIdentificador = vaga.id || vaga.titulo;
+    const jaCandidatado = usuarioCandidaturas.includes(vagaIdentificador);
 
     container.innerHTML = `
         <h2 class="card-title mb-3">${vaga.titulo}</h2>
-        <p><strong>Local:</strong> ${vaga.local}</p>
-        <p><strong>Requisitos:</strong> ${vaga.requisitos}</p>
-        <p><strong>Salário:</strong> ${vaga.salario}</p>
-        <p><strong>Descrição Completa:</strong> ${vaga.descricao}</p>
+        <p><strong>Local:</strong> ${vaga.localizacao || vaga.local || 'Não informado'}</p>
+        <p><strong>Requisitos:</strong> ${vaga.requisitos || 'Não informado'}</p>
+        <p><strong>Salário:</strong> ${vaga.salario || 'A combinar'}</p>
+        <p><strong>Descrição Completa:</strong> ${vaga.descricao || 'Sem descrição'}</p>
         <div class="d-flex justify-content-end mt-4">
             <button id="btn-candidatar" class="btn btn-${jaCandidatado ? 'danger' : 'primary'}">
                 ${jaCandidatado ? 'Cancelar candidatura' : 'Candidatar-se'}
@@ -48,11 +69,10 @@ function exibirDetalhesDaVaga(vagas) {
                 confirmButtonText: 'Ok'
             });
         });
-        return; // Não adiciona mais eventos pois usuário não está logado
+        return;
     }
 
     if (jaCandidatado) {
-        // Botão para cancelar candidatura
         btn.addEventListener("click", () => {
             Swal.fire({
                 title: 'Tem certeza que deseja cancelar a inscrição desta vaga?',
@@ -62,10 +82,9 @@ function exibirDetalhesDaVaga(vagas) {
                 cancelButtonText: 'Não'
             }).then((result) => {
                 if (result.isConfirmed) {
-                    // Remove candidatura do localStorage
                     const candidaturas = JSON.parse(localStorage.getItem("candidaturas")) || {};
                     const userId = usuario.id;
-                    const index = candidaturas[userId].indexOf(id);
+                    const index = candidaturas[userId].indexOf(vagaIdentificador);
                     if (index > -1) {
                         candidaturas[userId].splice(index, 1);
                         localStorage.setItem("candidaturas", JSON.stringify(candidaturas));
@@ -74,7 +93,6 @@ function exibirDetalhesDaVaga(vagas) {
                             title: 'Inscrição cancelada',
                             text: 'Sua inscrição foi cancelada com sucesso.'
                         }).then(() => {
-                            // Recarrega a página ou atualiza o botão
                             exibirDetalhesDaVaga(vagas);
                         });
                     } else {
@@ -88,7 +106,6 @@ function exibirDetalhesDaVaga(vagas) {
             });
         });
     } else {
-        // Botão para candidatar-se
         btn.addEventListener("click", () => {
             Swal.fire({
                 title: 'Deseja se candidatar a esta vaga?',
@@ -103,8 +120,8 @@ function exibirDetalhesDaVaga(vagas) {
                     if (!candidaturas[usuario.id]) {
                         candidaturas[usuario.id] = [];
                     }
-                    if (!candidaturas[usuario.id].includes(id)) {
-                        candidaturas[usuario.id].push(id);
+                    if (!candidaturas[usuario.id].includes(vagaIdentificador)) {
+                        candidaturas[usuario.id].push(vagaIdentificador);
                         localStorage.setItem("candidaturas", JSON.stringify(candidaturas));
                         Swal.fire({
                             icon: 'success',

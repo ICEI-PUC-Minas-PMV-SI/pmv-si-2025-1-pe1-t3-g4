@@ -9,7 +9,10 @@ if (loggedInUser) {
         <div class="user-menu-container">
             <button class="user-button" id="user-button">${loggedInUser.username} ▾</button>
             <div class="user-dropdown" id="dropdown-menu">
-                <a href="/src/Trabalho%20sem%20Fronteiras/html/usuario/tela_usuario.html">Perfil</a>
+                <a href="${loggedInUser.tipo === 'empresa'
+            ? '/src/Trabalho%20sem%20Fronteiras/html/usuario/tela_usuario_empresa.html'
+            : '/src/Trabalho%20sem%20Fronteiras/html/usuario/tela_usuario.html'
+        }">Perfil</a>
                 <a href="#" id="logout">Sair</a>
             </div>
         </div>

@@ -96,5 +96,39 @@
             "link": "tela_recursos.html",
             "textoBotao": "Acessar Cursos"
         }
+    ],
+    "ongs": [
+        {
+            "id": 1,
+            "nome": "Refúgio Solidário",
+            "localizacao": "São Paulo, SP",
+            "servicos": "Apoio jurídico, orientação para regularização documental, cursos de capacitação profissional",
+            "contato": "contato@refugiosolidario.org",
+            "descricao": "Organização que oferece suporte integral a refugiados, incluindo assistência jurídica e programas de inserção no mercado de trabalho."
+        },
+        {
+            "id": 2,
+            "nome": "Mão Amiga",
+            "localizacao": "Rio de Janeiro, RJ",
+            "servicos": "Aulas de português, apoio psicológico, ajuda na integração social",
+            "contato": "contato@maoamiga.org",
+            "descricao": "ONG focada na inclusão social de migrantes e refugiados, oferecendo aulas de idioma, suporte emocional e atividades comunitárias."
+        },
+        {
+            "id": 3,
+            "nome": "Casa do Migrante",
+            "localizacao": "Belo Horizonte, MG",
+            "servicos": "Alojamento temporário, orientação sobre direitos trabalhistas, oficinas culturais",
+            "contato": "contato@casadomigrante.org",
+            "descricao": "Espaço de acolhimento para migrantes em situação de vulnerabilidade, promovendo acolhida humanizada e acesso a serviços essenciais."
+        },
+        {
+            "id": 4,
+            "nome": "Caminhos da Esperança",
+            "localizacao": "Fortaleza, CE",
+            "servicos": "Apoio na busca por emprego, capacitação profissional e assistência social",
+            "contato": "contato@caminhosdaesperanca.org",
+            "descricao": "Instituição dedicada a fortalecer a autonomia de refugiados e migrantes, facilitando sua inserção no mercado formal e na comunidade local."
+        }
     ]
 }

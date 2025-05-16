@@ -1,0 +1,160 @@
+document.addEventListener("DOMContentLoaded", () => {
+    fetch("../dados/dados.json")
+        .then(response => response.json())
+        .then(data => {
+            renderVagas(data.vagas);
+            renderEmpresas(data.empresas);
+            renderRecursos(data.recursos);
+        });
+
+    function renderVagas(vagas) {
+        const usuario = JSON.parse(localStorage.getItem("loggedInUser"));
+        const candidaturas = JSON.parse(localStorage.getItem("candidaturas")) || {};
+        const usuarioCandidaturas = usuario && candidaturas[usuario.id] ? candidaturas[usuario.id] : [];
+        const container = document.getElementById("vagas-container");
+
+        container.innerHTML = ""; // Limpa o container antes de renderizar
+
+        vagas.forEach(vaga => {
+            const jaCandidatado = usuarioCandidaturas.includes(vaga.id);
+
+            const card = document.createElement("div");
+            card.className = "card";
+            card.innerHTML = `
+            <h4>Vaga: ${vaga.titulo}</h4>
+            <p><strong>Local:</strong> ${vaga.local}</p>
+            <p><strong>Requisitos:</strong> ${vaga.requisitos}</p>
+            <p><strong>Salário:</strong> ${vaga.salario}</p>
+            <div class="card-actions">
+                <a href="/src/Trabalho%20sem%20Fronteiras/html/vagas/detalhes_vagas.html?id=${vaga.id}" class="partner-link btn-ver-mais">Ver Mais</a>
+                <button class="btn btn-${jaCandidatado ? 'danger' : 'primary'}">
+                    ${jaCandidatado ? 'Cancelar' : 'Candidatar-se'}
+                </button>
+            </div>
+        `;
+
+            const btn = card.querySelector("button");
+
+            if (!usuario) {
+                btn.addEventListener("click", () => {
+                    Swal.fire({
+                        icon: 'warning',
+                        title: 'Faça login para se candidatar',
+                        text: 'Você precisa estar logado para se candidatar a uma vaga.',
+                        confirmButtonText: 'Ok'
+                    });
+                });
+            } else if (jaCandidatado) {
+                // Botão para cancelar candidatura
+                btn.addEventListener("click", () => {
+                    Swal.fire({
+                        title: 'Tem certeza que deseja cancelar a inscrição desta vaga?',
+                        icon: 'warning',
+                        showCancelButton: true,
+                        confirmButtonText: 'Sim, cancelar',
+                        cancelButtonText: 'Não'
+                    }).then((result) => {
+                        if (result.isConfirmed) {
+                            const candidaturas = JSON.parse(localStorage.getItem("candidaturas")) || {};
+                            const userId = usuario.id;
+                            const index = candidaturas[userId].indexOf(vaga.id);
+                            if (index > -1) {
+                                candidaturas[userId].splice(index, 1);
+                                localStorage.setItem("candidaturas", JSON.stringify(candidaturas));
+                                Swal.fire({
+                                    icon: 'success',
+                                    title: 'Inscrição cancelada',
+                                    text: 'Sua inscrição foi cancelada com sucesso.'
+                                }).then(() => {
+                                    renderVagas(vagas); // Atualiza a lista após cancelar
+                                });
+                            } else {
+                                Swal.fire({
+                                    icon: 'error',
+                                    title: 'Erro',
+                                    text: 'Vaga não encontrada em suas candidaturas.'
+                                });
+                            }
+                        }
+                    });
+                });
+            } else {
+                // Botão para candidatar-se
+                btn.addEventListener("click", () => {
+                    Swal.fire({
+                        title: 'Deseja se candidatar a esta vaga?',
+                        text: "Você poderá visualizar essa vaga em seu perfil.",
+                        icon: 'question',
+                        showCancelButton: true,
+                        confirmButtonText: 'Sim, candidatar',
+                        cancelButtonText: 'Cancelar'
+                    }).then((result) => {
+                        if (result.isConfirmed) {
+                            let candidaturas = JSON.parse(localStorage.getItem("candidaturas")) || {};
+                            if (!candidaturas[usuario.id]) {
+                                candidaturas[usuario.id] = [];
+                            }
+                            if (!candidaturas[usuario.id].includes(vaga.id)) {
+                                candidaturas[usuario.id].push(vaga.id);
+                                localStorage.setItem("candidaturas", JSON.stringify(candidaturas));
+                                Swal.fire({
+                                    icon: 'success',
+                                    title: 'Candidatura registrada!',
+                                    text: 'Você se candidatou com sucesso à vaga.',
+                                    confirmButtonText: 'OK'
+                                }).then(() => {
+                                    renderVagas(vagas); // Atualiza a lista após candidatar
+                                });
+                            } else {
+                                Swal.fire({
+                                    icon: 'info',
+                                    title: 'Você já se candidatou!',
+                                    text: 'Você já está cadastrado nessa vaga.',
+                                    confirmButtonText: 'OK'
+                                });
+                            }
+                        }
+                    });
+                });
+            }
+
+            container.appendChild(card);
+        });
+    }
+
+
+    function renderEmpresas(empresas) {
+        const container = document.getElementById("empresas-container");
+        empresas.forEach(empresa => {
+            const card = document.createElement("div");
+            card.className = "card";
+            card.innerHTML = `
+        <h4>${empresa.nome}</h4>
+        <p><strong>Setor:</strong> ${empresa.setor}</p>
+        <p><strong>Localização:</strong> ${empresa.localizacao}</p>
+        <p><strong>Compromisso:</strong> ${empresa.compromisso}</p>
+        <div class="card-actions">
+          <a href="tela_empresas.html" class="partner-link btn-ver-mais">Ver Mais</a>
+          <a href="tela_vagas.html" class="partner-link btn-aplicar">Ver Vagas</a>
+        </div>
+      `;
+            container.appendChild(card);
+        });
+    }
+
+    function renderRecursos(recursos) {
+        const container = document.getElementById("recursos-container");
+        recursos.forEach(recurso => {
+            const card = document.createElement("div");
+            card.className = "card";
+            card.innerHTML = `
+        <h4>${recurso.titulo}</h4>
+        <p>${recurso.descricao}</p>
+        <div class="card-actions">
+          <a href="tela_recursos.html" class="btn-recursos">${recurso.textoBotao}</a>
+        </div>
+      `;
+            container.appendChild(card);
+        });
+    }
+});

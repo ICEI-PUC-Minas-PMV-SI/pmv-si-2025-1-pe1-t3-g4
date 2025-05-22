@@ -76,11 +76,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-004| Filtros Avançados de Vagas - Além de filtros básicos como localização e salário, permitir que os usuários filtrem oportunidades por requisitos como "sem necessidade de experiência", "flexível", "trabalho remoto" etc. |MÉDIA|
 |RF-005| Busca de Vagas - Migrantes podem pesquisar oportunidades de acordo com suas preferências. |MÉDIA|
 |RF-006| Favoritos - Usuários podem salvar vagas de interesse para acessar posteriormente. |MÉDIA|
-|RF-007|Vagas Cadastradas Recentemente - O sistema exibirá uma seção dedicada às vagas de emprego mais recentes publicadas na plataforma. |BAIXA|
-|RF-008| Sistema de Feedback - Empresas podem fornecer retornos sobre candidaturas realizadas. |MÉDIA|
+|RF-007| Vagas Cadastradas Recentemente - O sistema exibirá uma seção dedicada às vagas de emprego mais recentes publicadas na plataforma.|BAIXA|
+|RF-008| Sistema de Feedback - Usuários visualizarão uma mensagem quanto ao conteúdo inserido nos campos. |MÉDIA|
 |RF-009| Guia de Documentação - Seção com informações sobre regularização de documentos essenciais para contratação. |BAIXA|
 |RF-010| Recursos Educacionais - Área com conteúdos sobre cultura e legislação trabalhista brasileira. |BAIXA|
-|RF-011| Caixa de sugestão de recursos adicionais - O usuário poderá sugerir temas ou assuntos a serem divulgados na plataforma. |BAIXA|
+|RF-011| Caixa de sugestão de recursos adicionais - Usuários poderão sugerir temas ou assuntos para divulgação na plataforma. |BAIXA|
 |RF-012| Área para ONGs - Módulo onde organizações podem listar cursos, suporte jurídico e assistência para os migrantes. |MÉDIA|
 
 ### Requisitos não Funcionais

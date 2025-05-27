@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="../../css/style_login.css" />
     <link rel="stylesheet" href="../../css/style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet" />
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+
 </head>
 
 <body>
@@ -49,6 +51,15 @@
                     <a href="../autenticacao/cadastro/tela_cadastro_empresas.html">
                         <p>Cadastre sua empresa</p>
                     </a>
+                    <div id="g_id_onload"
+                        data-client_id="633520258929-3eeir5pf1mb834ad3gbr2v5s6biqnnsh.apps.googleusercontent.com"
+                        data-callback="handleCredentialResponse" data-auto_prompt="false">
+                    </div>
+
+                    <div class="g_id_signin" data-type="standard" data-size="large" data-theme="outline"
+                        data-text="sign_in_with" data-shape="rectangular" data-logo_alignment="left">
+                    </div>
+                    <!--Alterar a cor do botao de login com o google-->
                 </div>
             </div>
         </div>

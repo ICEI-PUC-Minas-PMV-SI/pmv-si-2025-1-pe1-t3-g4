@@ -12,7 +12,9 @@ document.addEventListener("DOMContentLoaded", function () {
             salario: document.getElementById('salario').value,
             requisitos: document.getElementById('requisitos').value,
             beneficios: document.getElementById('beneficios').value,
-            arquivo: document.getElementById('arquivo').files[0]?.name || "Nenhum arquivo enviado"
+            arquivo: document.getElementById('arquivo').files[0]?.name || "Nenhum arquivo enviado",
+            dataCadastro: new Date().toISOString()  // Adiciona data e hora atual
+
         };
 
         // Verificar se os dados são válidos

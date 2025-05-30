@@ -43,7 +43,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
         const vagasFiltradas = todasVagas.filter(vaga => {
             const localVaga = vaga.local || vaga.localizacao;
-
             const salarioNumerico = parseSalario(vaga.salario);
 
             const atendeLocal = !localSelecionado || localVaga === localSelecionado;
@@ -61,19 +60,26 @@ document.addEventListener('DOMContentLoaded', function () {
         vagasFiltradas.forEach(vaga => {
             const idVaga = vaga.id || vaga.titulo.replace(/\s+/g, '-').toLowerCase();
             const cardHTML = `
-            <div class="col-md-6 col-lg-4 mb-4">
-                <div class="card h-100 shadow-sm">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">${vaga.titulo}</h5>
-                        <p><strong>Local:</strong> ${vaga.local || vaga.localizacao || 'Não informado'}</p>
-                        <p><strong>Salário:</strong> ${vaga.salario || 'A combinar'}</p>
-                        <p><strong>Requisitos:</strong> ${vaga.requisitos || 'Não informado'}</p>
-                        <p class="card-text flex-grow-1">${vaga.descricao || ''}</p>
-                        <a href="/src/Trabalho%20sem%20Fronteiras/html/vagas/detalhes_vagas.html?id=${idVaga}" class="btn btn-primary mt-auto">Ver Mais</a>
-                    </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card h-100 shadow-sm position-relative">
+                <button 
+                    class="btn btn-outline-warning position-absolute" 
+                    style="top: 10px; right: 10px; z-index: 1;"
+                    onclick="favoritarVaga('${idVaga}')"
+                    title="Favoritar">
+                    ★
+                </button>
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">${vaga.titulo}</h5>
+                    <p><strong>Local:</strong> ${vaga.local || vaga.localizacao || 'Não informado'}</p>
+                    <p><strong>Salário:</strong> ${vaga.salario || 'A combinar'}</p>
+                    <p><strong>Requisitos:</strong> ${vaga.requisitos || 'Não informado'}</p>
+                    <p class="card-text flex-grow-1">${vaga.descricao || ''}</p>
+                    <a href="/src/Trabalho%20sem%20Fronteiras/html/vagas/detalhes_vagas.html?id=${idVaga}" class="btn btn-primary mt-auto">Ver Mais</a>
                 </div>
             </div>
-            `;
+        </div>
+        `;
             vagaCards.insertAdjacentHTML('beforeend', cardHTML);
         });
     }
@@ -179,3 +185,22 @@ document.addEventListener('DOMContentLoaded', function () {
             ongsContainer.innerHTML = `<p class="text-danger">Erro ao carregar as ONGs: ${error.message}</p>`;
         });
 });
+// Função para favoritar uma vaga
+function favoritarVaga(idVaga) {
+    // Recuperar vagas salvas do localStorage ou iniciar um array vazio
+    const vagasSalvas = JSON.parse(localStorage.getItem("Vagas_salvas")) || [];
+
+    // Verifica se a vaga já foi salva
+    if (vagasSalvas.includes(idVaga)) {
+        alert("Esta vaga já foi salva.");
+        return;
+    }
+
+    // Adiciona a nova vaga ao array
+    vagasSalvas.push(idVaga);
+
+    // Salva novamente no localStorage
+    localStorage.setItem("Vagas_salvas", JSON.stringify(vagasSalvas));
+
+    alert("Vaga salva com sucesso!");
+}

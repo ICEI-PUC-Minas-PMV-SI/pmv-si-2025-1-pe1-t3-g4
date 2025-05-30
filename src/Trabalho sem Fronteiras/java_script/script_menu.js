@@ -13,7 +13,9 @@ if (loggedInUser) {
             ? '/src/Trabalho%20sem%20Fronteiras/html/usuario/tela_usuario_empresa.html'
             : '/src/Trabalho%20sem%20Fronteiras/html/usuario/tela_usuario.html'
         }">Perfil</a>
+                <a href="/src/Trabalho%20sem%20Fronteiras/html/usuario/tela_vagas_salvas.html" id="VagasSalvas">Vagas Salvas</a>
                 <a href="#" id="logout">Sair</a>
+
             </div>
         </div>
     `;

@@ -326,13 +326,13 @@ footer {
 
 /* Estilos específicos para o botão "Ver mais" */
 .btn-ver-mais {
-    background-color: #007bff;
+    background-color: #48A6A7;
     /* Cor azul */
 }
 
 /* Estilo para o efeito de hover no botão "Ver mais" */
 .btn-ver-mais:hover {
-    background-color: #0056b3;
+    background-color: #006A71;
     /* Cor azul mais escura no hover */
 }
 
@@ -369,7 +369,7 @@ footer {
 
 /* Estilos para botões específicos da seção de recursos (classe 'btn-recursos') */
 .btn-recursos {
-    background-color: #007bff;
+    background-color: #48A6A7;
     /* Cor azul */
     color: #fff;
     /* Texto branco */
@@ -392,7 +392,7 @@ footer {
 
 /* Estilo para o efeito de hover no botão de recursos */
 .btn-recursos:hover {
-    background-color: #0056b3;
+    background-color: #006A71;
     /* Cor azul mais escura no hover */
     outline: 2px solid rgba(255, 255, 255, 0.5);
     /* Adiciona um contorno branco semi-transparente */

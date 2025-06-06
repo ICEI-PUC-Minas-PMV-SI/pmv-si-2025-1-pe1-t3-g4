@@ -180,7 +180,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <h4>${recurso.titulo}</h4>
                 <p>${recurso.descricao}</p>
                 <div class="card-actions">
-                  <a href="tela_recursos.html" class="btn-recursos">${recurso.textoBotao}</a>
+                  <a href="/src/Trabalho%20sem%20Fronteiras/html/recursos/tela_recursos.html" class="btn-recursos">${recurso.textoBotao}</a>
                 </div>
             `;
             container.appendChild(card);

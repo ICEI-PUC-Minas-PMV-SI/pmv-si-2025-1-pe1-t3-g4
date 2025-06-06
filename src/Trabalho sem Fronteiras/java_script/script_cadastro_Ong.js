@@ -1,14 +1,10 @@
 // Função para validar os campos do formulário
-function validateForm(username, email, cmail, password, cpassword, termos) {
-    if (!username || !email || !cmail || !password || !cpassword) {
+function validateForm(username, email, password, cpassword, termos, area) {
+    if (!username || !email || !password || !cpassword) {
         Swal.fire("Campos obrigatórios", "Por favor, preencha todos os campos.", "warning");
         return false;
     }
 
-    if (email !== cmail) {
-        Swal.fire("Erro de e-mail", "Os e-mails não coincidem.", "error");
-        return false;
-    }
 
     if (password !== cpassword) {
         Swal.fire("Erro de senha", "As senhas não coincidem.", "error");
@@ -19,6 +15,10 @@ function validateForm(username, email, cmail, password, cpassword, termos) {
         Swal.fire("Termos obrigatórios", "Você precisa aceitar os termos.", "info");
         return false;
     }
+    if (!area) {
+        Swal.fire("Área de Atuação Obrigatorio", "info");
+        return false;
+    }
 
     return true;
 }
@@ -27,19 +27,19 @@ function validateForm(username, email, cmail, password, cpassword, termos) {
 document.getElementById("create-account-btn").addEventListener("click", () => {
     const username = document.getElementById("username").value;
     const email = document.getElementById("email").value;
-    const cmail = document.getElementById("cmail").value;
     const password = document.getElementById("password").value;
     const cpassword = document.getElementById("cpassword").value;
+    const area = document.getElementById("area").value;
     const termos = document.getElementById("termo").checked;
 
     // Validar os campos
-    if (validateForm(username, email, cmail, password, cpassword, termos)) {
+    if (validateForm(username, email, password, cpassword, termos, area)) {
         // Criando o objeto com os dados do usuário
         const userData = {
             username: username,
             email: email,
             password: password,
-            tipo: 'Usuario'
+            tipo: 'Ong'
         };
 
         // Armazenando os dados no localStorage

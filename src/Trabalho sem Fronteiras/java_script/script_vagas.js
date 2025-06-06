@@ -7,6 +7,21 @@ document.addEventListener('DOMContentLoaded', function () {
     const filtroLocal = document.getElementById('filtroLocal');
     const filtroSalario = document.getElementById('filtroSalario');
     const filtroTitulo = document.getElementById('filtroTitulo');
+    const userData = localStorage.getItem("userData");
+
+    if (userData) {
+        try {
+            const user = JSON.parse(userData);
+
+            if (user.tipo === "empresa") {
+                document.getElementById("cadastrar_vagas").style.display = "block";
+            }
+        } catch (e) {
+            console.error("Erro ao processar userData do localStorage:", e);
+        }
+    }
+
+
 
     let todasVagas = [];
 

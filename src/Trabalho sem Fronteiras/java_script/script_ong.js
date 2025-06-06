@@ -2,7 +2,19 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const programasContainer = document.getElementById('programasContainer');
     const carouselItems = document.getElementById('carouselItems');
+    const userData = localStorage.getItem("userData");
 
+    if (userData) {
+        try {
+            const user = JSON.parse(userData);
+
+            if (user.tipo === "Ong") {
+                document.getElementById("cadastrar_programa").style.display = "block";
+            }
+        } catch (e) {
+            console.error("Erro ao processar userData do localStorage:", e);
+        }
+    }
 
     fetch('../../dados/dados.json')
         .then(response => {

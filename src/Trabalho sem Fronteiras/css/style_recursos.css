@@ -1,0 +1,103 @@
+/* ===== Estilo Base ===== */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    height: 100%;
+}
+
+/* ===== Layout Flex para empurrar o footer ===== */
+body {
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    /* espaçamento para não esconder o conteúdo sob o header fixo */
+}
+
+/* ===== Header fixo no topo ===== */
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* ===== Hero Section ===== */
+.hero {
+    color: black;
+    padding: 3rem 0;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* ===== Container Principal ===== */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* ===== Cards de Recurso ===== */
+.container .resume {
+    background: linear-gradient(135deg, #ffffff, #f1f3f5);
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    height: 100%;
+}
+
+.container .resume:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.resume h4 {
+    margin-bottom: 1rem;
+    color: #0d6efd;
+}
+
+/* ===== Espaçamento extra antes do footer ===== */
+.content-wrapper {
+    margin-bottom: 120px;
+    text-align: center;
+}
+
+/* ===== Modal com Margem Superior ===== */
+.modal-dialog {
+    margin-top: 80px;
+}
+
+/* ===== Footer ===== */
+#footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: auto;
+}
+
+/* Alerta suave */
+#alertSugestao {
+    position: fixed;
+    top: 80px;
+    right: 20px;
+    background-color: #198754;
+    /* verde */
+    color: white;
+    padding: 1rem 1.5rem;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 1050;
+}
+
+#alertSugestao.show {
+    opacity: 1;
+}

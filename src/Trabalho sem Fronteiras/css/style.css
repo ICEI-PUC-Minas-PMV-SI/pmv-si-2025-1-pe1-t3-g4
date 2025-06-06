@@ -32,14 +32,7 @@ body {
     color: #333;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    align-items: center;
-    font-size: 16px;
-    /* Define o tamanho de fonte base para o corpo do texto */
-}
+
 
 /* Seção Principal */
 .main-section {

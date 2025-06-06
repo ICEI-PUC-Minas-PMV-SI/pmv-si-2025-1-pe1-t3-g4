@@ -88,65 +88,44 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark">
-            <div class="container">
-                <!-- Logo -->
+            <div class="container position-relative">
+                <!-- Logo à esquerda -->
                 <div class="logo">
                     <img src="/src/Trabalho%20sem%20Fronteiras/img/logo.png" alt="Logo Trabalho Sem Fronteiras" />
                 </div>
-                <!-- Ícone de menu sanduíche para telas pequenas -->
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+
+                <!-- Botão de menu para dispositivos móveis -->
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <!-- Itens de navegação -->
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link"
-                                href="/src/Trabalho%20sem%20Fronteiras/html/Pagina_inicial.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link"
-                                href="/src/Trabalho%20sem%20Fronteiras/html/vagas/tela_vagas.html">Vagas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link"
+                <!-- Menu centralizado -->
+                <div class="collapse navbar-collapse justify-content-center position-absolute w-100" id="navbarNav"
+                    style="left: 50%; transform: translateX(-50%);">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item"><a class="nav-link"
+                                href="/src/Trabalho%20sem%20Fronteiras/html/Pagina_inicial.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link"
+                                href="/src/Trabalho%20sem%20Fronteiras/html/vagas/tela_vagas.html">Vagas</a></li>
+                        <li class="nav-item"><a class="nav-link"
                                 href="/src/Trabalho%20sem%20Fronteiras/html/empresas/tela_empresas.html">Empresas</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/src/Trabalho%20sem%20Fronteiras/html/ong/tela_ong.html">ONG's</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link"
+                        <li class="nav-item"><a class="nav-link"
+                                href="/src/Trabalho%20sem%20Fronteiras/html/ong/tela_ong.html">ONG's</a></li>
+                        <li class="nav-item"><a class="nav-link"
                                 href="/src/Trabalho%20sem%20Fronteiras/html/recursos/tela_recursos.html">Recursos</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link"
-                                href="/src/Trabalho%20sem%20Fronteiras/html/sobre/tela_sobre.html">Sobre</a>
-                        </li>
-
-                        <li class="nav-item" id="user-menu">
-                            <!-- Aqui será inserido o botão ou nome do usuário -->
-                        </li>
-
+                        <li class="nav-item"><a class="nav-link"
+                                href="/src/Trabalho%20sem%20Fronteiras/html/sobre/tela_sobre.html">Sobre</a></li>
+                        <li class="nav-item" id="user-menu"><!-- botão do usuário aqui --></li>
                     </ul>
-                </div>
-                <!-- Seletor de idiomas e busca -->
-                <div class="header-right d-flex align-items-center">
-                    <select id="language-select" class="form-control">
-                        <option value="pt">Português</option>
-                        <option value="en">English</option>
-                        <option value="es">Español</option>
-                    </select>
-                    <div class="search-container d-flex">
-                        <input type="text" id="search" class="form-control" placeholder="Procurar...">
-                        <button class="btn btn-light">🔍</button>
-                    </div>
                 </div>
             </div>
         </nav>
     </header>
+
+
 
     <!-- Scripts do Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

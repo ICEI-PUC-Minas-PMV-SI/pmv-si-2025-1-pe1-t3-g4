@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const vagasLocal = getVagasLocalStorage();
             const vagasFinal = mergeVagas(data.vagas, vagasLocal);
             renderVagas(vagasFinal);
-
+            console.log("data:", data)
             renderEmpresas(data.empresas);
             renderRecursos(data.recursos);
         });

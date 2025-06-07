@@ -128,62 +128,62 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |*Caso de Teste*                                 |*CT01 - Criar conta parte 1*                                         |
 |---|---|
 |Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/u/s!AhD2JqpOUvJChapRtRSQ9vPzbNLwGA?e=mxZs6t| 
+|Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/personal/1593064_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=ESM4phU_F3xFqf6pXTC9E7EBiHRVfbmRKLZn3FhFJwVzAw&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7dJg1A| 
 
 |*Caso de Teste*                                 |*CT02 - Criar conta parte 2*                                        |
 |---|---|
 |Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/personal/1593064_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=ESrT8naRvUFCks9io3e3Cz8BWcJcAz77l7_02W-pwcXkqQ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=62O1jn| 
 
-|*Caso de Teste*                                 |*CT02 - Criar conta parte 2*                                        |
+|*Caso de Teste*                                 |*CT03 - Criar conta parte 2*                                        |
 |---|---|
 |Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/personal/1593064_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=ETKyZwWjamJDltZ7KvB6DVoBJxrnt_vzTTJoFhRS9HHL6w&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Ue6v98| 
 
-|*Caso de Teste*                                 |*CT02 - Criar conta parte 2*                                        |
+|*Caso de Teste*                                 |*CT04 - Criar conta parte 2*                                        |
 |---|---|
 |Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/personal/1593064_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=EWEapoWTWEtCkwi2s2lt8awBXXrB0wjuU7AgTsmN-vJs8Q&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Avurhe| 
 
-|*Caso de Teste*                                 |*CT02 - Criar conta parte 2*                                        |
+|*Caso de Teste*                                 |*CT05 - Criar conta parte 2*                                        |
 |---|---|
 |Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/personal/1593064_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=EWEapoWTWEtCkwi2s2lt8awBXXrB0wjuU7AgTsmN-vJs8Q&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Avurhe | 
 
-|*Caso de Teste*                                 |*CT02 - Criar conta parte 2*                                        |
+|*Caso de Teste*                                 |*CT06 - Criar conta parte 2*                                        |
 |---|---|
 |Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/personal/1593064_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=ERI2weDGiEdDsxQfPEuEsLgB-lLqC1DbBmzPsiZFvTeukA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bYSYmF | 
 
-|*Caso de Teste*                                 |*CT02 - Criar conta parte 2*                                        |
+|*Caso de Teste*                                 |*CT07 - Criar conta parte 2*                                        |
 |---|---|
 |Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/personal/1593064_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=Ea-3GKfVAdNFvsh1JJmYFnQBl0vg4KS30-VJKDPOBbmfrA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=HR1W6U | 
 
-|*Caso de Teste*                                 |*CT02 - Criar conta parte 2*                                        |
+|*Caso de Teste*                                 |*CT08 - Criar conta parte 2*                                        |
 |---|---|
 |Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/personal/1593064_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=EYNHhRmCCgBPpaMDxg7awasBCi4qSsiHXLkw2AFaPrTDpQ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=JHH6q8| 
 
-|*Caso de Teste*                                 |*CT02 - Criar conta parte 2*                                        |
+|*Caso de Teste*                                 |*CT09 - Criar conta parte 2*                                        |
 |---|---|
 |Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/personal/1593064_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=EfFkA-KVBpFFmfixE1NgeAUBPtmzRZvGJ8nDyaDfKSf5OA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=lOPbsb | 
 
-|*Caso de Teste*                                 |*CT02 - Criar conta parte 2*                                        |
+|*Caso de Teste*                                 |*CT10 - Criar conta parte 2*                                        |
 |---|---|
 |Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/personal/1593064_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=EY6hlTQ3AKRJrzSBGSgaHawBmlWsNo7kG0tIlcvZlrlgaw&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rEfy7G | 
 
-|*Caso de Teste*                                 |*CT02 - Criar conta parte 2*                                        |
+|*Caso de Teste*                                 |*CT11 - Criar conta parte 2*                                        |
 |---|---|
 |Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/personal/1593064_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=EQU9zM3h9YJPvOT9YwiJl2MBZ19oTOU6cuFQfGeWlsaXqA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=3GVq2v | 
 
-|*Caso de Teste*                                 |*CT02 - Criar conta parte 2*                                        |
+|*Caso de Teste*                                 |*CT12 - Criar conta parte 2*                                        |
 |---|---|
 |Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/personal/1593064_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=EZ-QE3XnZfhOgUpGo0E_FcIBiJvhNjfHJ3nuGK0NY06b_w&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=oa5lGq | 
 
 ## Avaliação dos Testes de Software
 

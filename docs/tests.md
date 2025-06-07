@@ -25,13 +25,13 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe qual o Requisito Funcional ou não funcional que ele está verificando. Associe também a página (ou artefato) onde o teste será realizado e descreva o cenário do teste. Veja a tabela de exemplo.
 
 
-**Caso de Teste** | **CT01 - Criar conta parte 1**
+**Caso de Teste** | **CT01 - Cadastro e edicao de perfil**
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em criar conta <br> 2) Preencha todos os campos do formulário <br> 3) Clique no botão "Continuar".
+**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em Login <br> 3) Clique em criar conta de acordo com o seu perfil de usuário <br> 4) Preencha todos os campos do formulário de acordo com o seu perfil <br> 5) Clique em li e aceito os termos <br> 6) Clique em criar conta <br> 7) Após criar sua conta, clique em seu nome de usuário <br> 8) Clique em Perfil <br> 9) Clique no botão atualizar perfil <br> 10) Atualize os dados cadastrais <br> 11) Clique em salvar alteracões. 
 **Requisitos associados** | RF-001
-**Resultado esperado** | Prosseguir para a parte 2 do cadastro
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
-**Resultado obtido** | Sucesso
+**Resultado esperado** | Prosseguir com o cadastro e a edicão dos dados de perfil 
+**Dados de entrada** | Inserção de dados válidos no formulário de cadastro e atualizacão dos dados cadastrados no formulário 
+**Resultado obtido** | Sucesso 
 
 **Caso de Teste** | **CT02 - Criar conta parte 2**
  :--------------: | ------------

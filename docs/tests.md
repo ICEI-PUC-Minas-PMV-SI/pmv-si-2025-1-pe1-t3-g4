@@ -5,8 +5,6 @@ Neste projeto serão realizados dois tipos de testes:
  - O **Teste de Software**, que utiliza uma abordadem de caixa preta, e tem por objetivo verificar a conformidade do software com os requisitos funcionais e não funcionais do sistema.
  - O **Teste de Usabilidade**, que busca avaliar a qualidade do uso do sistema por um usuário do público alvo. 
 
-Se quiser conhecer um pouco mais sobre os tipos de teste de software, leia o documento [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/).
-
 A documentação dos testes é dividida nas seguintes seções:
 
  - [Plano de Testes de Software](#plano-de-testes-de-software)
@@ -18,43 +16,38 @@ A documentação dos testes é dividida nas seguintes seções:
 
 # Teste de Software
 
-Nesta seção o grupo deverá documentar os testes de software que verificam a correta implementação dos requisitos funcionais e não funcionais do software.
-
 ## Plano de Testes de Software
 
-Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe qual o Requisito Funcional ou não funcional que ele está verificando. Associe também a página (ou artefato) onde o teste será realizado e descreva o cenário do teste. Veja a tabela de exemplo.
-
-
-**Caso de Teste** | **CT01 - Cadastro e edicao de perfil**
+**Caso de Teste** | **CT01 - Cadastro e edição de perfil**
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em Login <br> 3) Clique em criar conta de acordo com o seu perfil de usuário <br> 4) Preencha todos os campos do formulário de acordo com o seu perfil <br> 5) Clique em li e aceito os termos <br> 6) Clique em criar conta <br> 7) Após criar sua conta, clique em seu nome de usuário <br> 8) Clique em Perfil <br> 9) Clique no botão atualizar perfil <br> 10) Atualize os dados cadastrais <br> 11) Clique em salvar alteracões. 
+**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em Login <br> 3) Clique em Criar conta de acordo com o seu perfil de usuário <br> 4) Preencha todos os campos do formulário de acordo com o seu perfil <br> 5) Clique em Li e aceito os termos <br> 6) Clique em Criar conta <br> 7) Após criar sua conta, clique em seu nome de usuário <br> 8) Clique em Perfil <br> 9) Clique no botão Atualizar perfil <br> 10) Atualize os dados cadastrais <br> 11) Clique em Salvar alteracões. 
 **Requisitos associados** | RF-001
-**Resultado esperado** | Prosseguir com o cadastro e a edicão dos dados de perfil 
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro e atualizacão dos dados cadastrados no formulário 
+**Resultado esperado** | Prosseguir com o cadastro e a edição dos dados de perfil.
+**Dados de entrada** | Inserção de dados válidos no formulário de cadastro e atualizacão dos dados cadastrados no formulário.
 **Resultado obtido** | Sucesso 
 
-**Caso de Teste** | **CT02 - Publicacão e Banco de Vagas2**
+**Caso de Teste** | **CT02 - Publicacão e Banco de Vagas**
  :--------------: | ------------
 **Procedimento**  | 1) Após ter realizado seu login como empresa, clique no menu Vagas <br> 2) Clique no botão verde Cadastre uma oportunidade <br> 3) Preencha o formulário e caso queira, anexo um arquivo <br> 4) Clique em Cadastrar Vaga para enviar ou limpar para cancelar. 
 **Requisitos associados** | RF-002
-**Resultado esperado** | Após o login, empresas conseguem cadastrar vagas
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
+**Resultado esperado** | Após o login, empresas conseguem cadastrar vagas.
+**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
 **Resultado obtido** | Sucesso
 
-**Caso de Teste** | **CT03 - Autenticacao e Login**
+**Caso de Teste** | **CT03 - Autenticação e Login**
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em Login <br> 3) Clique em criar conta de acordo com o seu perfil de usuário <br> 4) Preencha todos os campos do formulário de acordo com o seu perfil <br> 5) Clique em li e aceito os termos <br> 6) Clique em criar conta <br>.
+**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em Login <br> 3) Clique em Criar conta de acordo com o seu perfil de usuário <br> 4) Preencha todos os campos do formulário de acordo com o seu perfil <br> 5) Clique em Li e aceito os termos <br> 6) Clique em Criar conta <br>.
 **Requisitos associados** | RF-003
-**Resultado esperado** | Prosseguir para a criacão do cadastro e login
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
+**Resultado esperado** | Prosseguir para a criação do cadastro e login.
+**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
 **Resultado obtido** | Sucesso
 
-**Caso de Teste** | **CT04 - Filtro Avancado de Vagas**
+**Caso de Teste** | **CT04 - Filtro Avançado de Vagas**
  :--------------: | ------------
 **Procedimento**  | 1) Clique na página de Vagas <br> 2) Clique no campo buscar, para pesquisar pelo título da vaga <br> 3) Clique em locais para filtrar pela localidade <br> 4) Clique em Todos os salários para filtrar pelo salário. <br> 
 **Requisitos associados** | RF-004
 **Resultado esperado** | Usuário poderá filtrar as vagas de acordo com o seu título, localidade ou salário. 
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
+**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
 **Resultado obtido** | Sucesso
 
 **Caso de Teste** | **CT05 - Busca de Vagas**
@@ -69,7 +62,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
  :--------------: | ------------
 **Procedimento**  | 1) Clique em Vagas, após ter realizado seu login <br> 2) Clique no ícone da Estrela para favoritar uma vaga, dentre as disponibilizadas na plataforma. <br> 
 **Requisitos associados** | RF-006
-**Resultado esperado** | Favoritar vaga
+**Resultado esperado** | Favoritar vaga.
 **Dados de entrada** | Favoritar vaga disponibilizada por meio de clique em ícone da estrela. 
 **Resultado obtido** | Sucesso
 
@@ -78,7 +71,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Procedimento**  | 1) Após o login como usuário, clique Home <br> 2) Utilize o botão de rolagem até a secão de oportunidades de emprego. <br> 3) Visualize as vagas cadastradas recentemente. <br> 
 **Requisitos associados** | RF-007
 **Resultado esperado** | Usuário visualiza vagas cadastradas recentemente. 
-**Dados de entrada** | Visualizacão de vagas. 
+**Dados de entrada** | Visualização de vagas. 
 **Resultado obtido** | Sucesso
 
 **Caso de Teste** | **CT08 - Sistema de Feedback**
@@ -89,109 +82,103 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Inserção de dados.
 **Resultado obtido** | Sucesso
 
-**Caso de Teste** | **CT09 - Guia de Documentacão**
+**Caso de Teste** | **CT09 - Guia de Documentação**
  :--------------: | ------------
-**Procedimento**  | 1) Clique em Recursos <br> 2) Dentro da caixa de Guia de Documentacão, clique em Ver Detalhes. <br> 3) Utilize o botão de rolagem para visualizar as informacões sobre documentacão.<br>
+**Procedimento**  | 1) Clique em Recursos <br> 2) Dentro da caixa de Guia de Documentação, clique em Ver Detalhes. <br> 3) Utilize o botão de rolagem para visualizar as informações sobre documentação.<br>
 **Requisitos associados** | RF-009
-**Resultado esperado** | Usuário poderá visualizar um guia com informacões sobre documentacão. 
+**Resultado esperado** | Usuário poderá visualizar um guia com informações sobre documentação. 
 **Dados de entrada** | Usuário utilizará botão de rolagem. 
 **Resultado obtido** | Sucesso
 
 **Caso de Teste** | **CT10 - Recursos Educacionais**
  :--------------: | ------------
-**Procedimento**  | 1) Clique em Recursos. <br> 2) Dentro da Caixa de Recursos Educacionais, clique em Ver Detalhes. <br> 3) Utilize o botão de rolagem para visualizar as informacões sobre os recursos educacionais.<br>
+**Procedimento**  | 1) Clique em Recursos. <br> 2) Dentro da Caixa de Recursos Educacionais, clique em Ver Detalhes. <br> 3) Utilize o botão de rolagem para visualizar as informações sobre os recursos educacionais.<br>
 **Requisitos associados** | RF-010
-**Resultado esperado** | Usuário poderá visualizar uma página com informacões educacionais. 
+**Resultado esperado** | Usuário poderá visualizar uma página com informações educacionais. 
 **Dados de entrada** | Usuário utilizará o botão de rolagem. 
 **Resultado obtido** | Sucesso
 
 **Caso de Teste** | **CT11 - Caixa de Sugestão de Recursos Adicionais**
  :--------------: | ------------
-**Procedimento**  | 1) Clique em Recursos no menu de navegacão. <br> 2) Com o botão de rolagem, vá até o final da página e clique em Abrir Sugestão. <br> 3) Preencha os dados solicitados. <br> 4) Clique em Enviar. <br>
+**Procedimento**  | 1) Clique em Recursos no menu de navegação. <br> 2) Com o botão de rolagem, vá até o final da página e clique em Abrir Sugestão. <br> 3) Preencha os dados solicitados. <br> 4) Clique em Enviar. <br>
 **Requisitos associados** | RF-011
 **Resultado esperado** | Usuário poderá enviar uma sugestão de conteúdo para ser publicado na plataforma.
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
+**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
 **Resultado obtido** | Sucesso
 
 **Caso de Teste** | **CT12 - ÁREA PARA ONGS**
  :--------------: | ------------
-**Procedimento**  | 1) Clique em ONGS no menu de navegacão. <br> 2) Utilize o botão de rolagem para visualziar as informacões. <br> 
+**Procedimento**  | 1) Clique em ONGS no menu de navegação. <br> 2) Utilize o botão de rolagem para visualziar as informações. <br> 
 **Requisitos associados** | RF-012
-**Resultado esperado** | Usuário pode visualizar as informacões da página para ONGS.
-**Dados de entrada** | Visualizacão de informacões. 
+**Resultado esperado** | Usuário pode visualizar as informações da página para ONGS.
+**Dados de entrada** | Visualizacão de informações. 
 **Resultado obtido** | Sucesso
 
 ## Registro dos Testes de Software
 
-Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
-
 |*Caso de Teste*                                 |*CT01*                                        |
 |---|---|
-|Requisito Associado | RF-001 - Cadastro e Edição de Perfil - Usuários podem criar perfis com informações específicas (migrantes, refugiados, recrutadores, ONGs) e atualizar dados como habilidades, experiências e contatos.| 
-|Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/personal/1593064_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=ESM4phU_F3xFqf6pXTC9E7EBiHRVfbmRKLZn3FhFJwVzAw&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7dJg1A| 
+|Requisito Associado | RF-001 - Cadastro e Edição de Perfil|
+|Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/personal/1593064_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=ESM4phU_F3xFqf6pXTC9E7EBiHRVfbmRKLZn3FhFJwVzAw&e=wnEz7L| 
 
-|*Caso de Teste*                                 |*CT02 - Criar conta parte 2*                                        |
+|*Caso de Teste*                                 |*CT02*                                        |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/personal/1593064_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=ESrT8naRvUFCks9io3e3Cz8BWcJcAz77l7_02W-pwcXkqQ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=62O1jn| 
+|Requisito Associado | RF-002 - Publicação e Banco de Vagas| 
+|Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/personal/1593064_sga_pucminas_br/Documents/TESTES/CT_02.mov?csf=1&web=1&e=eB4G7V| 
 
-|*Caso de Teste*                                 |*CT03 - Criar conta parte 2*                                        |
+|*Caso de Teste*                                 |*CT03*                                        |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/personal/1593064_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=ETKyZwWjamJDltZ7KvB6DVoBJxrnt_vzTTJoFhRS9HHL6w&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Ue6v98| 
+|Requisito Associado | RF-003 - Autenticação e login|
+|Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/personal/1593064_sga_pucminas_br/Documents/TESTES/CT_03.mov?csf=1&web=1&e=Z3wrGW| 
 
-|*Caso de Teste*                                 |*CT04 - Criar conta parte 2*                                        |
+|*Caso de Teste*                                 |*CT04*                                        |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/personal/1593064_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=EWEapoWTWEtCkwi2s2lt8awBXXrB0wjuU7AgTsmN-vJs8Q&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Avurhe| 
+|Requisito Associado | RF-004 - Filtros Avançados de Vagas|
+|Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/personal/1593064_sga_pucminas_br/Documents/TESTES/CT_04.mov?csf=1&web=1&e=mX9ZAa| 
 
-|*Caso de Teste*                                 |*CT05 - Criar conta parte 2*                                        |
+|*Caso de Teste*                                 |*CT05*                                        |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/personal/1593064_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=EWEapoWTWEtCkwi2s2lt8awBXXrB0wjuU7AgTsmN-vJs8Q&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Avurhe | 
+|Requisito Associado | RF-005 - Busca de Vagas|
+|Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/personal/1593064_sga_pucminas_br/Documents/TESTES/CT_05.mov?csf=1&web=1&e=3wRiSV| 
 
-|*Caso de Teste*                                 |*CT06 - Criar conta parte 2*                                        |
+|*Caso de Teste*                                 |*CT06*                                        |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/personal/1593064_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=ERI2weDGiEdDsxQfPEuEsLgB-lLqC1DbBmzPsiZFvTeukA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bYSYmF | 
+|Requisito Associado | RF-006 - Favoritos|
+|Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/personal/1593064_sga_pucminas_br/Documents/TESTES/CT_06.mov?csf=1&web=1&e=xP9aBN| 
 
-|*Caso de Teste*                                 |*CT07 - Criar conta parte 2*                                        |
+|*Caso de Teste*                                 |*CT07*                                        |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/personal/1593064_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=Ea-3GKfVAdNFvsh1JJmYFnQBl0vg4KS30-VJKDPOBbmfrA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=HR1W6U | 
+|Requisito Associado | RF-007 - Vagas Cadastradas Recentemente|
+|Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/personal/1593064_sga_pucminas_br/Documents/TESTES/CT_07.mov?csf=1&web=1&e=AoGXuS| 
 
-|*Caso de Teste*                                 |*CT08 - Criar conta parte 2*                                        |
+|*Caso de Teste*                                 |*CT08*                                        |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/personal/1593064_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=EYNHhRmCCgBPpaMDxg7awasBCi4qSsiHXLkw2AFaPrTDpQ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=JHH6q8| 
+|Requisito Associado | RF-008 - Sistema de Feedback|
+|Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/personal/1593064_sga_pucminas_br/Documents/TESTES/CT_08.mov?csf=1&web=1&e=vSOsKw| 
 
-|*Caso de Teste*                                 |*CT09 - Criar conta parte 2*                                        |
+|*Caso de Teste*                                 |*CT09*                                        |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/personal/1593064_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=EfFkA-KVBpFFmfixE1NgeAUBPtmzRZvGJ8nDyaDfKSf5OA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=lOPbsb | 
+|Requisito Associado | RF-009 - Guia de Documentação|
+|Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/personal/1593064_sga_pucminas_br/Documents/TESTES/CT_09.mov?csf=1&web=1&e=WPxkv9| 
 
-|*Caso de Teste*                                 |*CT10 - Criar conta parte 2*                                        |
+|*Caso de Teste*                                 |*CT10*                                        |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/personal/1593064_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=EY6hlTQ3AKRJrzSBGSgaHawBmlWsNo7kG0tIlcvZlrlgaw&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rEfy7G | 
+|Requisito Associado | RF-010 - Recursos Educacionais|
+|Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/personal/1593064_sga_pucminas_br/Documents/TESTES/CT_10.mov?csf=1&web=1&e=j44mw8| 
 
-|*Caso de Teste*                                 |*CT11 - Criar conta parte 2*                                        |
+|*Caso de Teste*                                 |*CT11*                                        |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/personal/1593064_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=EQU9zM3h9YJPvOT9YwiJl2MBZ19oTOU6cuFQfGeWlsaXqA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=3GVq2v | 
+|Requisito Associado | RF-011 - Caixa de sugestão de recursos adicionais|
+|Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/personal/1593064_sga_pucminas_br/Documents/TESTES/CT_11.mov?csf=1&web=1&e=1Qg4pR| 
 
-|*Caso de Teste*                                 |*CT12 - Criar conta parte 2*                                        |
+|*Caso de Teste*                                 |*CT12*                                        |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/personal/1593064_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=EZ-QE3XnZfhOgUpGo0E_FcIBiJvhNjfHJ3nuGK0NY06b_w&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=oa5lGq | 
+|Requisito Associado | RF-012 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
+|Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/personal/1593064_sga_pucminas_br/Documents/TESTES/CT_12.mov?csf=1&web=1&e=lgUq8O| 
 
 ## Avaliação dos Testes de Software
 
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
-
-## Testes de unidade automatizados (Opcional)
-
-Se o grupo tiver interesse em se aprofundar no desenvolvimento de testes de software, ele podera desenvolver testes automatizados de software que verificam o funcionamento das funções JavaScript desenvolvidas. Para conhecer sobre testes unitários em JavaScript, leia 0 documento  [Ferramentas de Teste para Java Script](https://geekflare.com/javascript-unit-testing/).
 
 # Testes de Usabilidade
 

@@ -127,7 +127,8 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 
 |*Caso de Teste*                                 |*CT01*                                        |
 |---|---|
-|Requisito Associado | RF-001 - Cadastro e Edição de Perfil - Usuários podem criar perfis com informações específicas (migrantes, refugiados, recrutadores, ONGs) e atualizar dados como habilidades, experiências e contatos.| https://sgapucminasbr-my.sharepoint.com/personal/1593064_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=ESM4phU_F3xFqf6pXTC9E7EBiHRVfbmRKLZn3FhFJwVzAw&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7dJg1A| 
+|Requisito Associado | RF-001 - Cadastro e Edição de Perfil - Usuários podem criar perfis com informações específicas (migrantes, refugiados, recrutadores, ONGs) e atualizar dados como habilidades, experiências e contatos.| 
+|Link do vídeo do teste realizado: | https://sgapucminasbr-my.sharepoint.com/personal/1593064_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=ESM4phU_F3xFqf6pXTC9E7EBiHRVfbmRKLZn3FhFJwVzAw&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7dJg1A| 
 
 |*Caso de Teste*                                 |*CT02 - Criar conta parte 2*                                        |
 |---|---|

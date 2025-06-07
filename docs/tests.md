@@ -19,99 +19,99 @@ A documentação dos testes é dividida nas seguintes seções:
 ## Plano de Testes de Software
 
 **Caso de Teste** | **CT01 - Cadastro e edição de perfil**
- :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em Login <br> 3) Clique em Criar conta de acordo com o seu perfil de usuário <br> 4) Preencha todos os campos do formulário de acordo com o seu perfil <br> 5) Clique em Li e aceito os termos <br> 6) Clique em Criar conta <br> 7) Após criar sua conta, clique em seu nome de usuário <br> 8) Clique em Perfil <br> 9) Clique no botão Atualizar perfil <br> 10) Atualize os dados cadastrais <br> 11) Clique em Salvar alteracões. 
+ :--------------: | ------------ |
+**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em Login <br> 3) Clique em Criar conta de acordo com o seu perfil de usuário <br> 4) Preencha todos os campos do formulário de acordo com o seu perfil <br> 5) Clique em Li e aceito os termos <br> 6) Clique em Criar conta <br> 7) Após criar sua conta, clique em seu nome de usuário <br> 8) Clique em Perfil <br> 9) Clique no botão Atualizar perfil <br> 10) Atualize os dados cadastrais <br> 11) Clique em Salvar alteracões
 **Requisitos associados** | RF-001
-**Resultado esperado** | Prosseguir com o cadastro e a edição dos dados de perfil.
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro e atualizacão dos dados cadastrados no formulário.
+**Resultado esperado** | Prosseguir com o cadastro e a edição dos dados de perfil
+**Dados de entrada** | Inserção de dados válidos no formulário de cadastro e atualizacão dos dados cadastrados no formulário
 **Resultado obtido** | Sucesso 
 
 **Caso de Teste** | **CT02 - Publicacão e Banco de Vagas**
- :--------------: | ------------
-**Procedimento**  | 1) Após ter realizado seu login como empresa, clique no menu Vagas <br> 2) Clique no botão verde Cadastre uma oportunidade <br> 3) Preencha o formulário e caso queira, anexo um arquivo <br> 4) Clique em Cadastrar Vaga para enviar ou limpar para cancelar. 
+ :--------------: | ------------ |
+**Procedimento**  | 1) Após ter realizado seu login como empresa, clique no menu Vagas <br> 2) Clique no botão verde Cadastre uma oportunidade <br> 3) Preencha o formulário e caso queira, anexo um arquivo <br> 4) Clique em Cadastrar Vaga para enviar ou limpar para cancelar
 **Requisitos associados** | RF-002
-**Resultado esperado** | Após o login, empresas conseguem cadastrar vagas.
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
+**Resultado esperado** | Após o login, empresas conseguem cadastrar vagas
+**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
 **Resultado obtido** | Sucesso
 
 **Caso de Teste** | **CT03 - Autenticação e Login**
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em Login <br> 3) Clique em Criar conta de acordo com o seu perfil de usuário <br> 4) Preencha todos os campos do formulário de acordo com o seu perfil <br> 5) Clique em Li e aceito os termos <br> 6) Clique em Criar conta <br>.
+**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em Login <br> 3) Clique em Criar conta de acordo com o seu perfil de usuário <br> 4) Preencha todos os campos do formulário de acordo com o seu perfil <br> 5) Clique em Li e aceito os termos <br> 6) Clique em Criar conta <br>
 **Requisitos associados** | RF-003
-**Resultado esperado** | Prosseguir para a criação do cadastro e login.
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
+**Resultado esperado** | Prosseguir para a criação do cadastro e login
+**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
 **Resultado obtido** | Sucesso
 
 **Caso de Teste** | **CT04 - Filtro Avançado de Vagas**
  :--------------: | ------------
-**Procedimento**  | 1) Clique na página de Vagas <br> 2) Clique no campo buscar, para pesquisar pelo título da vaga <br> 3) Clique em locais para filtrar pela localidade <br> 4) Clique em Todos os salários para filtrar pelo salário. <br> 
+**Procedimento**  | 1) Clique na página de Vagas <br> 2) Clique no campo buscar, para pesquisar pelo título da vaga <br> 3) Clique em locais para filtrar pela localidade <br> 4) Clique em Todos os salários para filtrar pelo salário <br> 
 **Requisitos associados** | RF-004
-**Resultado esperado** | Usuário poderá filtrar as vagas de acordo com o seu título, localidade ou salário. 
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
+**Resultado esperado** | Usuário poderá filtrar as vagas de acordo com o seu título, localidade ou salário 
+**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
 **Resultado obtido** | Sucesso
 
 **Caso de Teste** | **CT05 - Busca de Vagas**
  :--------------: | ------------
-**Procedimento**  | 1) Clique em Vagas, após ter realizado seu login como usuário <br> 2) Utilize a barra de rolagem para se movimentar pelas vagas já postadas na plataforma.<br>
+**Procedimento**  | 1) Clique em Vagas, após ter realizado seu login como usuário <br> 2) Utilize a barra de rolagem para se movimentar pelas vagas já postadas na plataforma<br>
 **Requisitos associados** | RF-005
-**Resultado esperado** | Prosseguir para a busca de vagas, após o login na plataforma. 
-**Dados de entrada** | Procura nas vagas já postadas. 
+**Resultado esperado** | Prosseguir para a busca de vagas, após o login na plataforma
+**Dados de entrada** | Procura nas vagas já postadas
 **Resultado obtido** | Sucesso
 
 **Caso de Teste** | **CT06 - Favoritos**
  :--------------: | ------------
-**Procedimento**  | 1) Clique em Vagas, após ter realizado seu login <br> 2) Clique no ícone da Estrela para favoritar uma vaga, dentre as disponibilizadas na plataforma. <br> 
+**Procedimento**  | 1) Clique em Vagas, após ter realizado seu login <br> 2) Clique no ícone da Estrela para favoritar uma vaga, dentre as disponibilizadas na plataforma <br> 
 **Requisitos associados** | RF-006
-**Resultado esperado** | Favoritar vaga.
-**Dados de entrada** | Favoritar vaga disponibilizada por meio de clique em ícone da estrela. 
+**Resultado esperado** | Favoritar vaga
+**Dados de entrada** | Favoritar vaga disponibilizada por meio de clique em ícone da estrela 
 **Resultado obtido** | Sucesso
 
 **Caso de Teste** | **CT07 - Vagas cadastradas recentemente**
  :--------------: | ------------
-**Procedimento**  | 1) Após o login como usuário, clique Home <br> 2) Utilize o botão de rolagem até a secão de oportunidades de emprego. <br> 3) Visualize as vagas cadastradas recentemente. <br> 
+**Procedimento**  | 1) Após o login como usuário, clique Home <br> 2) Utilize o botão de rolagem até a secão de oportunidades de emprego <br> 3) Visualize as vagas cadastradas recentemente <br> 
 **Requisitos associados** | RF-007
-**Resultado esperado** | Usuário visualiza vagas cadastradas recentemente. 
-**Dados de entrada** | Visualização de vagas. 
+**Resultado esperado** | Usuário visualiza vagas cadastradas recentemente
+**Dados de entrada** | Visualização de vagas
 **Resultado obtido** | Sucesso
 
 **Caso de Teste** | **CT08 - Sistema de Feedback**
  :--------------: | ------------
-**Procedimento**  | 1) Clique para enviar o input <br> 2) Visualize a mensagem de sucesso ou de erro. <br> 
+**Procedimento**  | 1) Clique para enviar o input <br> 2) Visualize a mensagem de sucesso ou de erro <br> 
 **Requisitos associados** | RF-008
-**Resultado esperado** | Usuário visualiza uma mensagem de retorno quanto ao input realizado. 
-**Dados de entrada** | Inserção de dados.
+**Resultado esperado** | Usuário visualiza uma mensagem de retorno quanto ao input realizado
+**Dados de entrada** | Inserção de dados
 **Resultado obtido** | Sucesso
 
 **Caso de Teste** | **CT09 - Guia de Documentação**
  :--------------: | ------------
-**Procedimento**  | 1) Clique em Recursos <br> 2) Dentro da caixa de Guia de Documentação, clique em Ver Detalhes. <br> 3) Utilize o botão de rolagem para visualizar as informações sobre documentação.<br>
+**Procedimento**  | 1) Clique em Recursos <br> 2) Dentro da caixa de Guia de Documentação, clique em Ver Detalhes <br> 3) Utilize o botão de rolagem para visualizar as informações sobre documentação<br>
 **Requisitos associados** | RF-009
-**Resultado esperado** | Usuário poderá visualizar um guia com informações sobre documentação. 
-**Dados de entrada** | Usuário utilizará botão de rolagem. 
+**Resultado esperado** | Usuário poderá visualizar um guia com informações sobre documentação 
+**Dados de entrada** | Usuário utilizará botão de rolagem
 **Resultado obtido** | Sucesso
 
 **Caso de Teste** | **CT10 - Recursos Educacionais**
  :--------------: | ------------
-**Procedimento**  | 1) Clique em Recursos. <br> 2) Dentro da Caixa de Recursos Educacionais, clique em Ver Detalhes. <br> 3) Utilize o botão de rolagem para visualizar as informações sobre os recursos educacionais.<br>
+**Procedimento**  | 1) Clique em Recursos <br> 2) Dentro da Caixa de Recursos Educacionais, clique em Ver Detalhes <br> 3) Utilize o botão de rolagem para visualizar as informações sobre os recursos educacionais<br>
 **Requisitos associados** | RF-010
-**Resultado esperado** | Usuário poderá visualizar uma página com informações educacionais. 
-**Dados de entrada** | Usuário utilizará o botão de rolagem. 
+**Resultado esperado** | Usuário poderá visualizar uma página com informações educacionais 
+**Dados de entrada** | Usuário utilizará o botão de rolagem 
 **Resultado obtido** | Sucesso
 
 **Caso de Teste** | **CT11 - Caixa de Sugestão de Recursos Adicionais**
  :--------------: | ------------
-**Procedimento**  | 1) Clique em Recursos no menu de navegação. <br> 2) Com o botão de rolagem, vá até o final da página e clique em Abrir Sugestão. <br> 3) Preencha os dados solicitados. <br> 4) Clique em Enviar. <br>
+**Procedimento**  | 1) Clique em Recursos no menu de navegação <br> 2) Com o botão de rolagem, vá até o final da página e clique em Abrir Sugestão <br> 3) Preencha os dados solicitados. <br> 4) Clique em Enviar <br>
 **Requisitos associados** | RF-011
-**Resultado esperado** | Usuário poderá enviar uma sugestão de conteúdo para ser publicado na plataforma.
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
+**Resultado esperado** | Usuário poderá enviar uma sugestão de conteúdo para ser publicado na plataforma
+**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
 **Resultado obtido** | Sucesso
 
 **Caso de Teste** | **CT12 - ÁREA PARA ONGS**
- :--------------: | ------------
-**Procedimento**  | 1) Clique em ONGS no menu de navegação. <br> 2) Utilize o botão de rolagem para visualziar as informações. <br> 
+ :--------------: | ------------ 
+**Procedimento**  | 1) Clique em ONGS no menu de navegação. <br> 2) Utilize o botão de rolagem para visualziar as informações <br> 
 **Requisitos associados** | RF-012
-**Resultado esperado** | Usuário pode visualizar as informações da página para ONGS.
-**Dados de entrada** | Visualizacão de informações. 
+**Resultado esperado** | Usuário pode visualizar as informações da página para ONGS
+**Dados de entrada** | Visualizacão de informações
 **Resultado obtido** | Sucesso
 
 ## Registro dos Testes de Software

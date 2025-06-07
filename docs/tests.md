@@ -73,52 +73,52 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Favoritar vaga disponibilizada por meio de clique em ícone da estrela. 
 **Resultado obtido** | Sucesso
 
-**Caso de Teste** | **CT07 - Criar conta parte 2**
+**Caso de Teste** | **CT07 - Vagas cadastradas recentemente**
  :--------------: | ------------
-**Procedimento**  | 1) Preencha todos os campos do formulário <br> 2) Clique no botão "Criar conta" <br> 
-**Requisitos associados** | RF-001
-**Resultado esperado** | Usuário cadastrado
+**Procedimento**  | 1) Após o login como usuário, clique Home <br> 2) Utilize o botão de rolagem até a secão de oportunidades de emprego. <br> 3) Visualize as vagas cadastradas recentemente. <br> 
+**Requisitos associados** | RF-007
+**Resultado esperado** | Usuário visualiza vagas cadastradas recentemente. 
+**Dados de entrada** | Visualizacão de vagas. 
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT08 - Sistema de Feedback**
+ :--------------: | ------------
+**Procedimento**  | 1) Clique para enviar o input <br> 2) Visualize a mensagem de sucesso ou de erro. <br> 
+**Requisitos associados** | RF-008
+**Resultado esperado** | Usuário visualiza uma mensagem de retorno quanto ao input realizado. 
+**Dados de entrada** | Inserção de dados.
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT09 - Guia de Documentacão**
+ :--------------: | ------------
+**Procedimento**  | 1) Clique em Recursos <br> 2) Dentro da caixa de Guia de Documentacão, clique em Ver Detalhes. <br> 3) Utilize o botão de rolagem para visualizar as informacões sobre documentacão.<br>
+**Requisitos associados** | RF-009
+**Resultado esperado** | Usuário poderá visualizar um guia com informacões sobre documentacão. 
+**Dados de entrada** | Usuário utilizará botão de rolagem. 
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT10 - Recursos Educacionais**
+ :--------------: | ------------
+**Procedimento**  | 1) Clique em Recursos. <br> 2) Dentro da Caixa de Recursos Educacionais, clique em Ver Detalhes. <br> 3) Utilize o botão de rolagem para visualizar as informacões sobre os recursos educacionais.<br>
+**Requisitos associados** | RF-010
+**Resultado esperado** | Usuário poderá visualizar uma página com informacões educacionais. 
+**Dados de entrada** | Usuário utilizará o botão de rolagem. 
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT11 - Caixa de Sugestão de Recursos Adicionais**
+ :--------------: | ------------
+**Procedimento**  | 1) Clique em Recursos no menu de navegacão. <br> 2) Com o botão de rolagem, vá até o final da página e clique em Abrir Sugestão. <br> 3) Preencha os dados solicitados. <br> 4) Clique em Enviar. <br>
+**Requisitos associados** | RF-011
+**Resultado esperado** | Usuário poderá enviar uma sugestão de conteúdo para ser publicado na plataforma.
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro
 **Resultado obtido** | Sucesso
 
-**Caso de Teste** | **CT08 - Criar conta parte 2**
+**Caso de Teste** | **CT12 - ÁREA PARA ONGS**
  :--------------: | ------------
-**Procedimento**  | 1) Preencha todos os campos do formulário <br> 2) Clique no botão "Criar conta" <br> 
-**Requisitos associados** | RF-001
-**Resultado esperado** | Usuário cadastrado
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
-**Resultado obtido** | Sucesso
-
-**Caso de Teste** | **CT09 - Criar conta parte 2**
- :--------------: | ------------
-**Procedimento**  | 1) Preencha todos os campos do formulário <br> 2) Clique no botão "Criar conta" <br> 
-**Requisitos associados** | RF-001
-**Resultado esperado** | Usuário cadastrado
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
-**Resultado obtido** | Sucesso
-
-**Caso de Teste** | **CT10 - Criar conta parte 2**
- :--------------: | ------------
-**Procedimento**  | 1) Preencha todos os campos do formulário <br> 2) Clique no botão "Criar conta" <br> 
-**Requisitos associados** | RF-001
-**Resultado esperado** | Usuário cadastrado
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
-**Resultado obtido** | Sucesso
-
-**Caso de Teste** | **CT11 - Criar conta parte 2**
- :--------------: | ------------
-**Procedimento**  | 1) Preencha todos os campos do formulário <br> 2) Clique no botão "Criar conta" <br> 
-**Requisitos associados** | RF-001
-**Resultado esperado** | Usuário cadastrado
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
-**Resultado obtido** | Sucesso
-
-**Caso de Teste** | **CT12 - Criar conta parte 2**
- :--------------: | ------------
-**Procedimento**  | 1) Preencha todos os campos do formulário <br> 2) Clique no botão "Criar conta" <br> 
-**Requisitos associados** | RF-001
-**Resultado esperado** | Usuário cadastrado
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
+**Procedimento**  | 1) Clique em ONGS no menu de navegacão. <br> 2) Utilize o botão de rolagem para visualziar as informacões. <br> 
+**Requisitos associados** | RF-012
+**Resultado esperado** | Usuário pode visualizar as informacões da página para ONGS.
+**Dados de entrada** | Visualizacão de informacões. 
 **Resultado obtido** | Sucesso
 
 ## Registro dos Testes de Software

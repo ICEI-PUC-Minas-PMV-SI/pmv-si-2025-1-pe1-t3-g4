@@ -41,6 +41,86 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro
 **Resultado obtido** | Sucesso
 
+**Caso de Teste** | **CT03 - Criar conta parte 1**
+ :--------------: | ------------
+**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em criar conta <br> 2) Preencha todos os campos do formulário <br> 3) Clique no botão "Continuar".
+**Requisitos associados** | RF-001
+**Resultado esperado** | Prosseguir para a parte 2 do cadastro
+**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT04 - Criar conta parte 2**
+ :--------------: | ------------
+**Procedimento**  | 1) Preencha todos os campos do formulário <br> 2) Clique no botão "Criar conta" <br> 
+**Requisitos associados** | RF-001
+**Resultado esperado** | Usuário cadastrado
+**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT05 - Criar conta parte 1**
+ :--------------: | ------------
+**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em criar conta <br> 2) Preencha todos os campos do formulário <br> 3) Clique no botão "Continuar".
+**Requisitos associados** | RF-001
+**Resultado esperado** | Prosseguir para a parte 2 do cadastro
+**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT06 - Criar conta parte 2**
+ :--------------: | ------------
+**Procedimento**  | 1) Preencha todos os campos do formulário <br> 2) Clique no botão "Criar conta" <br> 
+**Requisitos associados** | RF-001
+**Resultado esperado** | Usuário cadastrado
+**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT07 - Criar conta parte 2**
+ :--------------: | ------------
+**Procedimento**  | 1) Preencha todos os campos do formulário <br> 2) Clique no botão "Criar conta" <br> 
+**Requisitos associados** | RF-001
+**Resultado esperado** | Usuário cadastrado
+**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT08 - Criar conta parte 2**
+ :--------------: | ------------
+**Procedimento**  | 1) Preencha todos os campos do formulário <br> 2) Clique no botão "Criar conta" <br> 
+**Requisitos associados** | RF-001
+**Resultado esperado** | Usuário cadastrado
+**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT09 - Criar conta parte 2**
+ :--------------: | ------------
+**Procedimento**  | 1) Preencha todos os campos do formulário <br> 2) Clique no botão "Criar conta" <br> 
+**Requisitos associados** | RF-001
+**Resultado esperado** | Usuário cadastrado
+**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT10 - Criar conta parte 2**
+ :--------------: | ------------
+**Procedimento**  | 1) Preencha todos os campos do formulário <br> 2) Clique no botão "Criar conta" <br> 
+**Requisitos associados** | RF-001
+**Resultado esperado** | Usuário cadastrado
+**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT11 - Criar conta parte 2**
+ :--------------: | ------------
+**Procedimento**  | 1) Preencha todos os campos do formulário <br> 2) Clique no botão "Criar conta" <br> 
+**Requisitos associados** | RF-001
+**Resultado esperado** | Usuário cadastrado
+**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT12 - Criar conta parte 2**
+ :--------------: | ------------
+**Procedimento**  | 1) Preencha todos os campos do formulário <br> 2) Clique no botão "Criar conta" <br> 
+**Requisitos associados** | RF-001
+**Resultado esperado** | Usuário cadastrado
+**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
+**Resultado obtido** | Sucesso
+
 ## Registro dos Testes de Software
 
 Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.

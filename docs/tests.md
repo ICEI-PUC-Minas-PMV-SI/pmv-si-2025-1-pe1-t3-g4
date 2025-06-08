@@ -20,7 +20,7 @@ A documentação dos testes é dividida nas seguintes seções:
 
 **Caso de Teste** | **CT01 - Cadastro e edição de perfil**
  :--------------: | ------------ |
-**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em Login <br> 3) Clique em Criar conta de acordo com o seu perfil de usuário <br> 4) Preencha todos os campos do formulário de acordo com o seu perfil <br> 5) Clique em Li e aceito os termos <br> 6) Clique em Criar conta <br> 7) Após criar sua conta, clique em seu nome de usuário <br> 8) Clique em Perfil <br> 9) Clique no botão Atualizar perfil <br> 10) Atualize os dados cadastrais <br> 11) Clique em Salvar alteracões
+**Procedimento**  | 1) Acesse o endereço www.teste.com.br. <br> 2) Clique em Login. <br> 3) Clique em Criar conta de acordo com o seu perfil de usuário. <br> 4) Preencha todos os campos do formulário de acordo com o seu perfil. <br> 5) Clique em Li e aceito os termos. <br> 6) Clique em Criar conta. <br> 7) Após criar sua conta, clique em seu nome de usuário. <br> 8) Clique em Perfil. <br> 9) Clique no botão Atualizar perfil. <br> 10) Atualize os dados cadastrais. <br> 11) Clique em Salvar alteracões. <br>
 **Requisitos associados** | RF-001
 **Resultado esperado** | Prosseguir com o cadastro e a edição dos dados de perfil
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro e atualizacão dos dados cadastrados no formulário
@@ -178,7 +178,7 @@ A documentação dos testes é dividida nas seguintes seções:
 
 ## Avaliação dos Testes de Software
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+Os testes foram realizados de maneira satisfatória. Todos os requisitos funcionais previstos para o projeto foram desenvolvidos e implementados. Os testes dos requisitos Rf-01, RF-02 e RF-03, cujo objeto apresentavam duas ações (ex: cadastro e edição do perfil), foram mantidos em um único teste, razão pela qual as gravações de tela ficaram maiores para os CT-01, CT-02 e CT-03. 
 
 # Testes de Usabilidade
 

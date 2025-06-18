@@ -8,19 +8,34 @@ message: >-
   Web da PUC Minas.
 type: software
 authors:
-  - given-names: Aluno 1
-    family-names: Nome Completo
-    email: aluno@pucminas.br
+  - given-names: Cristhian Daniel
+    family-names: Lima Rocha
+    email: 1590781@sga.pucminas.br
     affiliation: PUC Minas
-  - given-names: Hugo
-    name-particle: 'B '
-    family-names: de Paula
+  - given-names: Felipe Augusto
+    family-names: Silva
+    email: 1593064@sga.pucminas.br
+    affiliation: PUC Minas
+  - given-names: Felipe
+    family-names: Guimarães Moraes
+    email: felipe.moraes.1592188@sga.pucminas.br
+    affiliation: PUC Minas
+  - given-names: Luan Ricardo
+    family-names: de Oliveira Santos
+    email: 1568640@sga.pucminas.br
+    affiliation: PUC Minas
+  - given-names: Stanley Wallace
+    family-names: Rodrigues Belo
+    email: 1592155@sga.pucminas.br
+    affiliation: PUC Minas
+  - given-names: Hayala
+    family-names: Curto Nepomuceno
     name-suffix: Prof.
-    email: hugo@pucminas.br
+    email: hayala.nepomuceno@sga.pucminas.br
     affiliation: PUC Minas
-    orcid: 'https://orcid.org/0000-0002-6193-3205'
+    orcid: 'https://orcid.org/0009-0008-7111-8045'
 repository-code: >-
-  https://github.com/ICEI-PUC-Minas-PMV-SI/WebApplicationProject-Template
+  https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-1-pe1-t3-g4
 abstract: >-
   Descrever resumidamente, em um ou dois parágrafos, o
   projeto que foi desenvolvido.
@@ -30,4 +45,4 @@ keywords:
   - CSS
   - JavaScript
   - Template
-date-released: '2024-06-23'
+date-released: '2025-06-22'

@@ -11,7 +11,6 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 ## Integrantes
 
 Cristhian Daniel Lima Rocha<br>
-Eric Couto Waisberg<br>
 Felipe Augusto Silva<br>
 Felipe Guimarães Moraes<br>
 Luan Ricardo de Oliveira Santos<br>

@@ -224,59 +224,72 @@ Cenário 1: Você é uma pessoa migrante ou refugiada que deseja procurar vagas 
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 27.87 segundos                  |
-| 2       | SIM             | 5                    | 17.11 segundos                  |
-| 3       | SIM             | 5                    | 39.09 segundos                  |
+| 1       | SIM             | 5                    | 36.50 segundos                  |
+| 2       | SIM             | 5                    | 40.15 segundos                  |
+| 3       | SIM             | 4                    | 41.18 segundos                  |
 |  |  |  |  |
-| **Média**     | 100%           | 5                | 28.02 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 8.66 segundos |
+| **Média**     | 100%           | 5                | 39.28 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 10.11 segundos |
 
 
-    Comentários dos usuários: Achei o site muito bom e intuitivo. 
-    Não tive dificuldades e acho que ficou bem intuitivo.
+    Comentários dos usuários: Achei bem fácil de mexer, consegui fazer tudo sem ajuda. 
+    Achei bem fácil de mexer, consegui fazer tudo sem ajuda.
 
 
 Cenário 2: Você é uma empresa e deseja anunciar uma vaga. Encontre no site como cadastrar sua empresa e vagas para avaliação.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 4                    | 36.21 segundos                          |
+| 1       | SIM             | 5                    | 108.08 segundos                          |
+| 2       | SIM             | 5                    | 111.15 segundos                          |
+| 3       | SIM             | 5                    | 100.10 segundos                          |
 |  |  |  |  |
-| **Média**     | 100%           | 4.67                | 30.05 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+| **Média**     | 100%           | 5                | 106.44 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 60.10 segundos |
 
 
-    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
-    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
-    tanto na hora da pesquisa, quanto depois dela, nos resultados.
+    Comentários dos usuários: Achei o site muito bem feito. As informações estão organizadas e tudo é muito intuitivo, até pra quem não tem muita experiência com tecnologia.
 
 Cenário 3: Você é uma ONG que deseja receber vagas e encaminhar currículos. Encontre no site vagas e como cadastrar currículos. 
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 4                    | 36.21 segundos                          |
+| 1       | SIM             | 5                    | 42.10 segundos                          |
+| 2       | SIM             | 5                    | 40.28 segundos                          |
+| 3       | SIM             | 4                    | 38.21 segundos                          |
 |  |  |  |  |
-| **Média**     | 100%           | 4.67                | 30.05 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+| **Média**     | 100%           | 4.67                | 40.19 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 20.15 segundos |
 
 
-    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
-    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
-    tanto na hora da pesquisa, quanto depois dela, nos resultados.
+    Comentários dos usuários: O site me passou muita segurança, porque é claro e objetivo. Não fiquei com dúvidas sobre o que fazer, e isso é ótimo pra quem não é muito familiarizado com tecnologia.
 
 ## Avaliação dos Testes de Usabilidade
 
-Tomando como base os resultados obtidos, foi possível verificar que a aplicação web apresenta bons resultados quanto à taxa de sucesso na interação dos usuários, tendo em vista que os cenários propostos foram concluídos com sucesso.
+1. Taxa de sucesso
+Todos os usuários conseguiram concluir as tarefas propostas nos três cenários, o que indica uma taxa de sucesso de 100%. Isso demonstra que a interface atende bem às necessidades principais dos diferentes perfis de usuários (migrantes/refugiados, empresas e ONGs).
 
-Além disso, a aplicação obteve também uma elevada satisfação subjetiva dos usuários no momento que realizavam os cenários propostos. Prova são as médias das avaliações em cada um dos cenários, que variou entre 4 (bom) e 5 (ótimo).
+2. Satisfação subjetiva
+A satisfação dos usuários foi muito alta em todos os cenários, com notas entre 4 e 5 (em uma escala de 1 a 5), e média geral de 4,89 pontos. Os comentários reforçam essa percepção positiva, destacando a facilidade de navegação e clareza das informações, mesmo para usuários com pouca familiaridade com tecnologia. Exemplos:
 
-Com relação ao tempo para conclusão de cada tarefa/cenário, notamos discrepância entre a média de tempo dos usuários e o tempo do especialista/desenvolvedor em todos os cenários. Tal discrepância, em certa medida, é esperada, tendo em vista que o desenvolvedor já tem prévio conhecimento de toda a interface da aplicação, do posicionamento dos elementos, lógica de organização das páginas, etc.
+“Achei bem fácil de mexer, consegui fazer tudo sem ajuda.”
 
-Contudo, tendo em vista que a diferença foi relevante (por exemplo, 113 segundos — média usuários — contra 25 segundos — especialista — no cenário três), e ainda os comentários feitos por alguns usuários, entendemos haver oportunidades de melhoria na usabilidade da aplicação.
+“O site me passou muita segurança, porque é claro e objetivo.”
+
+“Achei o site muito bem feito. As informações estão organizadas e tudo é muito intuitivo.”
+
+3. Tempo para conclusão dos cenários
+Embora todos os usuários tenham concluído as tarefas com sucesso, o tempo médio foi significativamente maior em comparação ao tempo do especialista. Por exemplo:
+
+Cenário 1: 39,28s (usuários) vs. 10,11s (especialista)
+
+Cenário 2: 106,44s (usuários) vs. 60,10s (especialista)
+
+Cenário 3: 40,19s (usuários) vs. 20,15s (especialista)
+
+Essa diferença é natural, pois o especialista já conhece a estrutura e os caminhos da interface. No entanto, o tempo de conclusão no cenário 2 (cadastro de empresa e vaga) foi relativamente alto, o que pode indicar a necessidade de ajustes para tornar esse fluxo mais direto e ágil.
+
+
 
 
 

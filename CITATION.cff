@@ -36,13 +36,16 @@ authors:
     orcid: 'https://orcid.org/0009-0008-7111-8045'
 repository-code: >-
   https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-1-pe1-t3-g4
-abstract: >-
-  Descrever resumidamente, em um ou dois parágrafos, o
-  projeto que foi desenvolvido.
+abstract: O Trabalho Sem Fronteiras é um projeto de Desenvolvimento Web, preparado pelo Grupo 4, do Eixo I, Turma 03, para a disciplina de Projetos. 
+A plataforma possibilita que pessoas migrantes e refugiadas possam se cadastrar para busca de emprego e empresas poderão ofertar vagas, 
+em processos que poderão ser mediadas por organizações sem fins lucrativos ou organizações da sociedade civil, por meio de um software.
+O desenvolvimento foi elaborado por meio do HTML, CSS e JavaScript para implementação dos requisitos funcionais e não funcionais. Foram definidos 03 
+usuários para utilização e criação dos perfis de acesso à plataforma, sendo pessoas migrantes e refugiadas, empresas ou organizações não governamentais.
 keywords:
-  - Desenvolvimento Web
-  - HTML
-  - CSS
-  - JavaScript
-  - Template
+  - Migrantes e Refugiados.
+  - Empresas. 
+  - Organizações não governamentais.
+  - HTML.
+  - CSS.
+  - JavaScript.
 date-released: '2025-06-22'

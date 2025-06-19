@@ -272,11 +272,11 @@ Todos os usuários conseguiram concluir as tarefas propostas nos três cenários
 2. **Satisfação subjetiva:**
 A satisfação dos usuários foi muito alta em todos os cenários, com notas entre 4 e 5 (em uma escala de 1 a 5), e média geral de 4,89 pontos. Os comentários reforçam essa percepção positiva, destacando a facilidade de navegação e clareza das informações, mesmo para usuários com pouca familiaridade com tecnologia. Exemplos:
 
-“Achei bem fácil de mexer, consegui fazer tudo sem ajuda.”
+    “Achei bem fácil de mexer, consegui fazer tudo sem ajuda.”
 
-“O site me passou muita segurança, porque é claro e objetivo.”
+    “O site me passou muita segurança, porque é claro e objetivo.”
 
-“Achei o site muito bem feito. As informações estão organizadas e tudo é muito intuitivo.”
+    “Achei o site muito bem feito. As informações estão organizadas e tudo é muito intuitivo.”
 
 3. **Tempo para conclusão dos cenários:**
 Embora todos os usuários tenham concluído as tarefas com sucesso, o tempo médio foi significativamente maior em comparação ao tempo do especialista. Por exemplo:

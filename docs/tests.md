@@ -281,13 +281,13 @@ A satisfação dos usuários foi muito alta em todos os cenários, com notas ent
 3. **Tempo para conclusão dos cenários:**
 Embora todos os usuários tenham concluído as tarefas com sucesso, o tempo médio foi significativamente maior em comparação ao tempo do especialista. Por exemplo:
 
-Cenário 1: 39,28s (usuários) vs. 10,11s (especialista)
+    Cenário 1: 39,28s (usuários) vs. 10,11s (especialista)
 
-Cenário 2: 106,44s (usuários) vs. 60,10s (especialista)
+    Cenário 2: 106,44s (usuários) vs. 60,10s (especialista)
 
-Cenário 3: 40,19s (usuários) vs. 20,15s (especialista)
+    Cenário 3: 40,19s (usuários) vs. 20,15s (especialista)
 
-Essa diferença é natural, pois o especialista já conhece a estrutura e os caminhos da interface. No entanto, o tempo de conclusão no cenário 2 (cadastro de empresa e vaga) foi relativamente alto, o que pode indicar a necessidade de ajustes para tornar esse fluxo mais direto e ágil.
+    Essa diferença é natural, pois o especialista já conhece a estrutura e os caminhos da interface. No entanto, o tempo de conclusão no cenário 2 (cadastro de empresa e vaga) foi relativamente alto, o que pode indicar a necessidade de ajustes para tornar esse fluxo mais direto e ágil.
 
 
 

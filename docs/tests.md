@@ -266,10 +266,10 @@ Cenário 3: Você é uma ONG que deseja receber vagas e encaminhar currículos. 
 
 ## Avaliação dos Testes de Usabilidade
 
-1. Taxa de sucesso
+1. **Taxa de sucesso:**
 Todos os usuários conseguiram concluir as tarefas propostas nos três cenários, o que indica uma taxa de sucesso de 100%. Isso demonstra que a interface atende bem às necessidades principais dos diferentes perfis de usuários (migrantes/refugiados, empresas e ONGs).
 
-2. Satisfação subjetiva
+2. **Satisfação subjetiva:**
 A satisfação dos usuários foi muito alta em todos os cenários, com notas entre 4 e 5 (em uma escala de 1 a 5), e média geral de 4,89 pontos. Os comentários reforçam essa percepção positiva, destacando a facilidade de navegação e clareza das informações, mesmo para usuários com pouca familiaridade com tecnologia. Exemplos:
 
 “Achei bem fácil de mexer, consegui fazer tudo sem ajuda.”
@@ -278,7 +278,7 @@ A satisfação dos usuários foi muito alta em todos os cenários, com notas ent
 
 “Achei o site muito bem feito. As informações estão organizadas e tudo é muito intuitivo.”
 
-3. Tempo para conclusão dos cenários
+3. **Tempo para conclusão dos cenários:**
 Embora todos os usuários tenham concluído as tarefas com sucesso, o tempo médio foi significativamente maior em comparação ao tempo do especialista. Por exemplo:
 
 Cenário 1: 39,28s (usuários) vs. 10,11s (especialista)

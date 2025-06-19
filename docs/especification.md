@@ -96,9 +96,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-007| Compatibilidade com Navegadores - O sistema deve funcionar corretamente nos principais navegadores. |ALTA| 
 |RNF-008| Uso Inteligente do Espaço - O sistema deve armazenar apenas as informações essenciais no Local Storage para evitar atingir o limite de 5MB. |MÉDIA| 
 |RNF-009| Armazenamento Local Fácil - Os dados do usuário são salvos automaticamente no navegador, sem que ele precise fazer algo extra. |ALTA| 
-|RNF-010| Suporte Multilíngue - Interface e comunicação em diversos idiomas (Português, Espanhol, Inglês, Francês,etc.). |ALTA| 
+|RNF-010| Exibição de recursos - Recursos serão exibidos em formato de carrossel. |MÉDIA| 
 |RNF-011| Legalidade - O sistema deve garantir a conformidade com as leis de proteção de dados. |MÉDIA| 
-|RNF-012| Botão de ajuda - Em cada guia um botão de ajuda para auxiliar o usuário na navegação dentro do site. |MÉDIA| 
+|RNF-012| Enviar sugestão - O usuário pode enviar sugestões a serem abordadas na pagina de recursos. |MÉDIA| 
 
 ## Restrições
 

@@ -211,8 +211,10 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 
 | Nº do Cenário | Descrição do cenário |
 |---------------|----------------------|
-| 1             | Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando. |
-| 2             | Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço. |
+| 1             | Você é uma pessoa migrante ou refugiada que deseja procurar vagas de emprego. Encontre no site como cadastrar seu perfil e procurar por vagas de seu interesse. |
+| 2             | Você é uma empresa e deseja anunciar uma vaga. Encontre no site como cadastrar sua empresa e vagas para avaliação. |
+| 3             | Você é uma ONG que deseja receber vagas e encaminhar currículos. Encontre no site vagas e como cadastrar currículos. |
+
 
 
 

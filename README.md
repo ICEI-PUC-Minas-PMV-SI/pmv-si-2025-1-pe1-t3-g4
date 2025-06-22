@@ -35,4 +35,3 @@ Hayala Nepomuceno Curto
 # Apresentação
 
 <li><a href="presentation/README.md"> Apresentação da solução</a></li>
-ref

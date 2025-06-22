@@ -32,10 +32,6 @@ Hayala Nepomuceno Curto
 | ETAPA 4        |[Programação de Funcionalidades - Javascript](docs/development.md) <br> [Testes de Software ](docs/tests.md) |
 | ETAPA 5         | [Apresentação](presentation/README.md) |
 
-# Código
-
-<li><a href="src/README.md"> Código Fonte</a></li>
-
 # Apresentação
 
 <li><a href="presentation/README.md"> Apresentação da solução</a></li>

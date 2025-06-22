@@ -1,19 +1,11 @@
 # Referências
 
-Inclua todas as referências (livros, artigos, sites, etc) utilizadas nos desenvolvimentos do trabalho.
+**[1]** ALTO COMISSARIADO DAS NAÇÕES UNIDAS PARA REFUGIADOS (ACNUR). Tendências Globais: Deslocamento Forçado em 2024. Disponível em: <https://www.acnur.org/portugues/>.
 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/referencias/)
+**[2]** BRASIL. Ministério da Justiça e Segurança Pública. DATAMIGRA: Plataforma de Dados Migratórios. 2024. Disponível em: <https://www.justica.gov.br/observatoriodamigracao/datamigra>.
 
-Exemplos de referências bibliográficas:
+**[3]** BRASIL. Ministério do Trabalho e Previdência. Cadastro Geral de Empregados e Desempregados (CAGED). Disponível em: <https://www.gov.br/trabalho-e-previdencia/pt-br/assuntos/emprego/caged>.
 
-**[1]** - _ELMASRI, Ramez; NAVATHE, Sham. **Sistemas de banco de dados**. 7. ed. São Paulo: Pearson, c2019. E-book. ISBN 9788543025001._
+**[4]** ORGANIZAÇÃO INTERNACIONAL PARA AS MIGRAÇÕES (OIM). Relatório Mundial sobre Migração 2024. Disponível em: <https://www.iom.int/pt-br>.
 
-**[2]** - _COPPIN, Ben **Inteligência artificial**. Rio de Janeiro, RJ: LTC, c2010. E-book. ISBN 978-85-216-2936-8._
-
-**[3]** - _CORMEN, Thomas H. et al. **Algoritmos: teoria e prática**. Rio de Janeiro, RJ: Elsevier, Campus, c2012. xvi, 926 p. ISBN 9788535236996._
-
-**[4]** - _SUTHERLAND, Jeffrey Victor. **Scrum: a arte de fazer o dobro do trabalho na metade do tempo**. 2. ed. rev. São Paulo, SP: Leya, 2016. 236, [4] p. ISBN 9788544104514._
-
-**[5]** - _RUSSELL, Stuart J.; NORVIG, Peter. **Inteligência artificial**. Rio de Janeiro: Elsevier, c2013. xxi, 988 p. ISBN 9788535237016._
-
+**[5]** CONVENÇÃO RELATIVA AO ESTATUTO DOS REFUGIADOS, 1951. Disponível em: <https://www.acnur.org/portugues/convencao-de-1951/>.

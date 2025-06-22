@@ -26,7 +26,7 @@ Toda a documentação foi elaborada para facilitar o entendimento do sistema, in
 
 
 * [Apresentação final](./Apresentação_IV_SEMPEX_tsf_t3_g4_VF.pdf) -- arquivo com os slides da apresentação final
-* [Vídeo de demonstração](./sample-video.mp4) -- arquivo com a demonstração do funcionamento do sistema
+* [Vídeo de demonstração](https://bit.ly/apresentacaotsf01) -- arquivo com a demonstração do funcionamento do sistema
 
 ## Título do Projeto
 
